@@ -1,0 +1,190 @@
+{
+  "coverTitle": "LE LAPIN BLEU",
+  "nav": {
+    "cover": "Cover",
+    "sommaire": "Table of contents",
+    "page": "Page"
+  },
+  "sommaire": {
+    "title": "Table of contents",
+    "ariaLabel": "Table of contents"
+  },
+  "sections": {
+    "bases": "Basics & sauces",
+    "coupes": "Cuts",
+    "cuissons": "Cooking methods",
+    "plats": "Dishes & recipes",
+    "desserts": "Desserts"
+  },
+  "ingredientPage": {
+    "howTo": "How to do it",
+    "chemistry": "What's going on (chemistry)",
+    "howToTip": "How to do it"
+  },
+  "toolbar": {
+    "backToCover": "Back to cover",
+    "print": "Print / PDF"
+  },
+  "ingredients": {
+    "beurre-noisette": {
+      "title": "Brown Butter",
+      "intro": "\"Beurre noisette\" literally means \"hazelnut butter\", but it's not butter with hazelnuts. It's a technique of cooking butter until it has a toasted, nutty flavour.",
+      "steps": [
+        "Melt the butter in a pan over medium heat.",
+        "Cook until the butter foams, changes colour and gives off a toasted nutty smell.",
+        "Remove from the heat before it burns."
+      ],
+      "chemistry": [
+        "Butter contains milk proteins and lactose. Heating them causes light caramelisation and produces that characteristic toasted flavour and colour."
+      ],
+      "tip": {
+        "title": "Idea: Brown butter and honey",
+        "description": "Combining brown butter with honey gives something delicious: a sweet, toasted sauce with a nutty aroma.",
+        "steps": [
+          "Make the brown butter as usual, until golden and nutty-smelling.",
+          "Remove from the heat and add honey (to taste).",
+          "Stir well; the warm butter lets the honey blend in and form a glossy, runny sauce."
+        ]
+      }
+    },
+    "brunoise": {
+      "title": "Brunoise",
+      "intro": "Brunoise is a cut of vegetables into very small dice (about 2–3 mm). It comes from classic French cooking and is used as a base for sauces, garnishes or soups.",
+      "steps": [
+        "Peel and wash the vegetable, then cut into regular matchsticks (julienne).",
+        "Stack the matchsticks and slice perpendicularly to get very fine dice.",
+        "For fine brunoise, dice are 2–3 mm; for large brunoise, about 5 mm."
+      ],
+      "chemistry": [
+        "Uniform dice size allows even cooking and better distribution of flavour in the dish.",
+        "Small exposed surfaces limit oxidation if you use the brunoise soon."
+      ],
+      "tip": {
+        "title": "Idea: Mirepoix in brunoise",
+        "description": "Brunoise of carrot, celery and onion (mirepoix in brunoise) is the base for many French sauces, stocks and stuffings.",
+        "steps": [
+          "Cut carrot, celery and onion into brunoise of the same size.",
+          "Sweat them gently in butter or oil before adding liquid or meat."
+        ]
+      }
+    },
+    "ravioli-canard": {
+      "title": "Duck Ravioli",
+      "intro": "Serves 4. Filling: 2 sliced duck confit, 1 sliced leek. Sauce: 125 g crème fraîche, 8 saffron threads, 4 shallots, nutmeg, milk, 250 ml white wine. Pasta: 400 g semola di grano duro rimacinata, 6 egg yolks, half a glass of water, pinch of extra virgin olive oil.",
+      "steps": [
+        "Mix semolina, yolks, water and oil in a bowl; form a ball, wrap and chill for 30 min.",
+        "Make the filling: sweat the leek, mix with the sliced duck confit.",
+        "Make the sauce: reduce the white wine with the shallots, add the cream, saffron and nutmeg; thin with a little milk if needed.",
+        "Roll out the dough, add the filling, shape the ravioli and cook in boiling salted water; serve with the sauce."
+      ],
+      "chemistry": [
+        "Egg and durum semolina dough gives a firm texture that holds up to cooking.",
+        "Duck confit adds fat and flavour; saffron and cream make a rich sauce."
+      ]
+    },
+    "ravioli-saint-jacques": {
+      "title": "Scallop (Saint-Jacques) Ravioli",
+      "intro": "Serves 4. Filling: fresh scallops (coquilles Saint-Jacques), washed and cut into pieces. Sauce: 125 g crème fraîche, 8 saffron threads, 4 shallots, nutmeg, milk, 250 ml white wine. Pasta: 400 g semola di grano duro rimacinata, 6 egg yolks, half a glass of water, pinch of extra virgin olive oil.",
+      "steps": [
+        "Mix semolina, yolks, water and oil in a bowl; form a ball, wrap and chill for 30 min.",
+        "Prepare the filling: wash and dry the scallops, then cut them into pieces that fit the size of the ravioli (small dice or slices).",
+        "Prepare the sauce: reduce the white wine with the shallots, add the cream, saffron and nutmeg; thin with a little milk if needed.",
+        "Roll out the dough, add the scallop filling, shape the ravioli and cook in boiling salted water; serve with the sauce."
+      ],
+      "chemistry": [
+        "The egg and semolina dough gives a firm texture; the scallops stay tender in the centre.",
+        "The cream-saffron sauce complements without overpowering the delicate flavour of the scallops."
+      ]
+    },
+    "beurre-manie-roux": {
+      "title": "Beurre manié and roux",
+      "intro": "Roux and beurre manié are two butter-and-flour liaisons. The roux is cooked before adding the liquid; beurre manié is added cold at the end of cooking to thicken a sauce without cooking it.",
+      "steps": [
+        "Roux: melt butter over low heat, add an equal weight of flour, stir and cook for 2 to 5 minutes without colouring (white roux) or until blond or nutty depending on the sauce. Then add cold liquid (milk, stock) and thicken while stirring.",
+        "Beurre manié: mix equal parts softened butter and flour until smooth. Chill if needed. At the end of cooking, add in small pieces to the boiling sauce while whisking; the sauce thickens in a few minutes without cooking the flour.",
+        "When to use which: roux is the base for béchamel, velouté, long sauces. Beurre manié is for quickly correcting or thickening a sauce already in progress without recooking it."
+      ],
+      "chemistry": [
+        "In roux, cooking the flour deactivates an enzyme that could thin the sauce; the starch swells in contact with hot liquid and thickens the sauce.",
+        "In beurre manié, the flour is uncooked: it thickens by starch gelatinisation in contact with hot liquid. The butter melts and disperses the flour."
+      ],
+      "tip": {
+        "title": "Memory: roux = base, beurre manié = fix",
+        "description": "Think « roux at the start » for big sauces, « beurre manié at the end » to thicken or rescue a too-thin sauce.",
+        "steps": [
+          "For béchamel: make a white roux, add cold milk, let it thicken.",
+          "If the sauce is still too thin after cooking: remove from heat, add beurre manié in small knobs while whisking."
+        ]
+      }
+    },
+    "steak-au-poivre-veau": {
+      "title": "Steak au poivre",
+      "intro": "For 2. 2 veal filets mignons (150–180 g each, 3–4 cm thick), a lot of black, green, and red peppercorns, 1 shallot, a good amount of butter, cognac, 100–150 ml single cream, veal stock (optional). Sear the filets; pepper sauce: shallot sautéed in butter, crushed pepper cooked in the pan, flambé cognac, cream.",
+      "steps": [
+        "Smash a lot of black, green, and red peppercorns with a mortar and pestle (coarse grains, not powder). Set aside.",
+        "Take the veal out of the fridge 15–20 min ahead. Cast-iron or heavy-bottomed pan, very hot over high heat.",
+        "Melt a good amount of butter in the pan. Add the filets. Cook 2–3 min per side depending on thickness (keep pink in the centre). Salt at the end of cooking. Remove to a plate and cover.",
+        "In the same pan over medium heat: shallot and butter first, then add the crushed pepper and let it cook 1 min. Pour in the cognac and flambé. Scrape the bottom with a spatula. Add the cream (and a little veal stock if you have some). Reduce 2–3 min, salt to taste.",
+        "Return the filets briefly to the sauce or nap on the plate. Serve with fries, mash, green vegetables or salad."
+      ],
+      "chemistry": [
+        "Cooking the pepper in the pan (with shallot and butter) develops and softens its flavour; pepper only on the raw meat can stay too harsh.",
+        "Flambeing the cognac evaporates the alcohol and concentrates flavour; the cream binds the sauce."
+      ],
+      "tip": {
+        "title": "Tips",
+        "description": "Veal dries out quickly; a pink centre is better than well done.",
+        "steps": [
+          "Fries: blanch the potato sticks in boiling water for about 4 minutes, then let them cool and dry.",
+          "Double fry: first at 275 °F (135 °C) for about 5 minutes, then at 350 °F (175 °C) for 5–7 minutes until visibly browned and crispy.",
+          "Salt while still hot so the salt sticks. Sel marin de Camargue."
+        ]
+      }
+    },
+    "canard-orange-pommes-domino": {
+      "title": "Duck magret with orange and potatoes",
+      "intro": "Duck magret served with domino potatoes and a caramelised orange sauce. Sauce: 120 g sugar, 200 ml fresh orange juice (2–3 oranges), zest of ½ orange, 50 ml chicken stock (optional), 20 g cold butter (optional).",
+      "steps": [
+        "Sauce: in a pan over medium heat, melt the sugar without stirring until you have a blond caramel. Remove from the heat and add the warm orange juice gradually (beware of splashes). Return to low heat, stir until the caramel has dissolved, then simmer for 5–8 minutes until syrupy but still fluid.",
+        "Potatoes: bake 1 hour at 200 °C.",
+        "Magret: score the skin, sear in a hot pan with olive oil (place skin-side down, cook about 3 min on each side until golden), then finish in the oven 18 min at 200 °C.",
+        "Rest the magret 5 min, slice and nap with the sauce. Serve with the potatoes and thyme."
+      ],
+      "chemistry": [
+        "Caramelised sugar adds colour and a gentle bitterness; orange juice and zest provide acidity and fragrance.",
+        "Cooking the magret skin-side first renders the fat and crisps the skin; resting allows the juices to redistribute."
+      ]
+    },
+    "flan-dulce-de-leche": {
+      "title": "Dulce de leche flan",
+      "intro": "For 15 small flans or 7 large ones. In a bowl, mix 500 ml warm (not boiling) milk, 300 g crème fraîche, 700 g dulce de leche, 3 whole eggs and 5 egg yolks. For the caramel at the bottom: caramelise brown sugar without stirring; you can add a little water afterwards. Bake 40 min at 200 °C.",
+      "steps": [
+        "Caramel: heat brown sugar in a pan without stirring until caramelised. You can add a little water at the end. Pour into the bottom of flan moulds.",
+        "In a bowl, mix the warm milk, crème fraîche, dulce de leche, 3 whole eggs and 5 egg yolks until smooth.",
+        "Pour the bowl mixture over the caramel in the moulds.",
+        "Bake 40 min at 200 °C. Let cool then unmould."
+      ],
+      "chemistry": [
+        "Caramel is melted then reorganised sugar; it gives flavour and colour to the bottom of the flan.",
+        "Whole eggs and egg yolks with milk and crème fraîche set in the oven; dulce de leche adds flavour and a creamy texture."
+      ]
+    },
+    "tournedos-rossini": {
+      "title": "Tournedos Rossini",
+      "intro": "A French classic: pan-seared beef tournedos topped with seared foie gras, served on a crouton with Madeira or port wine sauce and slices of truffle (optional but traditional).",
+      "steps": [
+        "Take the meat and foie gras out of the fridge 20–30 minutes before cooking so they come to room temperature.",
+        "Make the sauce: sweat a finely chopped shallot in a little butter, deglaze with Madeira or port, reduce, add a little veal stock or meat jus, whisk in cold butter and keep warm.",
+        "Pan-fry the bread croutons in butter until golden on both sides; set aside.",
+        "In a very hot pan with a little neutral fat, sear the beef tournedos (3–4 cm thick) for 2–3 minutes per side for rare to medium-rare; salt at the end of cooking and rest for a few minutes under foil.",
+        "In a very hot pan (dry or with very little fat), quickly sear the foie gras escalopes (about 1.5–2 cm thick) for 1–2 minutes per side; season with salt and pepper.",
+        "To plate: place each tournedos on a crouton, top with a foie gras escalope, spoon over the Madeira sauce and, if you like, add a few slices of truffle."
+      ],
+      "chemistry": [
+        "Resting the meat after cooking allows the juices to redistribute, giving a more tender, juicy texture.",
+        "The fat from the foie gras partially renders during cooking and flavours the meat and sauce, adding great richness.",
+        "Reducing the Madeira concentrates its sugars and aromas, giving a syrupy, intense sauce."
+      ]
+    }
+  }
+}

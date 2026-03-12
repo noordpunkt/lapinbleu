@@ -1,0 +1,190 @@
+{
+  "coverTitle": "LE LAPIN BLEU",
+  "nav": {
+    "cover": "Couverture",
+    "sommaire": "Sommaire",
+    "page": "Page"
+  },
+  "sommaire": {
+    "title": "Sommaire",
+    "ariaLabel": "Table des matières"
+  },
+  "sections": {
+    "bases": "Les bases et les sauces",
+    "coupes": "Les coupes",
+    "cuissons": "Les cuissons",
+    "plats": "Plats & recettes",
+    "desserts": "Les desserts"
+  },
+  "ingredientPage": {
+    "howTo": "Comment le faire",
+    "chemistry": "Ce qui se passe (chimie)",
+    "howToTip": "Comment faire"
+  },
+  "toolbar": {
+    "backToCover": "Retour à la couverture",
+    "print": "Imprimer / PDF"
+  },
+  "ingredients": {
+    "beurre-noisette": {
+      "title": "Beurre Noisette",
+      "intro": "« Beurre noisette » se traduit littéralement par « beurre noisette », mais ce n'est pas du beurre aux noisettes. C'est une technique qui consiste à cuire le beurre jusqu'à lui donner un goût toasté, de noix.",
+      "steps": [
+        "Faire fondre le beurre dans une poêle à feu moyen.",
+        "Laisser cuire jusqu'à ce que le beurre mousse, change de couleur et dégage une odeur de noix toastée.",
+        "Retirer du feu avant qu'il ne brûle."
+      ],
+      "chemistry": [
+        "Le beurre contient des protéines laitières et du lactose. En les chauffant, ils caramélisent légèrement et produisent cette saveur et cette couleur toastées caractéristiques."
+      ],
+      "tip": {
+        "title": "Idée : Beurre noisette et miel",
+        "description": "Quand on combine le beurre noisette avec du miel, on obtient quelque chose de délicieux : une sorte de sauce douce et toastée, au parfum de noix.",
+        "steps": [
+          "Faire le beurre noisette comme d'habitude, jusqu'à la couleur dorée et l'arôme de noix.",
+          "Retirer du feu et ajouter le miel (la quantité selon le goût).",
+          "Mélanger bien ; le beurre chaud permet au miel de s'intégrer et de former une sauce brillante et liquide."
+        ]
+      }
+    },
+    "brunoise": {
+      "title": "Brunoise",
+      "intro": "La brunoise est une coupe de légumes en tout petits dés (environ 2 à 3 mm de côté). Elle vient de la cuisine classique française et sert de base pour des sauces, des garnitures ou des soupes.",
+      "steps": [
+        "Éplucher et laver le légume, puis le couper en bâtonnets réguliers (julienne).",
+        "Superposer les bâtonnets et trancher perpendiculairement pour obtenir des dés très fins.",
+        "Pour une brunoise fine, les dés font 2 à 3 mm ; pour une grosse brunoise, environ 5 mm."
+      ],
+      "chemistry": [
+        "La taille uniforme des dés permet une cuisson homogène et une meilleure diffusion des saveurs dans le plat.",
+        "Les petites surfaces exposées limitent l'oxydation si on utilise la brunoise rapidement."
+      ],
+      "tip": {
+        "title": "Idée : Mirepoix en brunoise",
+        "description": "La brunoise de carotte, céleri et oignon (mirepoix en brunoise) est la base de nombreuses sauces, fonds et farces en cuisine française.",
+        "steps": [
+          "Tailler carotte, céleri et oignon en brunoise de même taille.",
+          "Les faire revenir doucement dans du beurre ou de l'huile avant d'ajouter liquide ou viande."
+        ]
+      }
+    },
+    "ravioli-canard": {
+      "title": "Ravioli au Canard",
+      "intro": "Pour 4 personnes. Farce : 2 confits de canard tranchés, 1 poireau tranché. Sauce : 125 g crème fraîche, 8 filaments de safran, 4 échalotes, noix de muscade, lait, 250 ml vin blanc. Pâte : 400 g semola di grano duro rimacinata, 6 jaunes d'œufs, demi-verre d'eau, pincée d'huile d'olive extra vierge.",
+      "steps": [
+        "Mélanger la semoule, les jaunes, l'eau et l'huile dans un bol ; former une boule, filmer et mettre au frigo 30 min.",
+        "Préparer la farce : faire revenir le poireau, mélanger avec le confit de canard tranché.",
+        "Préparer la sauce : faire réduire le vin blanc avec les échalotes, ajouter la crème, le safran et la noix de muscade ; lier avec un peu de lait si besoin.",
+        "Étaler la pâte, déposer la farce, former les raviolis et les cuire à l'eau bouillante salée ; servir avec la sauce."
+      ],
+      "chemistry": [
+        "La pâte aux œufs et à la semoule de blé dur donne une texture ferme qui tient bien à la cuisson.",
+        "Le confit de canard apporte du gras et du goût ; le safran et la crème forment une sauce onctueuse."
+      ]
+    },
+    "ravioli-saint-jacques": {
+      "title": "Ravioli aux noix Saint-Jacques",
+      "intro": "Pour 4 personnes. Farce : coquilles Saint-Jacques fraîches, lavées et coupées en morceaux. Sauce : 125 g crème fraîche, 8 filaments de safran, 4 échalotes, noix de muscade, lait, 250 ml vin blanc. Pâte : 400 g semola di grano duro rimacinata, 6 jaunes d'œufs, demi-verre d'eau, pincée d'huile d'olive extra vierge.",
+      "steps": [
+        "Mélanger la semoule, les jaunes, l'eau et l'huile dans un bol ; former une boule, filmer et mettre au frigo 30 min.",
+        "Préparer la farce : laver les Saint-Jacques, les sécher puis les couper en morceaux adaptés à la taille des raviolis (petits dés ou tranches).",
+        "Préparer la sauce : faire réduire le vin blanc avec les échalotes, ajouter la crème, le safran et la noix de muscade ; lier avec un peu de lait si besoin.",
+        "Étaler la pâte, déposer la farce aux Saint-Jacques, former les raviolis et les cuire à l'eau bouillante salée ; servir avec la sauce."
+      ],
+      "chemistry": [
+        "La pâte aux œufs et à la semoule donne une texture ferme ; les Saint-Jacques restent fondantes à cœur.",
+        "La sauce crème-safran accompagne sans masquer le goût délicat des coquilles."
+      ]
+    },
+    "beurre-manie-roux": {
+      "title": "Beurre manié et roux",
+      "intro": "Le roux et le beurre manié sont deux liaisons à base de beurre et de farine. Le roux se cuit avant d'ajouter le liquide ; le beurre manié s'ajoute à froid en fin de cuisson pour lier une sauce sans la cuire.",
+      "steps": [
+        "Roux : faire fondre du beurre à feu doux, ajouter la farine en quantité égale (en poids), mélanger et laisser cuire 2 à 5 min sans colorer (roux blanc) ou jusqu'à coloration blonde ou noisette selon la sauce. Puis verser le liquide froid (lait, bouillon) et faire épaissir en remuant.",
+        "Beurre manié : mélanger à parts égales du beurre ramolli et de la farine jusqu'à obtenir une pâte lisse. Réfrigérer si besoin. En fin de cuisson, incorporer par petits morceaux dans la sauce bouillante en fouettant ; la sauce épaissit en quelques minutes sans cuire la farine.",
+        "Quand utiliser quoi : le roux sert de base pour béchamel, velouté, sauces longues. Le beurre manié sert à corriger ou lier rapidement une sauce déjà en cours sans la recuire."
+      ],
+      "chemistry": [
+        "Dans le roux, la cuisson de la farine désactive une enzyme qui pourrait liquéfier la sauce ; la fécule gonfle au contact du liquide chaud et lie la sauce.",
+        "Dans le beurre manié, la farine n'est pas cuite : elle épaissit par gélatinisation de l'amidon au contact du liquide chaud. Le beurre fond et disperse la farine."
+      ],
+      "tip": {
+        "title": "Mémoire : roux = base, beurre manié = correctif",
+        "description": "Pensez « roux au début » pour les grandes sauces, « beurre manié à la fin » pour lier ou rattraper une sauce trop fluide.",
+        "steps": [
+          "Pour une béchamel : faire un roux blanc, ajouter le lait froid, laisser épaissir.",
+          "Si la sauce reste trop liquide après cuisson : retirer du feu, ajouter du beurre manié par petites noix en fouettant."
+        ]
+      }
+    },
+    "steak-au-poivre-veau": {
+      "title": "Steak au poivre",
+      "intro": "Pour 2 personnes. 2 filets mignons de veau (150–180 g chacun, 3–4 cm d'épaisseur), beaucoup de grains de poivre noir, vert et rouge, 1 échalote, une bonne quantité de beurre, cognac, 100–150 ml de crème liquide, fond de veau (optionnel). Saisir les filets ; sauce au poivre : échalote au beurre, poivre concassé cuit dans la poêle, cognac flambé, crème.",
+      "steps": [
+        "Concasser beaucoup de grains de poivre noir, vert et rouge au mortier (gros grains, pas en poudre). Réserver.",
+        "Sortir le veau du frigo 15–20 min à l'avance. Poêle en fonte ou à fond épais, bien chaude à feu vif.",
+        "Faire fondre une bonne quantité de beurre dans la poêle. Déposer les filets mignons. Cuisson 2–3 min par côté selon l'épaisseur (reste rosé au centre). Saler en fin de cuisson. Retirer sur une assiette et couvrir.",
+        "Dans la même poêle à feu moyen : échalote et beurre, puis mettre le poivre écrasé et le laisser cuire 1 min. Verser le cognac et flamber. Déglacer le fond à la spatule. Ajouter la crème (et un peu de fond de veau si vous en avez). Réduire 2–3 min, saler si besoin.",
+        "Remettre brièvement les filets dans la sauce ou napper à l'assiette. Servir avec frites, purée, légumes verts ou salade."
+      ],
+      "chemistry": [
+        "Cuire le poivre dans la poêle (avec l'échalote et le beurre) développe et adoucit son parfum ; le poivre cru uniquement sur la viande peut rester trop âcre.",
+        "Flamber le cognac évapore l'alcool et concentre les arômes ; la crème lie la sauce."
+      ],
+      "tip": {
+        "title": "Conseils",
+        "description": "Le veau se dessèche vite ; mieux vaut un cœur encore rosé qu'une cuisson à fond.",
+        "steps": [
+          "Frites : blanchir les bâtonnets de pomme de terre 4 min dans l'eau bouillante, les laisser refroidir et bien sécher.",
+          "Double friture : première friture à 135 °C (275 °F) environ 5 min, puis à 175 °C (350 °F) 5–7 min jusqu'à ce qu'ils soient bien dorés et croustillants.",
+          "Saler pendant que les frites sont encore chaudes pour que le sel adhère. Sel marin de Camargue."
+        ]
+      }
+    },
+    "canard-orange-pommes-domino": {
+      "title": "Magret de canard à l'orange et pommes de terre",
+      "intro": "Magret de canard servi avec pommes de terre dominó et une sauce à l'orange (caramélisation). Sauce : 120 g sucre, 200 ml jus d'orange frais (2 à 3 oranges), zeste de ½ orange, 50 ml fond de volaille (optionnel), 20 g beurre froid (optionnel).",
+      "steps": [
+        "Sauce : dans une poêle à feu moyen, faire fondre le sucre sans remuer jusqu'à un caramel blond. Retirer du feu, ajouter progressivement le jus d'orange chaud (attention aux éclaboussures). Remettre à feu doux, mélanger jusqu'à dissolution du caramel, puis laisser réduire 5 à 8 min jusqu'à texture sirupeuse mais fluide.",
+        "Pommes de terre : cuisson 1 h à 200 °C (four).",
+        "Magret : inciser la peau, marquer en poêle avec huile d'olive à feu vif (déposer côté peau, cuire environ 3 min de chaque côté jusqu'à peau dorée), puis finir au four 18 min à 200 °C.",
+        "Laisser reposer le magret 5 min, trancher et napper de sauce. Servir avec les pommes de terre et du thym."
+      ],
+      "chemistry": [
+        "Le sucre caramélisé apporte couleur et amertume douce ; le jus d'orange et le zeste donnent l'acidité et le parfum.",
+        "Le magret cuit peau en premier rend le gras et crispe la peau ; le repos permet une redistribution du jus."
+      ]
+    },
+    "flan-dulce-de-leche": {
+      "title": "Flan au dulce de leche",
+      "intro": "Pour 15 flancitos ou 7 flans individuels (grands). Dans un bol, mélanger 500 ml de lait chaud (non bouillant), 300 g de crème fraîche, 700 g de dulce de leche, 3 œufs entiers et 5 jaunes d'œufs. Caramel au fond des moules : faire caraméliser du sucre roux sans remuer, on peut ajouter un peu d'eau ensuite. Cuisson au four 40 min à 200 °C.",
+      "steps": [
+        "Caramel : chauffer du sucre roux dans une casserole sans remuer jusqu'à ce qu'il caramélise. On peut ajouter un peu d'eau à la fin. Verser au fond des moules à flan.",
+        "Dans un bol, mélanger le lait chaud (pas bouillant), la crème fraîche, le dulce de leche, les 3 œufs entiers et les 5 jaunes d'œufs jusqu'à ce que ce soit homogène.",
+        "Verser le mélange du bol sur le caramel dans les moules.",
+        "Enfourner 40 min à 200 °C. Laisser refroidir puis démouler."
+      ],
+      "chemistry": [
+        "Le caramel est du sucre fondu puis réorganisé ; il donne le goût et la couleur au fond du flan.",
+        "Les œufs (entiers et jaunes), le lait et la crème fraîche forment une crème qui prend au four ; le dulce de leche apporte le goût et une texture onctueuse."
+      ]
+    },
+    "tournedos-rossini": {
+      "title": "Tournedos Rossini",
+      "intro": "Un grand classique français : médaillon de bœuf poêlé, garni de foie gras poêlé, servi sur un croûton avec sauce au madère ou porto et lamelles de truffe (facultatif mais traditionnel).",
+      "steps": [
+        "Sortir la viande et le foie gras du réfrigérateur 20 à 30 minutes avant la cuisson pour qu'ils reviennent à température ambiante.",
+        "Préparer la sauce : faire revenir une échalote ciselée dans un peu de beurre, déglacer avec du madère ou du porto, laisser réduire, ajouter un peu de fond de veau ou de jus de viande, monter au beurre et garder au chaud.",
+        "Poêler les croûtons de pain de mie dans du beurre jusqu'à ce qu'ils soient bien dorés des deux côtés ; réserver.",
+        "Dans une poêle très chaude avec un peu de matière grasse neutre, saisir les tournedos de bœuf (3–4 cm d'épaisseur) 2–3 minutes de chaque côté pour une cuisson saignante à rosée ; saler en fin de cuisson et laisser reposer quelques minutes sous une feuille d'aluminium.",
+        "Dans une poêle bien chaude (sans matière grasse ou avec très peu), poêler rapidement les escalopes de foie gras (environ 1,5–2 cm d'épaisseur) 1 à 2 minutes par face ; les saler et les poivrer.",
+        "Dresser : poser chaque tournedos sur un croûton, déposer dessus une escalope de foie gras, napper de sauce au madère et, si souhaité, ajouter quelques lamelles de truffe."
+      ],
+      "chemistry": [
+        "Le repos de la viande après cuisson permet au jus de se redistribuer, ce qui donne une texture plus tendre et juteuse.",
+        "La graisse du foie gras fond partiellement à la cuisson et parfume la viande et la sauce, en apportant une grande richesse aromatique.",
+        "La réduction du madère concentre les sucres et les arômes du vin, donnant une sauce sirupeuse et intense."
+      ]
+    }
+  }
+}
