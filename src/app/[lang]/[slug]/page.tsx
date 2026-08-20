@@ -29,8 +29,8 @@ export default async function IngredientRoute({ params }: Props) {
   const nextSlug = nextIngredient?.slug ?? null;
 
   return (
-    <div className="flex flex-col md:flex-row min-h-screen bg-neutral-100 print:bg-white print:py-0">
-      <div className="order-1 md:order-2 flex-1 min-w-0 overflow-auto py-4 px-4 md:py-8 md:px-6 flex justify-center">
+    <div className="relative flex flex-col md:flex-row min-h-screen bg-neutral-100 print:bg-white print:py-0">
+      <div className="order-1 md:order-2 flex-1 min-w-0 overflow-auto pt-16 pb-4 px-4 md:py-8 md:px-6 flex justify-center">
         <IngredientPage
           ingredient={ingredient}
           content={content}
@@ -42,7 +42,7 @@ export default async function IngredientRoute({ params }: Props) {
       <div className="order-2 md:order-1 shrink-0 border-t md:border-t-0 md:border-r border-neutral-200">
         <PageNavDots currentIndex={index + 2} lang={locale} t={t} />
       </div>
-      <TopMenu currentLang={locale} currentPath={slug} printLabel={t.toolbar.print} />
+      <TopMenu currentLang={locale} currentPath={slug} currentIndex={index + 2} t={t} />
     </div>
   );
 }

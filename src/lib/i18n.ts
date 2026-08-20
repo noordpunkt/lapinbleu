@@ -26,6 +26,11 @@ export type IngredientContent = {
   intro: string;
   steps: string[];
   chemistry: string[];
+  atelier?: {
+    title: string;
+    description: string;
+    steps: string[];
+  };
   tip?: {
     title: string;
     description: string;

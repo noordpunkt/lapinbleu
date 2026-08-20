@@ -1,0 +1,29 @@
+{
+  "bookings": [
+    {
+      "id": "GYGXXXXXXXXXX",
+      "source": "getyourguide",
+      "type": "ticket-booking",
+      "title": "Nice: Fresh Pasta Cooking Class in a Private Home",
+      "dateTime": "2026-07-27T19:30:00+02:00",
+      "timezone": "Europe/Paris",
+      "participants": {
+        "adults": 2,
+        "label": "2 x Adults (Age 0 - 99)"
+      },
+      "customer": {
+        "name": "Customer Name",
+        "email": "customer@example.com",
+        "phone": "+33000000000",
+        "language": "English"
+      },
+      "tourLanguage": "English (Instructor)",
+      "price": {
+        "amount": 318,
+        "currency": "EUR"
+      },
+      "status": "confirmed",
+      "addedAt": "2026-07-19T00:00:00+02:00"
+    }
+  ]
+}

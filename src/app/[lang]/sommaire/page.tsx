@@ -19,8 +19,8 @@ export default async function SommairePage({ params }: Props) {
   }));
 
   return (
-    <div className="flex flex-col md:flex-row min-h-screen bg-neutral-100 print:bg-white">
-      <div className="order-1 md:order-2 flex-1 min-w-0 overflow-auto py-8 px-6 md:px-10 flex justify-center">
+    <div className="relative flex flex-col md:flex-row min-h-screen bg-neutral-100 print:bg-white">
+      <div className="order-1 md:order-2 flex-1 min-w-0 overflow-auto pt-16 pb-8 px-6 md:py-8 md:px-10 flex justify-center">
         <div className="w-full max-w-[148mm]">
           <h1
             className={`${bodoniBook.className} text-xl sm:text-2xl md:text-[26px] font-normal tracking-[0.18em] text-center border-b-2 border-black pb-2.5 mb-7 uppercase`}
@@ -37,15 +37,18 @@ export default async function SommairePage({ params }: Props) {
                   {items.map((ing) => {
                     const content = getIngredientContent(ing.id, t);
                     const title = content?.title ?? ing.id;
+                    const formattedPageNumber = `${String(ing.pageNumber).padStart(2, "0")}.`;
                     return (
                       <li key={ing.id}>
                         <Link
                           href={`/${locale}/${ing.slug}`}
-                          className="text-sm text-neutral-900 hover:text-neutral-600 hover:underline underline-offset-2"
+                          className="flex items-baseline gap-3 text-sm text-neutral-900 hover:text-neutral-600 hover:underline underline-offset-2"
                         >
-                          {title}
-                          <span className="text-neutral-400 font-medium ml-2">
-                            {ing.pageNumber}
+                          <span className="min-w-[2.5rem] font-medium tabular-nums">
+                            {formattedPageNumber}
+                          </span>
+                          <span>
+                            {title}
                           </span>
                         </Link>
                       </li>
@@ -63,7 +66,7 @@ export default async function SommairePage({ params }: Props) {
       <div className="order-2 md:order-1 shrink-0 border-t md:border-t-0 md:border-r border-neutral-200">
         <PageNavDots currentIndex={1} lang={locale} t={t} />
       </div>
-      <TopMenu currentLang={locale} currentPath="sommaire" printLabel={t.toolbar.print} />
+      <TopMenu currentLang={locale} currentPath="sommaire" currentIndex={1} t={t} />
     </div>
   );
 }
