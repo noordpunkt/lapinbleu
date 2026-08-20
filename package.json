@@ -6,7 +6,11 @@
     "dev": "next dev --webpack",
     "build": "next build --webpack",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "vercel": "vercel",
+    "vercel:dev": "vercel dev",
+    "vercel:login": "vercel login",
+    "vercel:deploy": "vercel --prod"
   },
   "dependencies": {
     "next": "16.1.6",
