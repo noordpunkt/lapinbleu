@@ -529,6 +529,19 @@
         "Comme le fond blanc, il apporte de la gélatine ; mais ici elle s'accompagne d'arômes plus puissants et plus sombres."
       ]
     },
+    "vin-cuisine": {
+      "title": "Le vin en cuisine",
+      "intro": "Le vin est un liquide de cuisson et de déglaçage central en cuisine française. Il apporte acidité, parfum et tension, à condition d'être réduit correctement.",
+      "steps": [
+        "Utiliser le vin pour déglacer après une saisie, afin de décoller les sucs et de les intégrer à la sauce.",
+        "Le laisser réduire avant d'ajouter crème, fond ou beurre, sinon la sauce restera trop acide et trop liquide.",
+        "Choisir un vin adapté au plat : blanc pour les sauces claires et les poissons, rouge ou madère pour les préparations plus sombres."
+      ],
+      "chemistry": [
+        "La réduction concentre les arômes et évapore une partie de l'eau et de l'alcool.",
+        "L'acidité du vin équilibre les préparations grasses et aide à donner plus de relief au goût final."
+      ]
+    },
     "roux": {
       "title": "Roux",
       "intro": "Le roux est une liaison : beurre et farine à parts égales, cuits ensemble avant d'ajouter le liquide. Il est la base des sauces mères — blanc pour la [béchamel](sauce-bechamel), blond pour le [velouté](sauce-veloute), brun pour l'[espagnole](sauce-espagnole). Ce n'est pas le [beurre manié](beurre-manie-roux), qui s'ajoute cru, en fin de cuisson.",
