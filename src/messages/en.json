@@ -2,14 +2,33 @@
   "coverTitle": "LE LAPIN BLEU",
   "nav": {
     "cover": "Cover",
+    "chef": "The Chef",
     "sommaire": "Table of contents",
     "page": "Page",
     "back": "Previous page",
-    "forward": "Next page"
+    "forward": "Next page",
+    "close": "Close"
   },
   "sommaire": {
     "title": "Table of contents",
     "ariaLabel": "Table of contents"
+  },
+  "signpost": {
+    "index": "Index",
+    "ariaLabel": "Section guide",
+    "open": "Open menu",
+    "close": "Close menu"
+  },
+  "chef": {
+    "title": "The Chef",
+    "name": "Andres Buzzio",
+    "heading": "The Chef: Andres Buzzio",
+    "paragraphs": [
+      "Andres Buzzio, a self-taught chef of Italian and Mediterranean origins. Cooking has been in his family for generations.",
+      "Cooking is an act of love. We are artists, and every plate is an œuvre d'art.",
+      "A chef in France since 2022. Before that: Catalonia, and Tuscany.",
+      "Here, Le Lapin Bleu is that manifesto: a cookbook for cooking differently — with precision, without fuss, and with love."
+    ]
   },
   "sections": {
     "corps-gras-liquides": "Fats & liquids",
@@ -17,7 +36,7 @@
     "coupes": "Cuts",
     "techniques": "Techniques",
     "entrees": "Starters",
-    "plats-principaux": "Main courses",
+    "plats-principaux": "Main dishes",
     "desserts": "Desserts"
   },
   "ingredientPage": {
@@ -43,7 +62,7 @@
         "Butter contains milk proteins and lactose. Heating them causes light caramelisation and produces that characteristic toasted flavour and colour."
       ],
       "tip": {
-        "title": "Idea: Brown butter and honey",
+        "title": "Idea: Brown butter & honey",
         "description": "Combining brown butter with honey gives something delicious: a sweet, toasted sauce with a nutty aroma.",
         "steps": [
           "Make the brown butter as usual, until golden and nutty-smelling.",
@@ -76,11 +95,24 @@
         ]
       }
     },
+    "julienne": {
+      "title": "Julienne",
+      "intro": "Julienne is a cut into very thin matchsticks, about 1 to 3 mm across and 4 to 5 cm long. It is the base of [brunoise](brunoise): you then slice the sticks to get dice.",
+      "steps": [
+        "Peel and wash the vegetable — carrot, leek, celery, courgette. Cut even slices about 1 to 3 mm thick.",
+        "Stack a few slices, then cut them into sticks of the same width, 4 to 5 cm long.",
+        "Keep the sticks aligned; they should cook together. For herbs, see [chiffonnade](chiffonnade) instead."
+      ],
+      "chemistry": [
+        "Thin sticks offer a lot of surface: they cook fast and scent a stock or garnish without staying crunchy too long.",
+        "Even width stops some burning while others stay raw."
+      ]
+    },
     "brunoise": {
       "title": "Brunoise",
       "intro": "Brunoise is a cut of vegetables into very small dice (about 2–3 mm). It comes from classic French cooking and is used as a base for sauces, garnishes or soups.",
       "steps": [
-        "Peel and wash the vegetable, then cut into regular matchsticks (julienne).",
+        "Peel and wash the vegetable, then cut into regular matchsticks ([julienne](julienne)).",
         "Stack the matchsticks and slice perpendicularly to get very fine dice.",
         "For fine brunoise, dice are 2–3 mm; for large brunoise, about 5 mm."
       ],
@@ -97,6 +129,102 @@
         ]
       }
     },
+    "jardiniere": {
+      "title": "Jardinière",
+      "intro": "Jardinière is a stick cut thicker than julienne: about 4 to 5 mm across and 4 to 5 cm long. It is used as a vegetable garnish, often glazed in butter.",
+      "steps": [
+        "Peel carrot, turnip, celery or bean. Cut slices 4 to 5 mm thick.",
+        "Cut those slices into sticks of the same width, 4 to 5 cm long.",
+        "To get a [macédoine](macedoine), slice the sticks into dice."
+      ],
+      "chemistry": [
+        "Thicker than julienne, a jardinière stick stays slightly crisp after a short boil or a butter glaze.",
+        "Even size lets you mix several vegetables without one cooking before the other."
+      ]
+    },
+    "macedoine": {
+      "title": "Macédoine",
+      "intro": "Macédoine is a dice of about 5 to 8 mm, larger than brunoise. It comes from [jardinière](jardiniere) by slicing the sticks. Classic in salad, as a garnish, or as a mixed-vegetable macédoine.",
+      "steps": [
+        "First cut the vegetable in [jardinière](jardiniere): sticks of 5 to 8 mm.",
+        "Stack the sticks and cut them into dice of the same size.",
+        "Mix several vegetables (carrot, turnip, bean, peas) of the same size for a macédoine."
+      ],
+      "chemistry": [
+        "A macédoine cube cooks more slowly than brunoise: it stays identifiable in a salad or a warm dish.",
+        "One size across vegetables stops one cube staying crunchy while another falls apart."
+      ]
+    },
+    "paysanne": {
+      "title": "Paysanne",
+      "intro": "Paysanne is a thin cut, about 1 cm across, that follows the shape of the vegetable: rounds, squares, triangles or crescents. It is the cut for soups and simmered vegetables.",
+      "steps": [
+        "Peel the vegetable. First cut it into lengths or quarters according to its shape.",
+        "Slice into thin pieces about 1 to 2 mm thick, keeping the silhouette. Example: carrot in rounds, so the thickness is clear; celery in crescents, leek in squares.",
+        "The pieces should stay flat and thin, not cubes. Sweat them gently for a paysanne soup."
+      ],
+      "chemistry": [
+        "The thinness cooks fast and gives flavour to the stock, while the vegetable's shape still shows in the bowl.",
+        "Less cubic surface than brunoise: paysanne melts without disappearing into a purée."
+      ]
+    },
+    "chiffonnade": {
+      "title": "Chiffonnade",
+      "intro": "Chiffonnade is a cut of leaves into fine ribbons: basil, sorrel, lettuce, mint, spinach. Stack, roll, slice. For firm vegetables, use [julienne](julienne).",
+      "steps": [
+        "Wash and dry the leaves well. Stack them flat, about ten at a time.",
+        "Roll the stack into a tight cigar.",
+        "Slice across into very fine ribbons. Tease the ribbons apart with your fingertips."
+      ],
+      "chemistry": [
+        "Slicing stacked leaves releases more essential oils than a whole leaf: chiffonnade scents the dish more.",
+        "Cut at the last moment to limit oxidation: basil blackens quickly once sliced."
+      ],
+      "figuresTitle": "The tight cigar",
+      "figures": [
+        {
+          "caption": "Leaves stacked and rolled into a cigar: the spiral inside, ready to slice."
+        }
+      ]
+    },
+    "emincer": {
+      "title": "Émincer",
+      "intro": "Émincer means slicing a shallot or an onion into very fine, even lamelles. It is not [ciseler](ciseler): you do not dice, you slice. You émincer for the sauces — [steak au poivre](steak-au-poivre-veau), [ragù d'entrecôte](polenta-ragu-entrecote).",
+      "steps": [
+        "Peel: cut off both ends — professionals say araser. Remove the skins.",
+        "Cut the shallot in half lengthwise. Turn the half over, cut face against the board.",
+        "Slice as evenly and as thinly as possible, using the tip of the knife."
+      ],
+      "chemistry": [
+        "The tip of the knife slices without crushing: fewer sulphur juices, fewer tears.",
+        "Lamelles of the same thickness sweat together, without one burning while another stays raw."
+      ],
+      "figuresTitle": "Step by step",
+      "figures": [
+        {
+          "caption": "Araser: cut off both ends, then the skins."
+        },
+        {
+          "caption": "Cut in half lengthwise. Turn the half over, cut face against the board."
+        },
+        {
+          "caption": "Émincer with the tip of the knife, as fine and even as possible."
+        }
+      ]
+    },
+    "ciseler": {
+      "title": "Ciseler",
+      "intro": "Ciseler means chopping an onion, a shallot or garlic finely without crushing it. The cut stays clean, the cells less bruised: fewer tears, more even cooking. You ciseler in almost every sauce in this book.",
+      "steps": [
+        "Cut the onion or shallot in half from top to bottom, through the root. Lay it flat.",
+        "Cut in a fan towards the root without going through it: horizontal cuts first, then vertical ones.",
+        "Slice across: the small dice fall away. Discard the root. Salt lightly if you want to draw out water before sweating."
+      ],
+      "chemistry": [
+        "Crushing onion releases more sulphur compounds (tears, bitterness). Ciseler slices more than it crushes.",
+        "Even pieces sweat together in butter, without one burning while another stays raw."
+      ]
+    },
     "peler-a-vif": {
       "title": "Peler a vif",
       "intro": "Peler a vif means removing all the peel and white pith from a citrus fruit so that only the clean flesh remains. It is the classic base for neat citrus segments without bitterness or thick membrane.",
@@ -111,35 +239,129 @@
         "Working close to the flesh limits juice loss and keeps the segments glossy, tender, and even."
       ]
     },
-    "trafilata-al-bronzo": {
-      "title": "Bronze-cut pasta",
-      "intro": "Bronze-cut pasta stands out mainly because of its rougher, more matte surface. By contrast, many industrial pastas extruded through Teflon dies have a smoother, shinier surface.",
+    "semola-grano-duro": {
+      "title": "Semola di grano duro rimacinata",
+      "intro": "Rimacinata, as the word says: milled twice. It is durum wheat. Ordinary flour is soft wheat — two wheats. We take the hard one: the dough stays firm, stable, it does not turn slack. Then the endosperm only, no bran, no germ. This is the flour of southern fresh pasta: cavatelli, orecchiette, ravioli.",
       "steps": [
-        "What changes most is the texture: bronze-cut pasta holds sauce better and often gives a more interesting mouthfeel.",
-        "The flavour does not change directly because of the bronze itself. It depends mainly on the wheat used and on the drying process.",
-        "In practice, many pasta lovers think it is worth choosing for sauces like ragu, pesto, tomato, or seafood, because the sauce clings better to the surface.",
-        "To identify it, look on the package for phrases like \"trafilata al bronzo\", \"bronze cut\", or \"bronze die extruded\".",
-        "Among the brands often associated with this method are Rummo, Garofalo, Mancini, and Pastificio dei Campi."
+        "Why this semolina: durum wheat, not soft wheat. They are not the same plant. Durum holds; soft wheat goes slack, the dough turns mushy in the water.",
+        "A wheat kernel has three parts: bran (the husk), endosperm (the starchy heart) and germ (the embryo).",
+        "Bran: the outer coats, rich in fibre. It is removed for white semolina; it would go into wholemeal flour.",
+        "Endosperm: this is the part we use. Starch and protein (gluten). The first milling gives a sandy semolina; rimacinata means remilled a second time, finer, for fresh dough.",
+        "Germ: a small embryo at one end, rich in oils. It is removed: it would go rancid and soften the dough.",
+        "For [cavatelli with pesto](cavatelli-pesto): semola and water only, added in several times — that is [bassinage](bassinage). For [ravioli](ravioli-saint-jacques): semola and eggs."
       ],
       "chemistry": [
-        "The main difference comes from the surface texture: a rougher pasta holds sauce better than a smooth one.",
-        "The feeling of higher quality therefore comes mostly from texture and sauce adhesion, more than from a direct change in flavour."
+        "Durum wheat has a glassy endosperm, richer in gluten than soft wheat: the dough holds, firm, without going slack — even without egg, as with cavatelli.",
+        "Remilling (rimacinare) reduces granule size: more surface to hydrate, a smoother dough that rolls more easily.",
+        "Without bran or germ, semolina keeps better: fewer oxidisable oils, less moisture."
+      ],
+      "figuresTitle": "The three parts of the grain",
+      "figures": [
+        {
+          "caption": "Bran — the husk. Not used for semola."
+        },
+        {
+          "caption": "Endosperm — the heart. This is semola di grano duro."
+        },
+        {
+          "caption": "Germ — the embryo. Removed: too much oil."
+        }
       ]
     },
-    "temps-cuisson-pates-seches": {
-      "title": "Cooking Time For Dry Pasta",
-      "intro": "For dry pasta, especially bronze-cut pasta such as Rummo or other good Italian brands, the time printed on the package is always the best starting point. It depends on the shape, thickness, and drying method.",
+    "bassinage": {
+      "title": "Bassinage",
+      "intro": "Bassinage, from bassiner: to moisten. One does not add all the liquid at once. First a dough that holds; the network forms. Then, in several times, the rest — water for the [cavatelli](cavatelli-pesto), a little water for the ravioli, butter for the [baba](baba-au-rhum-saint-james). The dough takes what it can.",
       "steps": [
-        "Read the package: look for wording such as \"cottura\", \"al dente\", or \"cooking time\". For a brand like Rummo, this time is generally reliable for an al dente result.",
-        "If the pasta will be served directly with a sauce that is already ready, aim for the package time, then start tasting during the last 2 minutes.",
-        "If the pasta will finish in the pan with the sauce, drain it 1 to 2 minutes before the package time, then finish it with a little pasta cooking water so the sauce clings.",
-        "Bronze-cut pasta can feel firmer and rougher in the mouth: that is normal. Do not overcook it to make it smooth; that texture is exactly what helps the sauce hold.",
-        "For pasta salad or pasta that will not finish in sauce, cook closer to the full package time, then cool quickly if needed."
+        "The word: bassiner, to moisten. This is not an [autolyse](autolyse) — flour and water at rest, before kneading. Bassinage comes after: the network is already there.",
+        "Cavatelli: [semola](semola-grano-duro) and water only. 400 g semola. Lukewarm water, in several times, until a firm dough. All at once, lumps, or a dough that sticks. See [cavatelli with pesto](cavatelli-pesto).",
+        "Ravioli: semola and eggs, then a little lukewarm water if needed — the same logic. Homogeneous, not soft. See [scallop ravioli](ravioli-saint-jacques).",
+        "Baba: once the dough is smooth, softened butter in several times, until absorbed. The same gesture, another material. See [rum baba](baba-au-rhum-saint-james).",
+        "Wait until the dough takes before adding more. Too soon, it comes apart."
       ],
       "chemistry": [
-        "During cooking, water hydrates the starch and gluten in the pasta. If cooking goes too far, the structure loosens and the pasta becomes soft.",
-        "Finishing in sauce lets the starch released into the cooking water bind oil, cheese, or tomato, giving a sauce that clings better.",
-        "The best reference is still tasting: the centre should be cooked but slightly resistant, especially with al bronzo pasta."
+        "Water hydrates the starch and plasticises the gluten. Too much water before the network exists: the dough has nothing to hold on to.",
+        "Once formed, the network holds more water: a more extensible dough, a more open crumb.",
+        "Semola di grano duro, glassy, absorbs slowly: hence several times, and the rest.",
+        "The butter of the baba coats the gluten. In several times, the network does not break."
+      ],
+      "figuresTitle": "Step by step",
+      "figures": [
+        {
+          "caption": "Cavatelli: lukewarm water, in several times, into the semola. The dough takes it, then a little more."
+        },
+        {
+          "caption": "Baba: softened butter, in several times, into a dough already smooth. The same gesture, another material."
+        }
+      ]
+    },
+    "autolyse": {
+      "title": "Autolyse",
+      "intro": "Autolyse, from Calvel: flour and water, at rest, before salt, before yeast, before kneading. This is not [bassinage](bassinage). Bassinage adds the liquid in several times, the network already there. Here, one barely mixes. One waits.",
+      "steps": [
+        "The word: autolyse. Flour and water only. No salt, no yeast. Mix barely — a dough still lumpy. Then the rest, covered.",
+        "The time: 20 to 40 minutes. Proteases and amylases work. The gluten relaxes.",
+        "Then: add salt and yeast. Knead shorter. The network has already formed, a little.",
+        "This is not the rest of a dough already kneaded — that is [détente](detente). Here, one has not kneaded yet. See [bassinage](bassinage): the inverse — one adds after, not before."
+      ],
+      "chemistry": [
+        "Proteases cut the gluten network slightly: the dough relaxes, stretches better afterwards.",
+        "Amylases release sugars. Hydrate before salt: salt tightens gluten; too early, it blocks the autolyse.",
+        "This is not the rest after kneading — that is [détente](detente). Here, one has not kneaded yet."
+      ]
+    },
+    "detente": {
+      "title": "Détente",
+      "intro": "Détente, from détendre: the rest of a dough already made. Flour, water and/or eggs, often already salted. Wrap. Wait. This is not an [autolyse](autolyse) — there, flour and water only, before salt, before kneading. Here, one has already kneaded. In Italian: riposo.",
+      "steps": [
+        "The word: détente. After kneading, wrap. Rest at room temperature, 20 to 30 minutes. Or in the fridge, 30 minutes to several hours.",
+        "Gluten, tight from kneading, relaxes. The dough sheets without spring-back. Less contraction in the pot.",
+        "Water finishes hydrating the flour. Hydration equalizes through the mass. With egg, the fridge is also hygiene.",
+        "This is not fermentation. No yeast. Pizza in the cold is a retard, a cold fermentation. Here, nothing rises.",
+        "This is not an [autolyse](autolyse). Autolyse: flour and water only, before salt and kneading. Détente: the rest of a dough already made. See [cavatelli with pesto](cavatelli-pesto), [ravioli pesto di Liguria](ravioli-pesto-di-liguria), [scallop ravioli](ravioli-saint-jacques)."
+      ],
+      "chemistry": [
+        "After kneading, disulfide bonds and tension make the dough elastic. During the rest, proteases nibble the network; water migrates. The dough becomes extensible again.",
+        "No yeast: nothing ferments. The cold of pizza is something else.",
+        "With egg, the fridge also slows microbes."
+      ]
+    },
+    "reaction-maillard": {
+      "title": "Réaction de Maillard",
+      "intro": "Maillard reaction: amino acids and reducing sugars, dry heat, from about 140 °C. The brown crust, the smell of roast. This is not caramelisation — that is sugars alone, higher still. A dry surface is needed. Wet, the pan stays at 100 °C.",
+      "steps": [
+        "The word: Maillard. Amino acids and reducing sugars. Dry heat, from about 140 °C. It colours. It smells of roast. This is not caramelisation — sugars alone, higher still.",
+        "The surface: dry. Pat the meat. Do not crowd. Water boils at 100 °C: a wet pan stays below, until the moisture is gone.",
+        "What one sees: [beurre noisette](beurre-noisette), the fond, the crust of bread, of steak, of onion. The juices on the floor of the sauté pan.",
+        "A brown [roux](roux): Maillard and caramelisation together. The darker it is, the more the toasted taste rises. See [steak au poivre](steak-au-poivre-veau), [magret](canard-orange-pommes-domino)."
+      ],
+      "chemistry": [
+        "Amino acids and reducing sugars bind: melanoidins — the brown colour — and roasted aromas.",
+        "Caramelisation needs only sugar, higher still. Here, both are needed: proteins and sugars."
+      ]
+    },
+    "blanchir-les-jaunes": {
+      "title": "Blanchir les jaunes",
+      "intro": "Blanchir, from blanc: the yolks pale. Pour the sugar all at once, whisk at once. Left sitting, the sugar « cooks » the yolks. For [crème brûlée](creme-brulee), just enough, without much air. For [tiramisu](tiramisu), until it holds.",
+      "steps": [
+        "The word: blanchir. Yolks and sugar, until pale. This is not a sabayon — that is over a bain-marie, hot. This is not whipping whites: snow is the whites.",
+        "The gesture: pour the sugar all at once. Whisk at once. Left sitting, the sugar draws water from the yolks by osmosis — it turns grainy, « cooks ».",
+        "[Crème brûlée](creme-brulee), [crème caramel](creme-caramel), crème anglaise of the [œufs à la neige](oeufs-a-la-neige): just enough to combine, without adding much air. Air would make a holey custard.",
+        "[Tiramisu](tiramisu): one pushes. Whisk until the mixture pales, mousses and holds.",
+        "The ribbon: lift the whisk. The batter falls back in a slow sheet. That is enough."
+      ],
+      "chemistry": [
+        "Sugar, a little acidic and hygroscopic, draws water from the yolks by osmosis if it sits: the proteins tighten, it turns grainy.",
+        "Whisking dissolves the sugar and disperses the carotenoids: the mixture pales. A little air is the white; too much air, in a baked custard, holes.",
+        "In tiramisu, sugar holds the water and holds the yolk foam, without cooking."
+      ],
+      "figuresTitle": "Step by step",
+      "figures": [
+        {
+          "caption": "Pour the sugar all at once. Whisk at once — left sitting, it « cooks » the yolks."
+        },
+        {
+          "caption": "Crème brûlée, crème caramel: just enough, still golden, no foam. Tiramisu, one pushes to the ribbon."
+        }
       ]
     },
     "mijoter": {
@@ -162,7 +384,7 @@
       "title": "Scallop (Saint-Jacques) Ravioli",
       "intro": "Serves 4. Filling: fresh scallops (coquilles Saint-Jacques), washed and cut into pieces. Sauce: a few walnuts, crème fraîche, gorgonzola, a little cooking water, salt and pepper. Pasta: 400 g semola di grano duro rimacinata, 4 eggs (1 per person), half a glass of water, pinch of extra virgin olive oil.",
       "steps": [
-        "Dough: count 100 g semola di grano duro rimacinata and 1 whole egg per person. For 4 people, mix 400 g semola with 4 eggs, water and oil in a bowl; form a ball, wrap and chill for 30 min.",
+        "Dough: count 100 g semola di grano duro rimacinata and 1 whole egg per person. For 4 people, mix 400 g semola with 4 eggs, water and oil in a bowl; form a ball, wrap and chill for 30 min — that is [détente](detente).",
         "Prepare the filling: wash and dry the scallops, then cut them into pieces that fit the size of the ravioli (small dice or slices).",
         "Prepare the sauce: mark a few walnuts with a little olive oil, then add the crème fraîche and the gorgonzola. Finish with a little ravioli cooking water, then season with salt and pepper.",
         "Roll out the dough, add the scallop filling, shape the ravioli and cook in boiling salted water; serve with the sauce."
@@ -173,10 +395,10 @@
       ]
     },
     "beurre-manie-roux": {
-      "title": "Beurre manié and roux",
-      "intro": "Roux and beurre manié are two butter-and-flour liaisons. The roux is cooked before adding the liquid; beurre manié is added cold at the end of cooking to thicken a sauce without cooking it.",
+      "title": "Beurre manié & roux",
+      "intro": "[Roux](roux) and beurre manié are two butter-and-flour liaisons. The roux is cooked before adding the liquid; beurre manié is added cold at the end of cooking to thicken a sauce without cooking it.",
       "steps": [
-        "Roux: melt butter over low heat, add an equal weight of flour, stir and cook for 2 to 5 minutes without colouring (white roux) or until blond or nutty depending on the sauce. Then add cold liquid (milk, stock) and thicken while stirring.",
+        "[Roux](roux): melt butter over low heat, add an equal weight of flour, stir and cook for 2 to 5 minutes without colouring (white roux) or until blond or nutty depending on the sauce. Then add cold liquid (milk, stock) and thicken while stirring.",
         "Beurre manié: mix equal parts softened butter and flour until smooth. Chill if needed. At the end of cooking, add in small pieces to the boiling sauce while whisking; the sauce thickens in a few minutes without cooking the flour.",
         "When to use which: roux is the base for béchamel, velouté, long sauces. Beurre manié is for quickly correcting or thickening a sauce already in progress without recooking it."
       ],
@@ -280,28 +502,44 @@
         "Use this stock for a brown sauce, a wine reduction, or to strengthen a meat jus."
       ],
       "chemistry": [
-        "The initial browning triggers Maillard reactions, building more roasted and complex notes.",
+        "The initial browning triggers [Maillard reactions](reaction-maillard), building more roasted and complex notes.",
         "Like white stock, it brings gelatin, but here it comes with darker and more powerful aromas."
       ]
     },
-    "vin-cuisine": {
-      "title": "Wine in cooking",
-      "intro": "Wine is a central liquid for cooking and deglazing in French cuisine. It brings acidity, aroma, and tension, provided it is reduced correctly.",
+    "roux": {
+      "title": "Roux",
+      "intro": "A roux is a liaison: equal parts butter and flour, cooked together before the liquid is added. It is the base of the mother sauces — white for [béchamel](sauce-bechamel), blond for [velouté](sauce-veloute), brown for [espagnole](sauce-espagnole). It is not [beurre manié](beurre-manie-roux), which is added raw, at the end of cooking.",
       "steps": [
-        "Use wine to deglaze after searing so the cooking residues dissolve and join the sauce.",
-        "Let it reduce before adding cream, stock, or butter, otherwise the sauce will stay too acidic and too thin.",
-        "Choose a wine that suits the dish: white for lighter sauces and fish, red or Madeira for darker preparations."
+        "Equal parts by weight: 50 g butter, 50 g flour. Always weigh, never measure by volume.",
+        "Melt the butter over low heat. Add the flour all at once, whisk until a smooth paste, without lumps.",
+        "White roux: cook 2 to 3 min while whisking, without colouring — base of [béchamel](sauce-bechamel).",
+        "Blond roux: continue until pale gold and a nutty smell — base of [velouté](sauce-veloute).",
+        "Brown roux: continue until brown, toasted — base of [espagnole](sauce-espagnole). The darker it is, the less it thickens: use a little more.",
+        "The liquid — milk, stock — comes next, gradually. The roux is cooked before the liquid."
       ],
       "chemistry": [
-        "Reduction concentrates aroma and evaporates part of the water and alcohol.",
-        "Wine's acidity balances fatty preparations and helps give more lift to the final taste."
+        "Cooking the flour deactivates an enzyme (amylase) that, if left raw, would thin the sauce.",
+        "The fat coats the starch granules: when the liquid is added, they disperse without forming lumps.",
+        "The darker the roux, the more the starch breaks down: a brown roux thickens less than a white one."
+      ],
+      "figuresTitle": "Step by step",
+      "figures": [
+        {
+          "caption": "Equal parts by weight: 50 g butter, 50 g flour. Always weigh."
+        },
+        {
+          "caption": "Melt the butter over low heat, add the flour all at once, whisk."
+        },
+        {
+          "caption": "White, blond, brown roux. The darker it is, the less it binds."
+        }
       ]
     },
     "sauce-bechamel": {
       "title": "Bechamel sauce",
-      "intro": "One of the five great mother sauces of French cuisine, codified by Auguste Escoffier. Béchamel is a white sauce made from a white roux and milk, often scented with clove or nutmeg.",
+      "intro": "One of the five great mother sauces of French cuisine, codified by Auguste Escoffier. Béchamel is a white sauce made from a [white roux](roux) and milk, often scented with clove or nutmeg. [Mornay sauce](sauce-mornay) starts from here: Gruyère and mustard, off the heat.",
       "steps": [
-        "Make a white roux: melt 50 g butter over low heat, add 50 g flour, and cook for 2 to 3 minutes without letting it colour, stirring constantly.",
+        "Make a [white roux](roux): melt 50 g butter over low heat, add 50 g flour, and cook for 2 to 3 minutes without letting it colour, stirring constantly.",
         "Heat 500 ml milk separately to about 60 to 70 °C (ideally around 65 °C). You can infuse it with 1 or 2 cloves, then strain it.",
         "Gradually pour the hot milk into the roux while whisking to avoid lumps.",
         "Return to low heat and cook for a few minutes until thickened, stirring regularly.",
@@ -312,11 +550,24 @@
         "Gentle cooking removes the raw flour taste while keeping the sauce smooth and pale."
       ]
     },
+    "sauce-mornay": {
+      "title": "Mornay sauce",
+      "intro": "Mornay is a [béchamel](sauce-bechamel) finished with cheese. Here, only Gruyère and Dijon mustard. No egg yolk, no Parmesan, no nutmeg.",
+      "steps": [
+        "Béchamel: a [white roux](roux), 50 g [butter](beurre) and 50 g flour, 2 to 3 minutes without colour. Whisk in 500 ml hot [milk](lait). Cook over low heat until the sauce coats a spoon.",
+        "Gruyère: off the heat, add 80 g grated Gruyère. Whisk until it melts. Do not let it boil again.",
+        "Mustard: 1 teaspoon Dijon mustard. Stir. Adjust the salt — the cheese and the mustard are already salty. Serve at once."
+      ],
+      "chemistry": [
+        "Off the heat, Gruyère melts into the still-hot béchamel: fat and proteins mix with the starch. If it boils, the fat splits.",
+        "Dijon mustard, slightly acid, helps hold the emulsion and lifts the cheese. Cooked for long, it turns bitter."
+      ]
+    },
     "sauce-veloute": {
       "title": "Veloute sauce",
       "intro": "Velouté is another Escoffier mother sauce. It is based on a very lightly cooked blond roux thinned with a light stock, such as chicken, veal, or fish stock.",
       "steps": [
-        "Prepare a very pale blond roux with 50 g butter and 50 g flour, without letting it brown too much.",
+        "Prepare a very pale [blond roux](roux) with 50 g butter and 50 g flour, without letting it brown too much.",
         "Heat 500 to 600 ml light stock (chicken, veal, or fish depending on use).",
         "Gradually whisk the hot stock into the roux until smooth.",
         "Simmer gently for 20 to 30 minutes, skimming if needed, until the sauce is supple and glossy.",
@@ -333,28 +584,43 @@
       "steps": [
         "Cook a mirepoix of onion, carrot, and celery in a little fat until lightly coloured.",
         "Add a little tomato paste or tomato and cook briefly to develop flavour.",
-        "Incorporate a brown roux, or dust lightly with flour, to prepare the thickening base.",
+        "Incorporate a [brown roux](roux), or dust lightly with flour, to prepare the thickening base.",
         "Add hot brown veal or beef stock, then bouquet garni, garlic, and optionally a little more tomato.",
         "Simmer slowly for a long time, skim, then strain and reduce until the sauce is rich, brown, and coating."
       ],
       "chemistry": [
-        "Browning the vegetables and roux triggers Maillard reactions that give espagnole its deep savoury aroma.",
+        "Browning the vegetables and roux triggers [Maillard reactions](reaction-maillard) that give espagnole its deep savoury aroma.",
         "The gelatin from the brown stock and the starch from the roux work together to create a silky, coating texture."
       ]
     },
-    "sauce-tomate": {
-      "title": "Tomato sauce",
-      "intro": "In Escoffier's system, tomato sauce is one of the great foundational sauces. It is more structured than a simple home tomato sauce, combining tomato, aromatics, and slow cooking for rounded depth.",
+    "passata": {
+      "title": "Passata",
+      "intro": "Passata means passed: the tomato goes through a sieve. Skin and seeds — the most acidic parts — come out. What remains is the pulp, thick. It is not crushed tomato. Italian passata, often San Marzano, is already almost a sauce.",
       "steps": [
-        "Gently cook onion and garlic in olive oil or a little fat, with an aromatic garnish if desired.",
-        "Add chopped or peeled tomatoes, a little tomato paste, bouquet garni, salt, and pepper.",
-        "Let it simmer gently for 30 to 45 minutes, stirring from time to time.",
-        "Blend or pass the sauce depending on the desired texture, then reduce again if it is too thin.",
-        "Adjust the seasoning at the end, using a little sugar only if the acidity is too sharp."
+        "The word: passata, passed through a sieve. Skin and seeds come out. The pulp stays, dense, little water.",
+        "Crushed tomato: the whole fruit. More water. The gel around the seeds is bitter; the skin, acidic. Already more acidity from the bottle.",
+        "San Marzano: an elongated tomato, little water, sugars and acidity in balance. Volcanic soil of Vesuvius — an intense red, a little sweetness. DOP, like Roquefort or champagne: rules, a quality.",
+        "Picked ripe. For pizza, for a ragù, it has to be good when you open it. The aroma, the colour: you want to drink it. Almost nothing to do.",
+        "Ordinary bottled tomato: often picked too early for the journey, more water, thicker skin, bred for yield. It is not the same thing.",
+        "For a [tomato sauce](passata) or the [ragù d'entrecôte](polenta-ragu-entrecote): a passata. Salt, a little olive oil, time. No sugar to correct it."
       ],
       "chemistry": [
-        "Slow cooking evaporates water from the tomatoes and concentrates their natural glutamates, strengthening umami flavour.",
-        "Tomato acidity softens over time and with fat, giving the finished sauce a rounder taste."
+        "Skin and seeds concentrate the tomato's acids. The gel around the seeds is bitter. Sieving them out: less acidity, less bitterness.",
+        "Without skins, less bound water. The pulp remains: pectin, glutamate. A passata already coats.",
+        "At full ripeness, sugars rise, acid stays in balance. Picked green: more water, less sugar, a harder skin.",
+        "Volcanic soil drains and mineralises: a more concentrated fruit, a deeper red."
+      ],
+      "figuresTitle": "Step by step",
+      "figures": [
+        {
+          "caption": "Passata: the tomato goes through a sieve. Skin and seeds stay; the pulp passes."
+        },
+        {
+          "caption": "San Marzano: elongated, little water, sugars and acidity in balance. Soil of Vesuvius."
+        },
+        {
+          "caption": "Left, crushed tomato — water, skins, seeds. Right, passata — pulp alone."
+        }
       ]
     },
     "sauce-hollandaise": {
@@ -370,6 +636,18 @@
       "chemistry": [
         "Egg yolks contain lecithin, a natural emulsifier that helps stabilise the mixture of water and fat.",
         "If the heat is too high, the yolk proteins coagulate too quickly and the sauce can split."
+      ],
+      "figuresTitle": "The three pillars",
+      "figures": [
+        {
+          "caption": "Egg yolks — lecithin, the base of the emulsion."
+        },
+        {
+          "caption": "Clarified butter — the pure fat that builds the sauce."
+        },
+        {
+          "caption": "Lemon — acidity for the reduction and the finish."
+        }
       ]
     },
     "sauce-bearnaise": {
@@ -385,6 +663,18 @@
       "chemistry": [
         "As with hollandaise, the lecithin in the yolks stabilises the emulsion between the water phase and the butter.",
         "Herbs keep more of their aroma when added at the end; too much heat can split the sauce and dull the flavours."
+      ],
+      "figuresTitle": "The three pillars",
+      "figures": [
+        {
+          "caption": "Shallot — the base of the reduction."
+        },
+        {
+          "caption": "Tarragon — the signature herb of béarnaise."
+        },
+        {
+          "caption": "Chervil — freshness added off the heat."
+        }
       ]
     },
     "mayonnaise-fait-maison": {
@@ -424,7 +714,7 @@
         "description": "Aïoli = garlic + grape seed oil (+ egg yolks to stabilise). Mayonnaise = egg yolks + neutral oil, often with mustard, no garlic.",
         "steps": [
           "For 4 people: 4 garlic cloves, 2 egg yolks, 200 to 240 ml grape seed oil.",
-          "For a more neutral cold base (tonnato, parisienne): homemade mayonnaise."
+          "For a more neutral cold base (tonnato): homemade mayonnaise."
         ]
       }
     },
@@ -443,48 +733,78 @@
         "Tuna, anchovies and capers bring salt, iodine and umami; the mayonnaise stabilises the cold emulsion.",
         "Olive oil and lemon loosen the sauce without breaking it, as long as you incorporate them gently.",
         "Resting chilled lets the flavours meld and makes the sauce coat cold meat more evenly."
-      ]
-    },
-    "sauce-parisienne": {
-      "title": "Parisian sauce",
-      "intro": "Serves 6, about 400 to 500 ml. A cold French sauce of mayonnaise and cream, scented with fines herbes. It goes with cold meats, fish, raw vegetables or hard-boiled eggs.",
-      "steps": [
-        "First: make homemade mayonnaise (see Homemade mayonnaise). For 6 people, count about 200 to 250 ml mayonnaise.",
-        "Cream: whip 200 ml well-chilled double cream until firm, or use 200 g thick crème fraîche.",
-        "Base: in a cold bowl, fold the mayonnaise and cream together gently to keep a light texture.",
-        "Herbs and seasoning: add 2 tablespoons chopped fines herbes (parsley, chervil, tarragon, chives), 1 teaspoon Dijon mustard, juice of half a lemon, salt and white pepper.",
-        "Finish: if you like, add a few chopped capers or diced hard-boiled egg white for extra texture. Adjust acidity with a little more lemon if needed.",
-        "Serving: chill for at least 30 minutes before serving. The sauce should be soft, pale and very fragrant."
       ],
-      "chemistry": [
-        "Mayonnaise brings the emulsion and body; whipped cream or crème fraîche lightens it and gives a mousse-like texture.",
-        "Fines herbes and lemon add volatile aromatics: resting chilled fixes the flavours without heating the sauce.",
-        "Folding in the cream without overworking avoids breaking the emulsion and thinning the sauce too much."
+      "figuresTitle": "The three pillars",
+      "figures": [
+        {
+          "caption": "Tuna — the body of the sauce."
+        },
+        {
+          "caption": "Capers — acidity and bite."
+        },
+        {
+          "caption": "Anchovies — salt and umami."
+        }
       ]
     },
     "steak-au-poivre-veau": {
       "title": "Steak au poivre",
-      "intro": "For 2. 2 veal filets mignons (150–180 g each, 3–4 cm thick), a lot of black, green, and red peppercorns, 1 shallot, a good amount of butter, cognac, 100–150 ml single cream, veal stock (optional). Sear the filets; pepper sauce: shallot sautéed in butter, crushed pepper cooked in the pan, flambé cognac, cream.",
+      "intro": "Serves 1. 1 beef tournedos — a tenderloin medallion (150–180 g, 3–4 cm thick), 2 tablespoons black and red peppercorns, 1 small shallot, extra-virgin olive oil, 25 g butter (a knob), 2 cl cognac, red wine, 2 tablespoons crème fraîche d'Isigny. Brown the tournedos in extra-virgin olive oil; as soon as it comes out, butter in the pan with the cooking juices, finely sliced shallot, crushed pepper, flambé with cognac, deglaze with red wine, crème fraîche d'Isigny.",
       "steps": [
-        "Smash a lot of black, green, and red peppercorns with a mortar and pestle (coarse grains, not powder). Set aside.",
-        "Take the veal out of the fridge 15–20 min ahead. Cast-iron or heavy-bottomed pan, very hot over high heat.",
-        "Melt a good amount of butter in the pan. Add the filets. Cook 2–3 min per side depending on thickness (keep pink in the centre). Salt at the end of cooking. Remove to a plate and cover.",
-        "In the same pan over medium heat: shallot and butter first, then add the crushed pepper and let it cook 1 min. Pour in the cognac and flambé. Scrape the bottom with a spatula. Add the cream (and a little veal stock if you have some). Reduce 2–3 min, salt to taste.",
-        "Return the filets briefly to the sauce or nap on the plate. Serve with fries, mash, green vegetables or salad."
+        "Smash 2 tablespoons of black and red peppercorns with a mortar and pestle (coarse grains, not powder). Set aside.",
+        "Émincer 1 small shallot (see [Émincer](emincer)). Take the tournedos out of the fridge 15–20 min ahead. De Buyer stainless-steel pan, very hot over high heat.",
+        "Extra-virgin olive oil in the very hot pan. For a 3–4 cm tournedos: blue (bleu) 1 min per side; rare (saignant) 2 min; medium (à point) 3 min; well done (bien cuit) 4 to 5 min. Salt at the end of cooking. Remove to a plate and cover.",
+        "Lower to medium heat. Add 25 g butter (a knob) to the same pan, with the juices from the tournedos. Sweat the finely sliced shallot, then add the crushed pepper and let it cook 1 min.",
+        "Cognac: measure 2 cl into a glass — never pour from the bottle. Pour into the pan, keep your face back. Light at the rim with a long kitchen lighter. Let the flame die on its own. Keep a lid within reach.",
+        "Deglaze with red wine (4 to 5 cl), scrape the bottom with a spatula. Reduce by half.",
+        "Add 2 tablespoons crème fraîche d'Isigny. Reduce 2–3 min, salt to taste.",
+        "Return the tournedos briefly to the sauce or nap on the plate. Serve at once."
       ],
       "chemistry": [
-        "Cooking the pepper in the pan (with shallot and butter) develops and softens its flavour; pepper only on the raw meat can stay too harsh.",
-        "Flambeing the cognac evaporates the alcohol and concentrates flavour; the cream binds the sauce."
+        "Extra-virgin olive oil, more stable over high heat, browns the tournedos without burning — [Maillard reaction](reaction-maillard); butter too early would blacken.",
+        "As soon as the meat is off, the butter joins the pan juices: the shallot softens in them and the pepper, cooked 1 min, develops and mellows.",
+        "Cognac, at about 40%, ignites: the alcohol burns off, grape and cask aromas stay. Red wine alone (~12%) will not flambé.",
+        "The red wine deglazes the pan juices and adds acidity; as it reduces, the alcohol evaporates. Crème fraîche d'Isigny, thicker and richer, binds the sauce without making it too runny.",
+        "The 2 to 3 minutes of rest continue the cooking a little: take it off just before the doneness you want. Overcooked, the tenderloin dries out."
       ],
       "tip": {
         "title": "Tips",
-        "description": "Veal dries out quickly; a pink centre is better than well done.",
+        "description": "Timings for a 3–4 cm tournedos, very hot pan, meat out of the fridge 15–20 min. Tenderloin is best rare or medium; well done, it dries out.",
         "steps": [
-          "Fries: blanch the potato sticks in boiling water for about 4 minutes, then let them cool and dry.",
-          "Double fry: first at 275 °F (135 °C) for about 5 minutes, then at 350 °F (175 °C) for 5–7 minutes until visibly browned and crispy.",
-          "Salt while still hot so the salt sticks. Sel marin de Camargue."
+          "Bleu (blue): 1 min per side.",
+          "Saignant (rare): 2 min per side.",
+          "À point (medium): 3 min per side.",
+          "Bien cuit (well done): 4 to 5 min per side.",
+          "Salt at the end of cooking, not before: salt too early draws out juice.",
+          "Rest 2 to 3 minutes under a plate: the juices redistribute, and doneness advances a little more.",
+          "Sel marin de Camargue.",
+          "To flambé: never from the bottle. A lid within reach; never water on the flame."
         ]
-      }
+      },
+      "figuresTitle": "Step by step",
+      "figures": [
+        {
+          "caption": "Per person: 2 tablespoons of black and red peppercorns, crushed in a mortar — coarse grains, not powder."
+        },
+        {
+          "caption": "Brown the tournedos in extra-virgin olive oil. Salt at the end of cooking, then remove."
+        },
+        {
+          "caption": "Doneness guide, 3–4 cm tournedos, very hot pan: bleu 1 min per side; saignant 2 min; à point 3 min; bien cuit 4 to 5 min."
+        },
+        {
+          "caption": "1 small shallot, finely sliced (see [Émincer](emincer)). As soon as the tournedos is off: 25 g butter (a knob) in the pan, with the cooking juices, then the shallot."
+        },
+        {
+          "caption": "2 cl cognac, measured into a glass. Light at the rim with a long kitchen lighter; let the flame die on its own."
+        },
+        {
+          "caption": "Deglaze with red wine (4 to 5 cl): pour into the pan, scrape the juices, reduce by half."
+        },
+        {
+          "caption": "Add 2 tablespoons crème fraîche d'Isigny. Reduce 2–3 min."
+        }
+      ]
     },
     "vol-au-vent-champignons-paris": {
       "title": "Seafood vol-au-vent",
@@ -500,6 +820,37 @@
       "chemistry": [
         "Reducing the white wine concentrates aroma and balances seafood salinity with acidity.",
         "Creme fraiche adds fat and body to bind the sauce; filling at the last minute helps keep the pastry crisp."
+      ]
+    },
+    "amuse-bouche": {
+      "title": "Amuse-bouche",
+      "intro": "The amuse-bouche is not a starter. One bite, offered before the meal, not ordered. Here, Niçois: a pizzetta pissaladière — melted onions, anchovies, black olives, on a thin dough. No tomato. One per person.",
+      "steps": [
+        "The gesture: one bite, only one. Served hot, with the apéritif or just before the starter. This is not the [petite attention](petite-attention).",
+        "Onions: 4 yellow onions, sliced thin. Cocotte, 3 tablespoons [olive oil](huile), very low heat, 40 to 50 minutes — they melt and blond, without dark colour. A pinch of thyme. Salt lightly: the anchovies salt.",
+        "Dough: 200 g flour, 120 ml warm water, 1 tablespoon olive oil, ½ packet baker's yeast, a pinch of salt. Knead, [détente](detente) 30 minutes. Roll very thin. Cut 8 discs of 6 to 7 cm — one pizzetta per bite.",
+        "Assembly: nap each disc with onions. Cross 2 anchovy fillets (or a star). 2 or 3 Niçois black olives. A trickle of oil.",
+        "Oven: 220 °C, 8 to 10 minutes, until the rim is crisp and the onions golden. Serve at once — one pizzetta per guest."
+      ],
+      "chemistry": [
+        "Slow cooking breaks onion cells and frees sugars: melting, sweet, without the bitterness of hard browning.",
+        "Anchovies and olives bring salt and umami; without tomato, the pissaladière stays dry and crisp as a bite.",
+        "A thin dough, served hot, stays crisp under the onions — too thick, it turns pasty and it is no longer an amuse-bouche."
+      ]
+    },
+    "petite-attention": {
+      "title": "Petite attention",
+      "intro": "The petite attention is a gift from the chef — on arrival, or between courses. It is not an amuse-bouche: freer, sometimes longer to nibble, always offered. Niçois example: cracked black olives with lemon, thyme and [olive oil](huile).",
+      "steps": [
+        "The gesture: one does not wait for an order. A small dish arrives — olives, a biscuit, a verrine. The attention speaks for the house.",
+        "Olives: 150 g Niçois black olives (or Cailletier). Crack them lightly in a bowl with a weight — they open and take the perfume.",
+        "Perfume: zest of half an untreated lemon, a few sprigs of fresh thyme, a trickle of extra-virgin [olive oil](huile). Mix. Rest 30 minutes at room temperature.",
+        "Service: small dish or ramekin. A spoon. Bread not required — the attention stands alone.",
+        "Another path: a glass of cold soup, a savoury biscuit. Always free, always offered — it is not the [amuse-bouche](amuse-bouche)."
+      ],
+      "chemistry": [
+        "Cracking the olive opens the flesh: oil and lemon enter, bitterness softens without rinsing.",
+        "Thyme and zest are volatile; at room temperature they perfume without cooking."
       ]
     },
     "carpaccio-crevettes": {
@@ -519,7 +870,7 @@
       ]
     },
     "carpaccio-dorade-salicorne": {
-      "title": "Sea bream carpaccio with lemon zest and samphire",
+      "title": "Sea bream carpaccio with lemon zest & samphire",
       "intro": "Serves 4. A very fresh sea bream carpaccio, thinly sliced, seasoned with lemon zest and extra virgin olive oil, finished with samphire for a marine, crisp note.",
       "steps": [
         "Fish: use very fresh gilthead sea bream or sea bream. Fillet the fish, remove the skin and all bones, then cut the flesh into very fine, even, almost translucent slices.",
@@ -625,17 +976,40 @@
     },
     "filet-loup-papillote": {
       "title": "Sea bass fillet en papillote",
-      "intro": "Serves 4. One sea bass fillet per person, baked en papillote with capers, cherry tomatoes cut in half, green olives, black Kalamata olives, finely chopped shallots and a slice of lemon. The dish is served with domino potatoes, salt, pepper and lemon.",
+      "intro": "Serves 4. One sea bass fillet per person, baked en papillote. Before closing: shallots cut in horizontal lines from top to bottom then crumbled, nasturtium capers (câpres capucines), red and yellow cherry tomatoes halved, green and black olives. Served with domino potatoes.",
       "steps": [
+        "Pin bones: run a finger along the centre line of each fillet, flesh side. The small intramuscular bones feel like pin tips. Pull them out one by one with fish tweezers, in the direction of the bone, without tearing the flesh.",
         "Domino potatoes: cut the potatoes into regular shapes. Start them in cold salted water, bring to a boil, then count about 10 more minutes. Drain, season with salt and pepper, then finish in the oven at 200 °C until nicely golden.",
-        "Papillotes: place 1 sea bass fillet per person in the centre of a sheet of baking paper. Add capers, halved cherry tomatoes, green olives, black Kalamata olives, finely chopped shallots and finally a slice of lemon on top.",
-        "Close each papillote carefully so the steam stays trapped inside, then bake until the fish is just opaque and cooked through.",
-        "Serving: open the papillotes at the last moment, check the seasoning, add a little extra lemon if needed, then serve at once with the domino potatoes."
+        "Shallots: cut them in horizontal lines from top to bottom, then crumble. Scatter over each fillet.",
+        "Câpres capucines: add the nasturtium capers — pickled capucine buds, milder than bush capers.",
+        "Tomatoes: halve red cherry tomatoes and yellow cherry tomatoes. Place them beside the fillet, cut side up.",
+        "Olives: add green olives and black olives.",
+        "Close: seal each papillote carefully to keep the steam in, then bake until the fish is just opaque and cooked through.",
+        "Serving: open the papillotes at the last moment, check the seasoning, then serve at once with the domino potatoes."
       ],
       "chemistry": [
-        "En papillote cooking traps steam and the juices from the garnish, so the sea bass stays moister and picks up the aromas of lemon, olives, capers and shallot.",
-        "Cherry tomatoes bring water, sweetness and acidity; as they heat, they create a light juice that naturally seasons the fish.",
-        "Starting the domino potatoes in water and finishing them in the oven helps them stay tender inside and golden on the outside."
+        "The bones in the fillet are intramuscular pin bones: you feel them with a finger and pull them with tweezers, along their axis, so the flesh does not tear.",
+        "Horizontal lines from top to bottom let the shallot fall into even small pieces: more surface to scent the steam.",
+        "Red and yellow tomatoes, cut in half, give a sweet-acid juice that seasons the sea bass.",
+        "Câpres capucines and olives bring salt and a light bitterness; the papillote holds those aromas around the fillet."
+      ],
+      "figuresTitle": "Before closing the papillote",
+      "figures": [
+        {
+          "caption": "Pin bones: feel them with a finger, pull with tweezers in the direction of the bone."
+        },
+        {
+          "caption": "Shallots in rounds, like an onion."
+        },
+        {
+          "caption": "Câpres capucines: pickled nasturtium buds."
+        },
+        {
+          "caption": "Red and yellow cherry tomatoes, cut in half."
+        },
+        {
+          "caption": "Green olives and black olives."
+        }
       ]
     },
     "canard-orange-pommes-domino": {
@@ -644,12 +1018,22 @@
       "steps": [
         "Sauce: in a pan over medium heat, melt the sugar without stirring until you have a blond caramel. Remove from the heat and add the warm orange juice gradually (beware of splashes). Return to low heat, stir until the caramel has dissolved, then simmer for 5–8 minutes until syrupy but still fluid.",
         "Potatoes: for ingredients that grow underground, start cooking in cold water. So place the potatoes in a pan of cold water, bring to a boil, then count 10 more minutes. Lift them out, drain them, then bake for 1 hour at 200 °C.",
-        "Magret: score the skin, sear in a hot pan with olive oil (place skin-side down, cook about 3 min on each side until golden), then finish in the oven 18 min at 200 °C.",
+        "Magret: score the skin in a diagonal grid, without cutting into the flesh. Sear in a hot pan with olive oil (place skin-side down, cook about 3 min on each side until golden), then finish in the oven 18 min at 200 °C.",
         "Rest the magret 5 min, slice and nap with the sauce. Serve with the potatoes and thyme."
       ],
       "chemistry": [
         "Caramelised sugar adds colour and a gentle bitterness; orange juice and zest provide acidity and fragrance.",
-        "Cooking the magret skin-side first renders the fat and crisps the skin; resting allows the juices to redistribute."
+        "Cooking the magret skin-side first renders the fat and crisps the skin — [Maillard reaction](reaction-maillard); resting allows the juices to redistribute.",
+        "The diamond cuts open the fat: the skin does not shrink as one sheet, the fat melts into the pan and the skin crisps. Do not cut the flesh, so the juices stay in."
+      ],
+      "figuresTitle": "The magret and scoring the skin",
+      "figures": [
+        {
+          "caption": "Magret is the breast — the pectoral muscles — of a fattened duck."
+        },
+        {
+          "caption": "Score the skin on the diagonal, without touching the flesh: the fat renders, the skin stays flat."
+        }
       ]
     },
     "magret-canard-coulis-framboises": {
@@ -665,10 +1049,46 @@
         "The acidity of lemon and raspberries balances the richness of the duck and lifts the fruit notes without a sweet caramel base.",
         "Starting skin-side down in a cool pan renders the fat slowly and gives crisp skin while keeping the flesh pink.",
         "Sieving the coulis gives a smooth, glossy sauce; raspberry pectins thicken it lightly without long cooking."
+      ],
+      "figuresTitle": "The magret",
+      "figures": [
+        {
+          "caption": "Magret is the breast — the pectoral muscles — of a fattened duck."
+        }
+      ]
+    },
+    "cuisse-canard-safran": {
+      "title": "Duck leg & saffron potatoes",
+      "intro": "Serves 4. One duck leg per plate, crisp skin, on [potatoes & saffron](pommes-safran). Beside it: cherry tomatoes caramelized in the duck fat.",
+      "steps": [
+        "Legs: 4 duck legs. Pat them thoroughly dry, score the skin without cutting the flesh, season with salt and leave out for 20 minutes.",
+        "Browning: heat 1 tbsp [duck fat](graisse-canard) in a pan over medium heat. Place the legs skin-side down and render for 8 to 10 minutes, until deeply golden and almost caramelized. Turn and cook 2 minutes on the flesh side. Reserve the fat.",
+        "Oven: roast the legs for 1½ to 2 hours at 165 °C, until very tender and pulling easily from the bone. Baste once or twice with the duck fat and finish skin-side up to keep it crisp. Rest 5 minutes.",
+        "Potatoes & saffron: prepare the [potatoes & saffron](pommes-safran) and keep them warm.",
+        "Cherry tomatoes: in the duck fat, 250 g whole cherry tomatoes. A pinch of sugar. 4 to 5 minutes on medium heat, until the skins wrinkle and the juices caramelize.",
+        "Plating: purée, the leg on top, the tomatoes beside it."
+      ],
+      "chemistry": [
+        "The leg contains more collagen than magret: gentle cooking for 1½ to 2 hours gradually turns it into gelatin, tenderizing the meat until it pulls easily from the bone.",
+        "The thoroughly dried surface browns on contact with hot [duck fat](graisse-canard) through the [Maillard reaction](reaction-maillard), developing a deep colour and roasted flavours before the gentle oven cooking.",
+        "The [potatoes & saffron](pommes-safran) bring a silky texture and light floral notes.",
+        "Sugar and duck fat caramelize the tomato skins: acidity against the fat, a little toasted juice."
+      ],
+      "figuresTitle": "The leg and step by step",
+      "figures": [
+        {
+          "caption": "The leg comprises the thigh and drumstick, with abundant bone and connective tissue."
+        },
+        {
+          "caption": "The [potatoes & saffron](pommes-safran): ricer, garlic, saffron, butter and cream."
+        },
+        {
+          "caption": "Cherry tomatoes in the duck fat, a pinch of sugar. Skins wrinkled, juices caramelized."
+        }
       ]
     },
     "risotto-safran-magret-canard-orange": {
-      "title": "Saffron risotto with duck magret à l'orange",
+      "title": "Risotto with duck magret à l'orange",
       "intro": "Serves 4. Natural saffron carnaroli risotto served with slices of duck magret and an orange sauce. The dish balances the richness of the duck, the creamy softness of the risotto, and the bright acidity of orange.",
       "steps": [
         "Prepare the orange sauce: melt 100 g sugar to a blond caramel, then gradually add 200 ml freshly squeezed orange juice. Reduce gently until coating, then add a little finely grated zest if you like.",
@@ -680,45 +1100,12 @@
       "chemistry": [
         "Carnaroli rice releases its starch gradually during cooking, which gives risotto its naturally creamy texture.",
         "Natural saffron threads, added directly in the pan after 5 minutes of cooking, perfume and colour the risotto; the acidity of orange balances the richness of the duck fat."
-      ]
-    },
-    "risotto-betterave-fruits-de-mer": {
-      "title": "Beetroot and seafood risotto",
-      "intro": "Serves 4. Carnaroli risotto cooked in a vegetable stock infused with seafood trimmings (shrimp heads and tails, crab legs), then coloured with strained raw beetroot juice and finished with butter and Parmigiano. Heads and tails are not grilled—they are for the stock only. The peeled shrimp bodies are grilled separately and placed on the risotto with parsley and a warm Parmesan cream sauce.",
-      "steps": [
-        "Stock: make a vegetable stock, simmer shrimp heads and tails and crab legs in it, infuse, then strain carefully. Keep the stock very hot for cooking the risotto.",
-        "Risotto: use 100 g carnaroli rice per person (400 g for 4). Sweat shallots in butter for about 1 minute, add all the rice and toast it for 90 seconds, stirring.",
-        "Add the hot stock gradually, stirring; cook for about 20 minutes until the rice is creamy but still slightly firm in the centre.",
-        "Towards the end, stir in strained fresh beetroot juice (raw beets blended or juiced, then passed through a fine sieve).",
-        "Off the heat, finish the risotto with 100 g grated Parmigiano Reggiano and 100 g butter for the classic creamy texture.",
-        "Garnish: peel the shrimp (heads and tails are for the stock only—do not grill them). In a pan with a drizzle of extra virgin olive oil, grill only the cleaned bodies on both sides until well coloured and lightly crisp on the outside.",
-        "Parmesan sauce: combine 100 g grated Parmigiano with French pouring cream, a grating of nutmeg, pepper and salt; warm gently, stirring, until slightly thickened and coating.",
-        "Plating: spoon the risotto, top with the grilled shrimp, scatter fresh parsley leaves and add a little warm Parmesan sauce."
       ],
-      "chemistry": [
-        "Toasting the rice before wetting helps even cooking and limits a sudden burst of starch into the liquid.",
-        "Shells and crustacean trimmings release iodine-rich, umami compounds into the stock, which slowly seasons the rice.",
-        "Beetroot juice adds colour and an earthy sweetness; finishing cold with butter and cheese builds a creamy emulsion without boiling the dairy."
-      ]
-    },
-    "flan-dulce-de-leche": {
-      "title": "Crème caramel dulce de leche",
-      "intro": "Serves 4. Dulce de leche crème caramel: amber caramel at the bottom of each ramekin and a silky custard of milk, thick cream, dulce de leche, sugar and eggs, baked gently in a bain-marie. Make ahead: chill at least 3 to 4 hours, ideally overnight.",
-      "steps": [
-        "Caramel: heat 100 g sugar (about 5 tablespoons) with a few drops of water in a saucepan until amber. Pour immediately into 4 ramekins. Let set.",
-        "Milk and cream: warm 250 ml milk with 175 g thick whole cream (30 to 35% fat, spoonable and rich, not light pouring cream) gently. Add vanilla. Do not boil vigorously.",
-        "Eggs, sugar and dulce de leche: whisk 2 whole eggs and 2 egg yolks with 60 g sugar, then mix in 350 g dulce de leche until smooth.",
-        "Temper: slowly pour the warm milk and cream mixture into the eggs while whisking.",
-        "Fill: strain through a sieve if possible for a smoother texture, then pour over the caramel in the ramekins.",
-        "Bain-marie: place the ramekins in a baking dish and add hot water halfway up the sides.",
-        "Baking: bake at 150 °C for about 35 to 45 minutes, until the centre still jiggles slightly.",
-        "Chilling: cool completely, then refrigerate for at least 3 to 4 hours — ideally overnight.",
-        "To serve: run a knife around the edge and flip onto a plate; the caramel flows over the custard."
-      ],
-      "chemistry": [
-        "Dulce de leche and sugar bring sweetness, colour and richness; the milk and thick cream give a set but melting custard.",
-        "Egg proteins set gently in the bain-marie and give the crème caramel its structure.",
-        "Long chilling lets the custard contract slightly so it unmoulds cleanly; the caramel liquefies in the fridge and coats the flan when turned out."
+      "figuresTitle": "The magret",
+      "figures": [
+        {
+          "caption": "Magret is the breast — the pectoral muscles — of a fattened duck."
+        }
       ]
     },
     "crepes-dulce-de-leche": {
@@ -735,7 +1122,7 @@
       "chemistry": [
         "Resting the batter hydrates the starch and relaxes the gluten: the crêpes are more supple and less elastic when cooked.",
         "Dulce de leche concentrates lactose and caramelised sugars: it binds and coats the crêpe without further cooking, especially if the crêpe is still warm.",
-        "The golden colour of the crêpe comes from the Maillard reaction between egg proteins and the sugars in milk and sugar."
+        "The golden colour of the crêpe comes from the [Maillard reaction](reaction-maillard) between egg proteins and the sugars in milk and sugar."
       ]
     },
     "tarte-citron-menton": {
@@ -758,7 +1145,7 @@
       "title": "Rum baba (Saint James rum)",
       "intro": "A French classic: small, open-crumbed brioche cakes soaked in a sugar syrup scented with Saint James rum (Martinique). Makes about 6 individual babas. Add the rum once the syrup is warm, never boiling, so you keep its aroma.",
       "steps": [
-        "Dough: dissolve 20 g fresh baker's yeast in 2–3 tbsp warm milk. In a bowl, mix 250 g flour, 40 g sugar and a pinch of salt; make a well, add 3 whole eggs and the yeast mixture. Knead until smooth and elastic (stand mixer or by hand), then work in 100 g softened butter in several additions until fully absorbed.",
+        "Dough: dissolve 20 g fresh baker's yeast in 2–3 tbsp warm milk. In a bowl, mix 250 g flour, 40 g sugar and a pinch of salt; make a well, add 3 whole eggs and the yeast mixture. Knead until smooth and elastic (stand mixer or by hand), then work in 100 g softened butter in several additions until fully absorbed — the same gesture as [bassinage](bassinage), another material.",
         "Cover and rise for about 1 hour at room temperature until doubled. Butter 6 baba moulds (or one large tin), fill about three-quarters full, prove another 30–45 minutes until the dough almost reaches the rim.",
         "Bake at 180 °C for about 20–25 minutes (less for very small moulds) until golden. Unmould while still warm onto a rack.",
         "Syrup: bring 400 ml water, 200 g sugar and 1 split vanilla pod (or a little extract) to the boil; simmer 3–4 minutes then take off the heat. Cool to about 50 °C, then stir in 12–15 cl Saint James rum (adjust to taste).",
@@ -767,32 +1154,114 @@
       ],
       "chemistry": [
         "Yeast ferments sugars into CO₂ and flavour compounds: the bubbles and fermentation alcohol expand the crumb before baking.",
-        "Baking sets the egg proteins and gelatinises the flour starch, giving a structure that can hold syrup without collapsing completely.",
+        "Baking sets the egg proteins and gelatinises the flour starch, giving a structure that can hold syrup without collapsing completely. The golden crust: [Maillard reaction](reaction-maillard).",
         "Sugar in the syrup raises osmotic pressure and helps the baba retain moisture; rum's volatile aromas bind better if the syrup is no longer boiling."
       ]
     },
     "tiramisu": {
       "title": "Tiramisu",
-      "intro": "Serves 4. A classic no-bake dessert from Veneto: ladyfinger biscuits dipped in cold espresso, layered with a silky mascarpone cream of eggs and sugar. Make ahead: chill at least 4 hours, ideally overnight. Dust with unsweetened cocoa just before serving.",
+      "intro": "Serves 4. A classic no-bake dessert from Veneto: ladyfinger biscuits (savoiardi) dipped in cold moka-pot coffee, layered with a silky mascarpone cream of eggs and sugar. Make ahead: chill at least 4 hours, ideally overnight. Dust with unsweetened cocoa just before serving.",
       "steps": [
-        "Coffee: brew 250 ml strong espresso or very strong coffee, cool completely, then add 2 tablespoons Marsala or amber rum if you like.",
-        "Mascarpone cream: whisk 3 egg yolks with 60 g sugar until pale and mousse-like. Gently mix in 250 g mascarpone until smooth.",
-        "Egg whites: beat 3 egg whites to stiff peaks, then fold them gently into the mascarpone cream in three additions, without overworking.",
-        "Assembly: in a rectangular dish or individual glasses, dip 24 ladyfinger biscuits very briefly in the cold coffee — about one second per side, without soaking them through. Alternate layers of biscuits and cream; finish with a layer of cream.",
+        "Coffee: brew 15 cl strong moka-pot coffee, sweeten with 1/2 teaspoon sugar, then cool completely. Add 1 tablespoon Marsala or amber rum if you like.",
+        "Yolks: separate 3 very fresh eggs. [Blanchir the yolks](blanchir-les-jaunes): whisk the 3 yolks with 30 g sugar (2 tablespoons) until pale, mousse-like and thick — keep whisking until the mixture holds.",
+        "Mascarpone: mix 250 g mascarpone into the yolks until the cream is smooth.",
+        "Whites: beat the 3 egg whites, adding 30 g sugar (2 tablespoons) gradually. Whisk until stiff: to check, turn the bowl upside down — the whites should not move.",
+        "Cream: fold the whites gently into the mascarpone cream in three additions, without overworking.",
+        "Assembly: in a rectangular dish or individual glasses, dip 125 g ladyfinger biscuits (savoiardi, about 12) very briefly in the cold coffee — about one second per side, without soaking them through. Alternate layers of biscuits and cream; finish with a layer of cream.",
         "Rest: cover in contact and refrigerate for at least 4 hours, ideally overnight, so the cream sets and the biscuits absorb evenly.",
         "To serve: dust generously with unsweetened bitter cocoa at the last moment."
       ],
       "chemistry": [
         "Mascarpone, rich in fat, combines with egg yolks and sugar into a thick, creamy base; folded egg whites add lightness without baking.",
+        "Sugar added gradually to the whites holds water in the foam, so the meringue stays stiff enough to hold if you turn the bowl upside down.",
         "A very quick dip limits water uptake: the biscuits stay soft inside while taking on the coffee aroma.",
         "Chilling stabilises the cream and lets coffee and Marsala flavours spread evenly; bitter cocoa balances the sweetness of sugar and mascarpone."
+      ]
+    },
+    "fondant-chocolat": {
+      "title": "Chocolate fondant",
+      "intro": "Serves 4. A small dark-chocolate cake baked in a very hot oven: the edges set, the centre stays molten. Make the batter ahead; it can wait in the fridge. Bake at the last moment.",
+      "steps": [
+        "Tins: butter 4 ramekins and dust with unsweetened cocoa or a little flour, then tap out the excess.",
+        "Chocolate: melt 120 g dark chocolate (70%) with 120 g unsalted butter over a bain-marie until smooth. Let it cool slightly.",
+        "Batter: whisk 3 eggs with 60 g sugar (3 tablespoons) just enough to combine, without adding much air. Pour in the warm chocolate, then mix in 40 g flour and a pinch of salt until smooth.",
+        "Fill: divide the batter among the ramekins. They can wait in the fridge for up to 24 hours.",
+        "Baking: oven preheated to 200 °C. Bake 8 to 10 minutes: the edges should be set and the centre still wobbly. Overbake and the heart sets.",
+        "To serve: rest 1 to 2 minutes, then unmould or serve in the ramekin. Serve at once."
+      ],
+      "chemistry": [
+        "Cocoa butter melts at a low temperature: in the centre of the cake it stays liquid and gives the molten core.",
+        "At the edges, egg proteins coagulate and flour starch gelatinises: that is what forms the shell.",
+        "A very hot oven and a short bake cook the outside before the centre reaches setting temperature."
+      ]
+    },
+    "oeufs-a-la-neige": {
+      "title": "Œufs à la neige",
+      "intro": "Serves 4. A French classic, also called floating islands: poached mounds of whipped whites on a crème anglaise. A thread of caramel. The poaching milk becomes the custard. Make the cream ahead, chilled; poach the snows at the last moment, or keep them warm.",
+      "steps": [
+        "Whites: separate 4 very fresh eggs. Whip the 4 whites with a pinch of salt. Add 40 g sugar (2 tablespoons) gradually. Beat until very firm: to check, turn the bowl upside down — the whites must not move.",
+        "Milk: flatten a vanilla pod, split it, scrape the seeds. Heat 50 cl milk with the seeds and the pod to 80–85 °C, covered. The milk shivers; it does not boil.",
+        "Poach: shape quenelles with two spoons, slip them into the milk. 2 minutes on one side, turn, 2 minutes on the other. They swell. Drain on a cloth. The milk stays — it is the base of the crème anglaise.",
+        "Crème anglaise: [blanchir the yolks](blanchir-les-jaunes) — whisk the 4 yolks with 60 g sugar (3 tablespoons), without adding much air. Pour in the hot milk gradually. Return to a low heat to 82–84 °C, coating the back of the spoon. Do not boil — overcook and it splits. Strain. Cool.",
+        "Caramel: as for the [crème caramel](creme-caramel) — pour 2 tablespoons water (30 g) over 80 g sugar. Do not stir. Blond amber.",
+        "To serve: a pool of cold crème anglaise, the snows on top, a thread of caramel. Toasted flaked almonds, if you like."
+      ],
+      "chemistry": [
+        "The proteins of the whites (ovalbumin) denature under the whisk and trap air. Sugar holds the water: a firm snow.",
+        "At 80–85 °C the surface proteins set: the foam holds without collapsing. At a boil the bubbles burst.",
+        "The yolks, at 82–84 °C, bind the milk: lecithin, gentle coagulation. Past 85 °C it splits.",
+        "The caramel, as for the crème caramel: sugar pushed without stirring. One crystal restarts the whole recrystallisation."
+      ],
+      "figuresTitle": "Step by step",
+      "figures": [
+        {
+          "caption": "Firm whites: a pinch of salt, 40 g sugar added gradually. Bowl upside down, they do not move."
+        },
+        {
+          "caption": "Quenelles in milk at 80–85 °C. 2 minutes each side. The milk does not boil; it will make the crème anglaise."
+        },
+        {
+          "caption": "Yolks and milk to 82–84 °C: coating the back of the spoon. Past that, it splits."
+        },
+        {
+          "caption": "Cold crème anglaise, the snows on top, a thread of blond caramel. As for the crème caramel: do not stir the sugar."
+        }
+      ]
+    },
+    "poire-belle-helene": {
+      "title": "Poire Belle Hélène",
+      "intro": "Serves 4. Paris, 1864. Jacques Offenbach opens La Belle Hélène at the Variétés: Helen of Sparta as opéra-bouffe, the Second Empire laughing at Homer. Auguste Escoffier gives a dessert the same name: a Williams pear poached in vanilla, vanilla ice cream, a hot chocolate sauce, almonds. Hot over cold. Poach the pears ahead; make the sauce at the last moment.",
+      "steps": [
+        "The name: on 17 December 1864, at the Théâtre des Variétés, La Belle Hélène fills the house. This is not Homer's Helen — it is the Paris farce. Escoffier, still young, gives the dessert the title of the operetta. The pear, the ice cream, the scalding chocolate: three temperatures, one gesture.",
+        "Pears: 4 firm Williams, not too ripe. Peel, keeping the stem. Core from the base. Rub with lemon at once — without acid they brown.",
+        "Syrup: 1 litre water, 200 g sugar, 1 split vanilla pod, the juice of half a lemon. Bring to a simmer.",
+        "Poach: lower the pears in. 20 to 25 minutes, a blade goes in, they still hold. Cool in the syrup — they take the vanilla.",
+        "Chocolate sauce: melt 120 g dark chocolate (70%) with 12 cl crème fleurette and 1 spoon of the syrup, over a bain-marie. Keep hot: it must reach the table scalding.",
+        "To serve: a drained pear, a scoop of vanilla ice cream beside it. Spoon the chocolate in front of the guest. Toasted flaked almonds."
+      ],
+      "chemistry": [
+        "Lemon holds back polyphenol oxidase: without acid the flesh browns in air.",
+        "In the syrup, heat loosens the pectin; sugar enters by osmosis. Williams, with fine flesh, poaches without collapsing.",
+        "Chocolate and cream: a cocoa-butter emulsion. Served hot it stays fluid; on the ice it begins to set. That is Escoffier's contrast."
+      ],
+      "figuresTitle": "Step by step",
+      "figures": [
+        {
+          "caption": "Peel, keeping the stem. Core from the base. Lemon: without acid the flesh browns."
+        },
+        {
+          "caption": "Vanilla syrup, a simmer. 20 to 25 minutes. Cool in the syrup: the pear takes the vanilla."
+        },
+        {
+          "caption": "Chocolate and cream over a bain-marie. Scalding at the table, over the ice: hot over cold."
+        }
       ]
     },
     "cavatelli-pesto": {
       "title": "Cavatelli with pesto",
       "intro": "Serves 4. Puglian-style cavatelli made with only 2 ingredients: semola di grano duro rimacinata and water. They are served with a Ligurian-style pesto made from fresh basil from Frejus, pine nuts, Carapelli olive oil, Parmigiano Reggiano, and garlic.",
       "steps": [
-        "Dough: count 100 g semola di grano duro rimacinata per person. For 4 people, mix 400 g semola with lukewarm water little by little until you have a firm, smooth, workable dough. Knead for a few minutes, then rest it covered for 20 to 30 minutes.",
+        "Dough: count 100 g semola di grano duro rimacinata per person. For 4 people, mix 400 g semola with lukewarm water little by little until you have a firm, smooth, workable dough — that is [bassinage](bassinage). Knead for a few minutes, then rest it covered for 20 to 30 minutes — that is [détente](detente).",
         "Shaping: roll the dough into ropes, cut small pieces, then drag them with your fingers or a butter knife to form the cavatelli. Lay them on a lightly floured cloth or tray.",
         "Pesto: blend or pound fresh basil from Frejus with 1 to 2 garlic cloves, pine nuts, grated Parmigiano Reggiano, and Carapelli olive oil until smooth and fragrant. Season lightly if needed.",
         "Cooking: boil the cavatelli in a large pan of salted water until they rise to the surface and are tender but still slightly firm.",
@@ -803,11 +1272,44 @@
         "A little pasta water helps bind the oil, cheese, and water in the pesto around the pasta, making the sauce smoother and more even."
       ]
     },
+    "gnocchi-daube": {
+      "title": "Gnocchi à la daube",
+      "intro": "Serves 4. A Nice classic: potato gnocchi napped with a beef daube — meat simmered in red wine, [passata](passata), orange and herbs. In Nice, the daube does not only meet pasta: it finds the gnocchi. Make the daube ahead; the gnocchi at the last moment.",
+      "steps": [
+        "Daube — meat: 1 kg chuck or beef cheek, in large cubes. In a cocotte, hot [olive oil](huile): brown the meat on all sides, then reserve.",
+        "Daube — base: in the same pot, sweat 2 onions and 2 carrots in [brunoise](brunoise), 3 garlic cloves. Return the meat. Deglaze with 500 ml Provençal red wine. Add 400 g [passata](passata), 1 untreated orange zest, thyme, bay, 2 cloves, salt, pepper.",
+        "Simmer: cover lightly. Mijoter 2½ to 3 hours over very low heat until the meat falls apart (see [Mijoter](mijoter)). If the sauce reduces too far, a little water. Remove zest, bay and cloves. Adjust seasoning — the sauce should nap.",
+        "Gnocchi: 800 g floury potatoes (Bintje), cooked in their skins. Peel while still hot, pass through a ricer. On the board, 200 to 250 g flour, 1 egg, a pinch of salt. Knead just enough. Ropes, pieces, fork ridges.",
+        "Cooking and service: boiling salted water. Once the gnocchi rise, 30 seconds more. Drain, nap with hot daube. A little flat-leaf parsley. No cheese — or a little Parmigiano, according to the table."
+      ],
+      "chemistry": [
+        "At low temperature, collagen in the chuck turns to gelatin: the meat melts, the sauce thickens without flour.",
+        "Wine and passata acidify; orange zest, a Niçois touch, lifts without sweetening.",
+        "Floury potatoes take little flour: light gnocchi that carry the daube without hardening."
+      ]
+    },
+    "gnocchi-parisienne": {
+      "title": "Gnocchi à la parisienne",
+      "intro": "Serves 6. Gnocchi à la parisienne after Escoffier: a milk choux paste enriched with potato purée, eggs, Gruyère and nutmeg. Poach, then gratinate under [Mornay sauce](sauce-mornay). These are not the Niçois [gnocchi à la daube](gnocchi-daube), nor gnocchi alla romana with semolina.",
+      "steps": [
+        "Choux paste: in a pan, 500 ml [milk](lait), 100 g [butter](beurre), a pinch of salt, a touch of pepper. Bring to a boil. Off the heat, tip in 250 g flour all at once; stir hard until absorbed. Return over low heat to dry out — the paste pulls from the pan and the spatula.",
+        "Purée: 600 g floury potatoes, cooked in their skins, peeled while still hot. Pass through a ricer or food mill — never mash by crushing: tap, do not make glue. Fold the purée at once into the still-hot choux paste.",
+        "Eggs and cheese: let cool slightly. Beat in 6 whole eggs, one by one, until a smooth paste that forms a beak. Add 150 g grated Gruyère and a good grating of nutmeg — essential.",
+        "Poach: simmering water, lightly salted — not a hard boil. Piping bag, or two wet spoons if one has no bag. Small nuggets about 3 cm. Once they rise and swell, about 3 minutes; drain.",
+        "Gratin: butter a dish. A little [Mornay sauce](sauce-mornay) on the bottom — quite napping, loosened a little if it has thickened. Arrange the gnocchi in two or three layers, nap with the rest (about ¾ litre for 6). Sprinkle with Gruyère. Fairly hot oven, until golden.",
+        "Without a bag: flour the board, form small quenelles with a wet spoon, poach the same way. One can also fry a few, larger, in a basket — another presentation, same batter."
+      ],
+      "chemistry": [
+        "Choux paste traps steam: it swells when poached; in the oven under Mornay, it puffs a little more.",
+        "Floury purée lightens and stretches the batter; too much water in the potato, or a blender, and the paste sticks, the gnocchi turn heavy.",
+        "Nutmeg and Gruyère season; [Mornay](sauce-mornay) protects from drying and browns without drowning — too thin, they will not hold."
+      ]
+    },
     "ravioli-pesto-di-liguria": {
       "title": "Ravioli pesto di Liguria",
       "intro": "Serves 4. Ravioli made with semola di grano duro rimacinata and whole eggs, filled with ricotta and spinach, and served with a Ligurian-style pesto of basil, pine nuts, Parmigiano Reggiano, olive oil, garlic and a touch of lemon.",
       "steps": [
-        "Dough: count 100 g semola di grano duro rimacinata and 1 whole egg per person. For 4 people, mix 400 g semola with 4 eggs until you have a homogeneous dough, adding a little warm water if needed. Wrap in cling film and rest for 30 minutes in the fridge.",
+        "Dough: count 100 g semola di grano duro rimacinata and 1 whole egg per person. For 4 people, mix 400 g semola with 4 eggs until you have a homogeneous dough, adding a little warm water if needed. Wrap in cling film and rest for 30 minutes in the fridge — that is [détente](detente).",
         "Filling: mix 250 g ricotta for 4 people, which is about 62.5 g per person, with 300 g fresh spinach reduced in olive oil, the Italian way, not in water, then well drained and chopped. Season with salt, pepper and nutmeg so the filling stays neat and not too wet.",
         "Pesto: count half a basil plant and half a garlic clove per person, plus pine nuts, Parmigiano Reggiano, olive oil and a pinch of lemon. Blend or pound until smooth and fragrant.",
         "Assembly: roll the dough thinly, add small portions of filling, close and shape the ravioli, pressing out the air around the filling.",
@@ -819,20 +1321,54 @@
         "Lemon lifts the pesto without making it sour: a small amount is enough to freshen the basil and balance the richness of the cheese and olive oil."
       ]
     },
-    "acciughe-pesto-prezzemolo": {
-      "title": "Acciughe et pesto di prezzemolo",
-      "intro": "Serves 4. Acciughe sotto sale del Mar Ligure work in many preparations, or simply as fillets on canapé for an aperitif. Here, after desalting, they are plated on a bed of pesto di prezzemolo — parsley, garlic, oregano and extra virgin olive oil — in the spirit of acciughe alla ligure, the classic Genoese hors d'oeuvre traditionally kept in a jar under the same fragrant oil.",
+    "cannelloni-ricotta-epinards": {
+      "title": "Ricotta & spinach cannelloni",
+      "intro": "Serves 4. Cannelloni whose “pasta” is a savoury crêpe, filled with ricotta and spinach, napped with [béchamel](sauce-bechamel) and a little [tomato sauce](passata), then gratinated.",
       "steps": [
-        "Desalting: before serving, rinse each salt-packed fillet briefly under cold running water, then pat dry carefully with a cloth or paper towel. The aim is to remove excess salt without softening the flesh.",
-        "Pesto di prezzemolo: blend or pound a large bunch of well-dried flat-leaf parsley with 1 to 2 garlic cloves, fresh or dried oregano, and extra virgin olive oil until you have a thick, fragrant green paste, not a loose sauce. Season very lightly: the anchovies already bring salt.",
-        "Pesto bed: on each plate, shape a neat disk of pesto about 10 to 12 cm across and 1 to 1.5 cm thick, pressing lightly with the back of a spoon for a clean surface.",
-        "Acciughe: lay the desalted fillets whole on the pesto bed, side by side and parallel, covering the centre of the disk. They can also be served alone on canapé, or packed in a jar covered with olive oil, parsley, garlic and oregano to make classic acciughe alla ligure.",
-        "Finish: drizzle a little extra virgin olive oil if needed and serve right away, well chilled, with lightly grilled bread."
+        "Crêpes: mix 250 g flour, 4 eggs, 50 cl milk, 40 g melted cooled butter and a pinch of salt — no sugar. Whisk until smooth, rest 30 minutes. Butter a hot pan and cook 8 thin crêpes, 1 to 2 minutes per side.",
+        "Filling: mix 250 g ricotta with 300 g fresh spinach reduced in olive oil, the Italian way, not in water, then well drained and chopped. Salt, pepper and nutmeg, so the filling stays neat.",
+        "Assembly: spread the filling on each crêpe and roll it tightly into a cylinder, like a cannellone. Seam underneath.",
+        "Dish: butter a gratin dish. Spoon a little [tomato sauce](passata) on the base. Arrange the cannelloni, nap with [béchamel](sauce-bechamel), a little more tomato, and grated Parmigiano Reggiano.",
+        "Baking: oven at 180 °C for 20 to 25 minutes, until the gratin is golden. Serve hot."
       ],
       "chemistry": [
-        "A quick rinse under cold water dissolves surface salt without washing away all the flavour; immediate drying keeps the firm texture of Mar Ligure salt-packed anchovies.",
-        "Traditional acciughe alla ligure pairs olive oil with parsley, garlic and oregano; pesto di prezzemolo concentrates those same aromas in a bed, while whole fillets on top keep their salty, umami character.",
-        "Pressing the pesto into a disk concentrates the parsley's essential oils and gives the plate the look of a trattoria piattino."
+        "The crêpe is already cooked: the oven only heats the filling and gratinates the sauces, without hardening raw pasta.",
+        "Squeezing the spinach well keeps water out of the dish; otherwise the béchamel thins and the crêpes go soggy.",
+        "Béchamel keeps the crêpes from drying; the acidity of the tomato balances the richness of the ricotta."
+      ]
+    },
+    "linguine-ai-frutti-di-mare": {
+      "title": "Linguine ai frutti di mare",
+      "intro": "Serves 4. Bronze-cut linguine, 2 scallops and 3 prawns per person, baby octopus (poulpettes). Sauce: [passata](passata) built on a prawn bisque. No Parmigiano — finish with pan grattato. Oval platter — copper or stainless — cooking and serving.",
+      "steps": [
+        "Seafood: 8 scallops (2 per person), 12 prawns (3 per person), 300 g baby octopus (poulpettes). Peel the prawns keeping heads and shells for the bisque — as for [Crevettes Provençales](gambas-provencales-pastis); remove the vein. Pat the scallops dry. Rinse and dry the poulpettes.",
+        "Bisque: in a pan, [olive oil](huile), heads and shells 3 to 4 minutes over medium heat. 1 shallot, 1 garlic clove. Cover with 400 ml water. Simmer 15 to 20 minutes. Strain, pressing well — an iodised, napping jus.",
+        "Pan grattato: 60 g dried breadcrumbs. Dry pan or with 1 tablespoon olive oil, medium heat, until golden and crisp. Reserve — no Parmigiano.",
+        "Searing: 35 cm oval platter, copper or stainless, or a sauté pan. Very hot olive oil, 2 sliced garlic cloves, 30 seconds. Scallops 1 minute per side, prawns 1 minute per side, poulpettes 2 to 3 minutes. Reserve.",
+        "Passata-bisque sauce: in the same dish, 300 g [passata](passata), then the strained bisque. A trickle of oil, salt, pepper, a pinch of Espelette if wished. 4 to 5 minutes over medium heat, until napping — the passata takes on the taste of the sea.",
+        "Linguine: 400 g bronze-cut linguine. Boiling salted water, al dente minus 1 minute.",
+        "Finish: linguine in the dish, a little cooking water, the sauce. Toss 1 minute. Return scallops, prawns, poulpettes. Flat-leaf parsley. Scatter pan grattato generously. Carry the oval platter to the table at once."
+      ],
+      "chemistry": [
+        "Heads and shells release iodine and umami into the bisque; [passata](passata) thickens and acidifies it without cream.",
+        "Toasted pan grattato brings crunch and Maillard — the role of Parmigiano on a seafood pasta, without milk.",
+        "Scallops, prawns and poulpettes turn rubbery if left too long: short sear, then only reheat in the sauce.",
+        "The rough bronze-cut pasta surface catches sauce and crumbs."
+      ],
+      "figuresTitle": "Step by step",
+      "figures": [
+        {
+          "caption": "Bisque: prawn heads and shells roasted in [olive oil](huile), then strained."
+        },
+        {
+          "caption": "Pan grattato: dried breadcrumbs toasted in the pan — no Parmigiano."
+        },
+        {
+          "caption": "Passata-bisque sauce: [passata](passata) built on the strained bisque, until napping."
+        },
+        {
+          "caption": "Oval platter — copper or stainless. Linguine, seafood, pan grattato."
+        }
       ]
     },
     "risotto-osso-buco": {
@@ -869,6 +1405,287 @@
         "Peeling and drying the prawns before a quick sear limits excess moisture and helps avoid rubbery flesh."
       ]
     },
+    "risotto-safran-fruits-de-mer": {
+      "title": "Saffron risotto & seafood",
+      "intro": "Serves 4. Carnaroli risotto with saffron, moistened with homemade stock. On top: prawns — heads off, tails on — poulpitos fried with cherry tomatoes and red wine, and scallops just seared.",
+      "steps": [
+        "Prawns: 8 raw prawns. Twist off the head. Peel the body, keep the tail. Score the back, pull the vein. Pat dry.",
+        "Poulpitos: 400 g baby octopus, rinsed, well dried. Very hot pan, a drizzle of [olive oil](huile). Fry until golden. Add 250 g cherry tomatoes, then 10 cl red wine. Reduce 3 to 4 minutes, until the skins wrinkle and the juices coat. Reserve with the jus.",
+        "Risotto: sweat 1 [sliced shallot](emincer) in the oil. Add 400 g carnaroli rice, toast 1 to 2 minutes. Then 10 cl white wine, 90 seconds, until absorbed. Add homemade stock, kept hot, gradually, stirring. After 5 minutes, a pinch of saffron threads. 18 to 20 minutes in all, creamy, still a little al dente.",
+        "Scallops: 8 noix, well dried. Very hot pan, a drizzle of oil. 1 minute per side, just set. See the [scallop ravioli](ravioli-saint-jacques).",
+        "Prawns: in a hot pan, a drizzle of oil, 1 minute per side, until pink. Salt.",
+        "Finish: off the heat, mount the risotto with 80 g cold French butter in pieces and 200 g grated Parmigiano Reggiano. Salt, white pepper.",
+        "Plating: the risotto, the prawns tail up, the poulpitos with the cherry tomatoes and a little jus, the scallops. Chopped flat-leaf parsley, if you like."
+      ],
+      "chemistry": [
+        "Prawn flesh, overcooked, turns rubbery: one minute is enough. The tail stays for the plate.",
+        "The poulpitos, small, are fried: the skin browns — [Maillard reaction](reaction-maillard). Then the cherry tomatoes give their juice; the red wine deglazes, acidity against the iodine.",
+        "The scallop sets in one minute: longer, it weeps and tightens.",
+        "Carnaroli rice releases starch; butter and Parmigiano Reggiano, off the heat, emulsify with that starch. Saffron threads, after 5 minutes, colour and perfume."
+      ],
+      "figuresTitle": "Step by step",
+      "figures": [
+        {
+          "caption": "Prawns: head off, tail on. Vein removed."
+        },
+        {
+          "caption": "Poulpitos fried, cherry tomatoes, red wine. Reduce until the juices coat."
+        }
+      ]
+    },
+    "risotto-aux-truffes": {
+      "title": "Truffle risotto",
+      "intro": "Serves 4. Carnaroli risotto finished with butter and Parmigiano Reggiano, scented with black truffle. The truffle goes in off the heat — grated or shaved — to keep its volatile perfume.",
+      "steps": [
+        "Stock: bring 1.2 litres chicken or vegetable stock to a simmer. Keep it very hot.",
+        "Risotto: sweat 1 [sliced shallot](emincer) in 30 g French butter. Add 400 g carnaroli rice, toast 1 to 2 minutes. Deglaze with 10 cl dry white wine, until absorbed.",
+        "Cooking: add the hot stock gradually, ladle by ladle, stirring. 18 to 20 minutes in all — creamy, still slightly al dente.",
+        "Finish: off the heat, mount with 80 g cold French butter in pieces and 80 g grated Parmigiano Reggiano. Soft, glossy texture. Salt, white pepper.",
+        "Truffle: grate or finely shave 20 to 30 g black truffle (fresh, or preserved in its juice). Stir half in off the heat; arrange the rest over the risotto when plating. Serve at once."
+      ],
+      "chemistry": [
+        "Carnaroli rice releases starch gradually; butter and Parmigiano Reggiano, off the heat, form the creamy risotto emulsion — without cream.",
+        "Truffle aromas are volatile: high heat drives them off. Add the truffle off the heat, or only at the finish.",
+        "The fat in butter and cheese carries the truffle's aromatic compounds and holds them on the plate."
+      ]
+    },
+    "tian-provencal": {
+      "title": "Provençal tian",
+      "intro": "Serves 4. A Provençal summer dish: rounds of courgette, aubergine, tomato and onion, stood upright in a tian — the earthenware dish that gave the recipe its name — then baked slowly with olive oil, garlic and herbs.",
+      "steps": [
+        "Vegetables: wash 2 courgettes, 2 medium aubergines and 4 firm tomatoes. Peel 2 onions. Cut everything into even rounds about 5 mm thick.",
+        "Tian: oil an oval oven dish generously (a tian or gratin dish). Rub the base with 1 cut garlic clove.",
+        "Assembly: stand the rounds upright, packed tightly, alternating along the dish: courgette, tomato, aubergine, onion, and so on, until the tian is full.",
+        "Seasoning: drizzle 6 tablespoons extra-virgin olive oil, add 1 sliced garlic clove, fresh thyme or herbes de Provence, salt and pepper. Another trickle of oil over the top.",
+        "Baking: 180 °C for 50 to 60 minutes. The edges should brown and the juices concentrate in the base. If the top dries too much, cover with baking paper for the last 20 minutes.",
+        "Serving: rest 10 minutes. Serve warm, as a main or beside a [roast](steak-au-poivre-veau), a [tournedos](tournedos-boeuf-tian) or fish."
+      ],
+      "chemistry": [
+        "Long dry heat concentrates the sugars in tomatoes and onions; water evaporates and flavour intensifies.",
+        "Olive oil conducts heat and stops the vegetables sticking; it also carries the aromas of thyme and garlic.",
+        "Packing the rounds tightly limits shrinkage: they stay standing as they cook instead of collapsing."
+      ]
+    },
+    "gambas-provencales-pastis": {
+      "title": "Crevettes Provençales",
+      "intro": "Serves 4. Four very large gambas — langoustine size — per plate, head and tail on, cooked with garlic, parsley and pastis. Beside them: grenaille potatoes cut in half, well done, 4 minutes per side in the sauté pan, very hot extra-virgin olive oil. Cherry tomatoes with their leaves. Minimal plating.",
+      "steps": [
+        "Grenaille: wash 8 to 12 small grenaille potatoes, cut them in half. Very hot sauté pan, extra-virgin olive oil. Lay the halves cut-side down, 4 minutes per side, until well done and golden. Salt. Set aside.",
+        "Gambas: count 4 very large gambas per person, langoustine size (16 for 4). Leave them whole: head and tail. Slit the back, pull out the intestinal vein. Pat dry.",
+        "Sear: in the same pan, very hot extra-virgin olive oil. Sear the gambas 1 to 2 minutes per side, until pink. Salt at the end of cooking.",
+        "Persillade: slice 2 garlic cloves. Add the garlic and a handful of chopped flat-leaf parsley. 30 seconds, without burning the garlic.",
+        "Pastis: measure 8 cl into a glass — never pour from the bottle. Pour into the pan, keep your face back. Light at the rim with a long kitchen lighter, or let it reduce 1 minute. Keep a lid within reach.",
+        "Plating: 4 whole gambas per plate, a few grenaille halves, 2 or 3 cherry tomatoes with their leaves. A little pastis jus. Nothing more."
+      ],
+      "chemistry": [
+        "Four minutes a side colour the grenaille: [Maillard reaction](reaction-maillard), starch cooked through, skin crisp.",
+        "Gambas flesh sets in 1 to 2 minutes: longer and it turns rubbery.",
+        "Pastis, at about 45%, ignites like cognac: the alcohol burns off, anethole — the same aroma as fennel — stays. Garlic and parsley are the Provençal persillade.",
+        "Cherry tomatoes, with their leaves, stay raw: fresh acidity against the oil and the anise."
+      ],
+      "figuresTitle": "Step by step",
+      "figures": [
+        {
+          "caption": "Grenaille potatoes cut in half. Sauté pan, very hot extra-virgin olive oil, 4 minutes per side, well done."
+        },
+        {
+          "caption": "Persillade: 2 sliced garlic cloves, a handful of flat-leaf parsley."
+        },
+        {
+          "caption": "8 cl pastis, measured into a glass. Flambé at the rim, or reduce 1 minute."
+        }
+      ]
+    },
+    "polenta-ragu-entrecote": {
+      "title": "Polenta, ragù d'entrecôte",
+      "intro": "Serves 4. Limousin beef entrecôte seared 4 minutes per side, then returned to a ragù: juices deglazed with red wine, shallots, pomodoro [passata](passata), water, salt, pepper and piment d'Espelette. Two hours at a simmer, until the meat falls apart. Polenta cooked in milk and butter. Served with Parmigiano Reggiano.",
+      "steps": [
+        "Entrecôte: take 4 Limousin entrecôtes (200–250 g) out 15–20 min ahead. Very hot pan, extra-virgin olive oil. Sear 4 minutes per side. Lift the meat out and set it aside.",
+        "Deglaze: in the same pan, pour 25 cl red wine over the entrecôte juices. Scrape the pan. Reduce by half.",
+        "Shallots: émincer 4 shallots (see [Émincer](emincer)). Add them to the reduced wine. Sweat until translucent.",
+        "Pomodoro: add 700 g [passata](passata), a little water, salt, pepper and 1 teaspoon piment d'Espelette. Bring to a simmer.",
+        "Simmer: return the entrecôte to the ragù. Cover barely. Simmer 2 hours over low heat, until the meat falls apart (see [Simmer](mijoter)). If the sauce reduces too far, a little water.",
+        "Polenta: bring 1 litre milk to the boil. Rain in 250 g instant polenta while whisking. It sets in 2 to 3 minutes. Off the heat, beat in 60 g butter. The polenta should stay soft; it spreads.",
+        "Plating: spoon the polenta, set the fallen-apart entrecôte on top, nap with the ragù. Grated Parmigiano Reggiano at the table."
+      ],
+      "chemistry": [
+        "Four minutes a side colour the meat: [Maillard reaction](reaction-maillard), juices on the pan floor.",
+        "Red wine deglazes those juices; the alcohol leaves, the acidity stays. The shallots, after, sweeten the base.",
+        "Back in the pomodoro, the entrecôte simmers 2 hours: collagen melts, the meat falls apart, the ragù thickens. Water, salt, pepper and piment d'Espelette carry the sauce.",
+        "Polenta gelatinises in milk: lactose and milk proteins make a cream; butter, off the heat, emulsifies."
+      ],
+      "figuresTitle": "Step by step",
+      "figures": [
+        {
+          "caption": "Sear the entrecôte 4 minutes per side, very hot pan. Lift it out."
+        },
+        {
+          "caption": "Deglaze the juices with red wine (25 cl). Scrape the pan, reduce by half."
+        },
+        {
+          "caption": "Then the finely sliced shallots (see [Émincer](emincer)), into the reduced wine."
+        },
+        {
+          "caption": "Passata, water, salt, pepper, piment d'Espelette. Return the entrecôte. Simmer 2 hours, until it falls apart."
+        },
+        {
+          "caption": "Instant polenta in milk: rain 250 g into 1 litre milk, 2 to 3 minutes, then 60 g butter off the heat."
+        }
+      ]
+    },
+    "fenouil-caramelise": {
+      "title": "Pan-caramelized fennel",
+      "intro": "Serves 4. Preparation 5 minutes, cooking 15 to 20 minutes. A starter of pan-caramelized fennel: quarters seared in sweetened butter, simmered in vegetable stock, then glazed in the reduction.",
+      "steps": [
+        "Fennel: trim 3 to 4 medium bulbs. Cut each into quarters. Remove the outer leaves if they are too tough. Keep the fronds for serving.",
+        "Caramel base: in a large frying pan over medium heat, melt 50 g butter with ½ tsp salt and 3 tsp sugar. Add 1 tsp fennel seeds if using.",
+        "Searing: place the quarters cut-side down in the pan. Fry for about 30 seconds.",
+        "Stock: pour in enough vegetable stock to come about two-thirds of the way up the fennel.",
+        "Simmer: cover with a lid, or preferably with a parchment-paper cartouche pierced with a few holes to let steam escape. Simmer gently for about 10 minutes: the fennel should be tender but still slightly firm, only half-cooked.",
+        "Reduce: lift the quarters out carefully and set aside. Continue cooking the stock and butter until it reduces to a thick, caramel-like consistency.",
+        "Caramelize: return the fennel to the pan, again cut-side down. Fry until the cut faces are deep golden brown.",
+        "Serve: transfer to a serving dish and finish with chopped fresh fennel fronds."
+      ],
+      "chemistry": [
+        "Sugar and butter form a caramel base: sucrose melts and browns, and the milk solids in the butter add colour.",
+        "Fennel is rich in natural sugars and in anethole, the aniseed aroma; the cut face browns faster against the caramel.",
+        "Stock to two-thirds of the height steams the vegetable without drowning it; the cartouche lets steam escape so the liquid can reduce.",
+        "The reduction concentrates stock and butter into a syrupy glaze that coats the quarters when they go back in the pan."
+      ]
+    },
+    "tournedos-canard-aligot": {
+      "title": "Duck tournedos & aligot",
+      "intro": "Serves 4. Duck magret cut as tournedos, seared 4 minutes per side, then 10 minutes in the oven at 200 °C. Served on still-hot [aligot](aligot), napped with a redcurrant coulis, deglazed with the juice of 1 lemon.",
+      "steps": [
+        "Aligot: prepare it as for [Aligot](aligot) — Bintje, [tome fraîche](tome-aubrac), food mill, figures of eight until the ribbons. Keep it hot: it sets if it waits.",
+        "Tournedos: 2 magrets. Score the skin without cutting into the flesh. Roll each magret, skin out, tightly. Tie. Cut into 3–4 cm tournedos (150–180 g). Take them out 15–20 min ahead.",
+        "Sear: very hot sauté pan, extra-virgin olive oil. Sear 4 minutes per side. Lift them out.",
+        "Oven: bake the tournedos 10 minutes at 200 °C. Rest 3 to 5 minutes.",
+        "Deglaze: in the same pan, pour the juice of 1 lemon over the duck juices. Scrape the pan.",
+        "Coulis: in that pan, add 400 g redcurrants. Let them melt 3 to 5 minutes over medium heat, until the coulis coats. Strain if you want a smooth sauce; keep a few whole berries for serving.",
+        "Plating: a bed of hot [aligot](aligot). Set the tournedos on top. Nap with the coulis. Serve at once."
+      ],
+      "chemistry": [
+        "Four minutes a side colour the duck: [Maillard reaction](reaction-maillard), juices on the pan floor.",
+        "Ten minutes at 200 °C cook the centre without drying it: the duck fat melts, the flesh stays pink.",
+        "Lemon juice deglazes the juices; redcurrants, acid and pectin-rich, bind the coulis without flour: the acidity comes from lemon and redcurrants.",
+        "Aligot, with Bintje and [tome](tome-aubrac), stretches in ribbons. It sets if it cools: keep it hot, plate at the last moment."
+      ],
+      "figuresTitle": "The magret and step by step",
+      "figures": [
+        {
+          "caption": "Magret is the breast — the pectoral muscles — of a fattened duck."
+        },
+        {
+          "caption": "Sear the tournedos 4 minutes per side, very hot sauté pan. Lift them out."
+        },
+        {
+          "caption": "Add the redcurrants. A coating coulis, deglazed with the juice of 1 lemon."
+        }
+      ]
+    },
+    "aligot": {
+      "title": "Aligot",
+      "intro": "Serves 4. Aligot from the Aubrac: a purée of floury potatoes — Bintje — worked with [tome fraîche de l'Aubrac](tome-aubrac), butter and [cream](creme), until it makes ribbons. Not Charlotte, not grenaille: too much water, not enough starch, it will not stretch.",
+      "steps": [
+        "Potatoes: 1 kg Bintje, floury. Peel, cut into even pieces. Cold salted water — they grow underground. Bring to a boil, cook about 20 minutes, until a blade goes in. Drain well, let the steam escape 1 minute.",
+        "Purée: pass through a food mill, as for the [lamb cutlets](cotelette-agneau-petits-pois-menthe). No blender: it glues the starch.",
+        "Garlic: 1 clove, [sliced](emincer), into the still-hot purée.",
+        "Butter and cream: 80 g cold [butter](beurre) in pieces, 100 g [crème fraîche](creme). Work in off the heat, salt, white pepper.",
+        "Tome: 400 g [tome fraîche de l'Aubrac](tome-aubrac), in thin slices. Return to a very low heat. Add the tome by handfuls, work with a wooden spoon, in figures of eight, until the mass stretches in long ribbons. It pulls away from the pan.",
+        "Serve: at once, from the casserole. Aligot that waits sets."
+      ],
+      "chemistry": [
+        "Bintje is floury: a lot of dry starch, little water. Firm-fleshed potatoes — Charlotte, grenaille — stay in grains; the aligot will not ribbon.",
+        "[Tome fraîche](tome-aubrac), young, melts without oiling off. Its proteins and the Bintje starch form an elastic network: the ribbons.",
+        "A blender shears that network: glue, not threads. The mill passes the flesh without beating it.",
+        "The figure-of-eight, on a low heat, aligns the proteins. Too hot, the tome splits; too cold, it will not melt."
+      ],
+      "figuresTitle": "Step by step",
+      "figures": [
+        {
+          "caption": "Bintje, floury. [Tome fraîche de l'Aubrac](tome-aubrac), in slices. Not Charlotte."
+        },
+        {
+          "caption": "Wooden spoon, figures of eight, low heat. The aligot stretches in ribbons."
+        }
+      ]
+    },
+    "pommes-boulangere": {
+      "title": "Pommes de terre boulangère",
+      "intro": "Serves 4. Classic from the baker's oven: potatoes and onions in thin slices, moistened with stock, baked in an oval dish until the top is golden and the bottom melting. No cream — this is not a gratin dauphinois. Serve the dish at the table.",
+      "steps": [
+        "Dish: butter an oval oven dish (as for [gnocchi à la parisienne](gnocchi-parisienne)). Oven at 180 °C.",
+        "Cut: peel 1 kg firm potatoes (Charlotte or similar). Slice into even lamelles about 3 mm — [émincer](emincer). Slice 3 yellow onions to the same thickness.",
+        "Assembly: alternate layers of potato and onion in the dish, ending with potato. Salt and pepper each layer. Scatter fresh thyme. Dot 40 g [butter](beurre) on top.",
+        "Moisten: pour hot chicken or meat stock up to the level of the potatoes — they should bathe, not swim. A trickle of [olive oil](huile) on top.",
+        "Cooking: oven 1 h to 1 h 15. The edges should brown, the stock concentrate. If the top burns, cover with parchment for the last 20 minutes. Serve in the oval dish, warm."
+      ],
+      "chemistry": [
+        "Potato starch lightly thickens the stock as it cooks: a bound sauce without cream or flour.",
+        "Onions melt and sweeten; butter and oil brown the surface by [Maillard reaction](reaction-maillard).",
+        "Even slices: even cooking. Too thick, the centre stays raw while the top burns."
+      ]
+    },
+    "pommes-safran": {
+      "title": "Potatoes & saffron",
+      "intro": "Serves 4. 800 g floury Label Rouge potatoes, pressed through a potato ricer. Six whole garlic cloves, caramelized in olive oil. Then saffron, [butter](beurre) and [cream](creme).",
+      "steps": [
+        "Garlic: peel 6 garlic cloves and leave them whole. Caramelize them gently in 4 tablespoons of olive oil, 8 to 10 minutes, until golden and soft. Set the cloves and the oil aside.",
+        "Potatoes: peel 800 g floury Label Rouge potatoes, cut into even pieces and cook in boiling salted water for about 20 minutes, until a knife slips in. Drain well, return to the pan for 1 minute over low heat to drive off the water.",
+        "Ricer: press the potatoes while still hot through a potato ricer, fine disc, into a saucepan. Never use a mixer or blender.",
+        "Saffron, butter & cream: off the heat, add a pinch of saffron threads to the purée, with 1 tablespoon of the garlic oil, 80 g cold [butter](beurre) in pieces and 80 g [cream](creme). The saffron blends into the purée with the butter and the cream. Salt, and grate a little nutmeg. Lay the 6 whole cloves on the purée. Serve at once."
+      ],
+      "chemistry": [
+        "Saffron threads disperse through the hot purée with the butter and the cream: the fat carries the colour and the aroma.",
+        "The ricer pushes the flesh through the holes without beating the starch. A mixer shears it and turns the purée gluey.",
+        "The oil from the caramelized cloves perfumes the mash without crushing the garlic. Cold butter and cream coat the starch; nutmeg lifts the whole."
+      ]
+    },
+    "comte-morbier-roquefort": {
+      "title": "Comté, Morbier & Roquefort",
+      "intro": "Cheese is served after the main course, before dessert. At table we offer three AOP cheeses, from mildest to strongest: Comté (Jura, cow's milk, cooked pressed paste), Morbier (Franche-Comté, cow's milk, ash line) and Roquefort (Aveyron, ewe's milk, blue-veined).",
+      "steps": [
+        "Temperature: take the cheeses out of the fridge 30 to 45 minutes before serving. Cold fat is mute: you only taste salt.",
+        "Comté: raw cow's milk, cooked pressed paste, aged for months. Firm texture, hazelnut and fruit notes. Cut in thin slices, not cubes.",
+        "Morbier: same Jura massif, cow's milk. The black line is vegetable ash: it once protected the evening curd until the morning milk. Softer paste, milky, slightly animal.",
+        "Roquefort: ewe's milk, caves of Roquefort-sur-Soulzon. The blue veins are Penicillium roqueforti. Melting, salty, pungent. A small portion is enough.",
+        "Order: Comté first, then Morbier, Roquefort last — the blue would crush anything that follows.",
+        "Toursades: this is what we serve with the board, instead of bread. A clean knife between pastes. Wrap each cheese separately for the next day."
+      ],
+      "chemistry": [
+        "Comté's ageing breaks down proteins: tyrosine crystals, hazelnut aromas. The older the cheese, the drier and more concentrated the paste.",
+        "Morbier's ash is no longer a larder: it remains a visual marker and a slight mineral taste between two curds.",
+        "Roquefort is pierced to let air in: Penicillium needs oxygen. Richer ewe's milk carries the blue without making the paste brittle."
+      ],
+      "figuresTitle": "The three AOP cheeses",
+      "figures": [
+        {
+          "caption": "Comté — cow, cooked pressed paste, Jura."
+        },
+        {
+          "caption": "Morbier — cow, ash line, Franche-Comté."
+        },
+        {
+          "caption": "Roquefort — ewe, blue-veined, Aveyron."
+        }
+      ]
+    },
+    "tome-aubrac": {
+      "title": "Tome fraîche de l'Aubrac",
+      "intro": "Tome fraîche de l'Aubrac: a young cow's-milk curd from the Aubrac plateau — Aveyron, Cantal, Lozère. Little or no salt. It is the cheese that makes [aligot](aligot) stretch into ribbons.",
+      "steps": [
+        "Nature: white curd, young, elastic. Not an aged tomme. Not Tomme de Savoie. Not Cantal. Not mozzarella.",
+        "Cut: in thin slices. It melts into Bintje mash, with butter and [cream](creme).",
+        "Aligot: work with a wooden spoon, in figures of eight, on a low heat, until the ribbons. See [Aligot](aligot).",
+        "Service: also under [duck tournedos & aligot](tournedos-canard-aligot). Keep it hot: it sets as it cools."
+      ],
+      "chemistry": [
+        "Young, its proteins stay intact: elastic. With Bintje starch they form a network — the ribbons of [aligot](aligot).",
+        "Too aged, too salty, too pressed: it oils off or breaks. Mozzarella stretches by another network.",
+        "If need be: a young Laguiole, or another tome fraîche. Never mozzarella."
+      ]
+    },
     "vitello-tonnato": {
       "title": "Vitello tonnato",
       "intro": "Serves 6. A dish from Piedmont, served cold: thin slices of veal simmered for 2 hours, topped with tonnato sauce, then finished with a few extra capers. Though it comes from Piedmont, vitello tonnato has become a summer classic on the French Riviera and in Monaco. Make the homemade mayonnaise and tonnato sauce for 6 first (see Homemade mayonnaise and Tonnato sauce). The veal is cooked in a sauté pan and mijoté (see Simmer technique).",
@@ -888,66 +1705,99 @@
       ]
     },
     "escalope-veau-milanaise-napolitaine": {
-      "title": "Veal Milanese, Napolitana version",
-      "intro": "Serves 4. Breaded veal escalope, golden and crisp, then finished in Napolitana style, as in Argentina, with tomato and gratinated mozzarella, without ham.",
+      "title": "Veal milanaise & napolitana",
+      "intro": "Serves 4. Breaded veal escalope, golden, then [tomato sauce](passata), ham, mozzarella, and under the grill. Milanesa a la napolitana is not from Naples. It is Argentine — Buenos Aires, mid-twentieth century. Italian immigrants brought cotoletta, milanesa alla milanese: breadcrumbs, frying. The topping was born there. The story usually names restaurant Nápoli, on Corrientes: a cook covers a milanesa, puts it under the grill. The name is the restaurant, or the pizza, not the city. In Italy the closer cousin is cotoletta alla bolognese.",
       "steps": [
         "Prepare the veal: flatten 4 veal escalopes between two sheets so they are evenly thin. Season lightly with salt and pepper.",
         "Breading: prepare beaten eggs on one side and breadcrumbs mixed with dried parsley and garlic (persillade) on the other. Coat each escalope in breadcrumbs, then egg, then once more in breadcrumbs, pressing lightly so the coating adheres well.",
         "Milanese cooking: pan-fry the escalopes in a butter-and-oil mix or a mild oil until well golden and crisp on both sides. Drain on a rack or paper.",
-        "Napolitana version: place the escalopes on a tray or in a dish, spoon a little tomato sauce over each one, then add sliced or grated mozzarella. Finish with a little oregano if you like, without adding ham.",
+        "Alla napolitana: place the escalopes on a tray or in a dish. Spoon a little [tomato sauce](passata) or [passata](passata) over each one, add a slice of ham, then sliced or grated mozzarella. A little oregano, if you like.",
         "Finish: put them in the oven or under the grill for a few minutes, just until the mozzarella melts and lightly gratinates. Serve at once, with a simple salad, fries or potatoes if you like."
       ],
       "chemistry": [
         "The breadcrumb coating creates a protective layer that browns quickly and helps the escalope stay juicy inside.",
-        "The contrast between the crisp crust, tomato sauce and melted mozzarella is what gives the Napolitana version its rich, comforting identity.",
+        "The contrast between the crisp crust, tomato sauce, ham and melted mozzarella is what gives the napolitana its identity.",
         "A short finish under the grill melts the cheese without fully soaking the breadcrumb coating."
       ]
     },
     "cotelette-agneau-petits-pois-menthe": {
-      "title": "Lamb cutlets, Label Rouge potato purée with saffron and mint with olive oil",
-      "intro": "Serves 4. Pan-seared lamb cutlets on a Label Rouge potato purée with saffron, finished with mint cut in julienne, olive oil, lemon, salt and pepper.",
+      "title": "Lamb cutlets",
+      "intro": "Serves 4. Pan-seared lamb cutlets on [potatoes & saffron](pommes-safran), finished with mint cut in julienne, olive oil, lemon, salt and pepper.",
       "steps": [
         "Take the cutlets out of the fridge 20 minutes before cooking so they come to room temperature. Season lightly with salt and pepper.",
-        "Saffron milk: infuse a pinch of saffron in 100 ml hot milk for 10 minutes.",
-        "Label Rouge potatoes: peel 800 g Label Rouge potatoes, cut into even pieces and cook in boiling salted water for about 20 minutes, until tender when pierced with a knife. Drain well.",
-        "Purée: pass the potatoes through a food mill or blend, then work in 80 g cold butter in pieces, the 100 ml saffron milk, 80 g crème fraîche, salt and white pepper until smooth and supple. Keep warm.",
+        "Potatoes & saffron: prepare the [potatoes & saffron](pommes-safran) and keep them warm.",
         "Mint: cut a generous handful of fresh mint leaves into fine julienne. Just before serving, toss with 4 tbsp olive oil, the juice of half a lemon, salt and freshly ground pepper.",
         "Cooking the cutlets: in a very hot pan with a drizzle of olive oil and a little butter, sear 4 lamb cutlets for 3 to 4 minutes on each side for a rosé finish, or a little longer depending on thickness.",
         "Rest: leave the cutlets to rest for 5 minutes under foil before serving.",
         "Plating: spoon the purée in the centre of the plate, place the cutlet on top and scatter the mint julienne over it."
       ],
       "chemistry": [
-        "Quick cooking over high heat develops Maillard aromas on the meat while keeping the inside pink and tender.",
-        "After draining, butter, saffron milk and crème fraîche bind the Label Rouge potato starch: the fat and acidity of the crème fraîche make a silky purée; saffron adds colour and light floral notes.",
+        "Quick cooking over high heat develops [Maillard aromas](reaction-maillard) on the meat while keeping the inside pink and tender.",
+        "The [potatoes & saffron](pommes-safran) bring a silky texture and light floral notes.",
         "Mint cut in julienne releases more volatile aromatics; olive oil and lemon make a fresh dressing that balances the richness of the meat and purée."
       ]
     },
     "creme-caramel": {
-      "title": "Creme caramel",
-      "intro": "Serves 4. A great French classic: a blond caramel at the bottom of the mould and a very smooth baked custard made with milk, sugar and eggs, cooked gently in a bain-marie.",
+      "title": "Crème caramel",
+      "intro": "Serves 4. A great French classic: a blond caramel at the bottom of each ramekin and a very smooth custard of milk, fleurette cream, sugar and eggs, baked gently in a bain-marie. Make ahead: chill several hours, ideally overnight.",
       "steps": [
-        "Caramel: heat 100 g sugar with 2 to 3 tbsp water until you reach a blond amber caramel. Pour it immediately into the bottom of 4 ramekins or one mould, then tilt quickly to spread it evenly.",
-        "Custard: heat 500 ml milk with 1 split vanilla pod or a little extract. For a richer version, you can replace 150 to 250 ml of the milk with heavy cream or full-fat pouring cream (about 30 to 35% fat), rather than using only cream. In a separate bowl, whisk 3 whole eggs with 60 to 80 g sugar without making it too frothy, then pour in the hot liquid gradually while mixing.",
-        "Strain the custard through a fine sieve if you like for an even smoother texture, then pour it over the caramel in the moulds.",
-        "Baking: place the moulds in an oven dish, pour in hot water halfway up the sides and bake in a bain-marie at 150 to 160 °C for about 35 to 45 minutes, until the custard is set but still very slightly wobbly in the centre.",
-        "Cooling and serving: let cool, then chill for several hours. To unmould, run a thin blade gently around the edge and invert onto a plate so the caramel coats the custard."
+        "Caramel: pour 3 tablespoons water (45 g) over 120 g sugar (6 tablespoons) in a saucepan. Do not stir — if you stir, the sugar crystallises into a rocher. Heat to a blond amber, a little pushed: in the oven it loses some colour. Pour at once into 4 ramekins and tilt quickly to spread it. Let it harden a moment before pouring the custard.",
+        "Milk and cream: flatten a vanilla pod, split it along its full length, scrape the seeds. Warm 20 cl milk with 20 cl crème fleurette (pouring cream, about 30% fat), the seeds and the pod, to 65–70 °C, covered. Do not boil. Return the pod to the sugar.",
+        "Eggs: [blanchir the yolks](blanchir-les-jaunes) — pour 60 g sugar (3 tablespoons) all at once onto 2 whole eggs and 2 yolks. Whisk at once — sugar is a little acidic and will « cook » the yolks if it sits. Just enough to combine, without adding much air.",
+        "Temper: slowly pour the warm milk and cream into the eggs while mixing. Strain if possible. When the caramel has hardened in the ramekins, divide the custard over it.",
+        "Baking: place the ramekins in a baking dish, add hot water halfway up the sides. Bake at 150 °C for about 35 to 40 minutes, until the centre still jiggles slightly. Overbake and the custard tastes eggy.",
+        "Cooling and serving: cool, then chill for several hours. To unmould, run a thin blade around the edge and invert onto a plate so the caramel coats the custard."
       ],
       "chemistry": [
-        "Caramel comes from the transformation of sugar under heat: it brings colour, gentle bitterness and toasted notes.",
-        "During gentle baking, the egg proteins coagulate gradually and give the custard structure without making it grainy.",
-        "The bain-marie softens direct heat and helps create a more even, smooth and delicate texture."
+        "Caramel comes from the transformation of sugar under heat: it brings colour, gentle bitterness and toasted notes. One crystal, if you stir, seeds the whole recrystallisation — that is the rocher.",
+        "During gentle baking, egg proteins coagulate gradually and give the custard structure without making it grainy. Sugar left sitting on the yolks « cooks » them by osmosis: pour it all at once and whisk at once.",
+        "Fleurette cream, richer than milk, softens the egg flavour and makes a silkier texture; the bain-marie limits direct heat. Infusing the vanilla covered keeps the volatile aromas."
       ],
       "atelier": {
         "title": "Workshop — 4 people, 4 ramekins",
-        "description": "For a workshop with 4 participants, the easiest approach is to adapt the recipe slightly so each person makes her own custard in her own bowl, then pours it into her own ramekin. Recommended workshop version: 4 ramekins, 4 bowls, 4 eggs, 600 ml hot milk (or 450 ml milk + 150 ml full-fat cream), 80 g sugar for the custard and 120 g sugar for the caramel. That gives each person about 1 egg, 150 ml liquid, 20 g sugar for the custard and 30 g sugar for the caramel.",
+        "description": "For a workshop with 4 participants, make one batter from the recipe for 4, then each person pours into her own ramekin. Count 20 cl milk, 20 cl crème fleurette, 2 whole eggs, 2 yolks, 60 g sugar for the custard and 120 g sugar for the caramel.",
         "steps": [
-          "Station 1 — Caramel: under supervision, make the caramel one ramekin at a time or in a small batch. Count about 30 g sugar per ramekin with a few drops of water, then pour it straight into the base.",
-          "Station 2 — Milk: heat the 600 ml milk with the vanilla to about 60 to 70 °C, without boiling.",
-          "Station 3 — Individual bowls: each participant whisks 1 egg with 20 g sugar in her bowl, without making it too frothy.",
-          "Station 4 — Individual assembly: pour about 150 ml hot milk into each bowl gradually while mixing. Strain if you like, then pour into each person's ramekin.",
-          "Shared baking: place the 4 ramekins in one dish, add hot water halfway up the sides and bake them all together in a bain-marie for 35 to 45 minutes at 150 to 160 °C. Cool, then chill."
+          "Station 1 — Caramel: under supervision, pour 3 tablespoons water (45 g) over 120 g sugar. Do not stir. Push to a blond amber. Divide among the 4 ramekins, about 30 g sugar per ramekin. Let it harden.",
+          "Station 2 — Milk and cream: flatten, split and scrape a vanilla pod. Heat 20 cl milk with 20 cl crème fleurette, the seeds and the pod, to 65–70 °C, covered, without boiling. Return the pod to the sugar.",
+          "Station 3 — Eggs: pour 60 g sugar all at once onto 2 whole eggs and 2 yolks. Whisk at once, without making it too frothy.",
+          "Station 4 — Assembly: pour the hot liquid gradually into the eggs, strain, then fill the 4 ramekins once the caramel has hardened.",
+          "Shared baking: place the 4 ramekins in one dish, add hot water halfway up the sides and bake them all together in a bain-marie for 35 to 40 minutes at 150 °C, until the centre still jiggles. Cool, then chill."
         ]
-      }
+      },
+      "figuresTitle": "Step by step",
+      "figures": [
+        {
+          "caption": "Water over the sugar, in the saucepan. Do not stir: if you stir, the sugar crystallises into a rocher."
+        },
+        {
+          "caption": "Push to a blond amber: in the oven, the caramel loses some colour."
+        },
+        {
+          "caption": "Flatten the pod, split it along its full length, scrape the seeds. Infuse at 65–70 °C, covered. Return the pod to the sugar."
+        },
+        {
+          "caption": "Pour the sugar all at once onto the eggs and whisk at once — sugar is a little acidic and will « cook » the yolks if it sits. Without adding much air."
+        },
+        {
+          "caption": "Let the caramel harden in the ramekins before pouring the custard."
+        }
+      ]
+    },
+    "dulce-de-leche": {
+      "title": "Dulce de leche",
+      "intro": "A basic preparation. Dulce de leche made by cooking a can of sweetened condensed milk in a bain-marie for 4 hours: the milk and sugar brown and thicken. A 397 g can yields about 350 g of dulce de leche, enough for the crêpes. Make ahead: cool completely before opening.",
+      "steps": [
+        "Can: take one 397 g can of sweetened condensed milk, still sealed. Remove the label. Lay the can on its side in a large saucepan.",
+        "Water: cover with cold water, at least 3 to 4 cm above the can. Bring to a gentle simmer, never a hard boil.",
+        "Cooking: simmer gently for 4 hours. The water must never drop below the can: top up with hot water if needed.",
+        "Cooling: turn off the heat and leave the can to cool completely in the water, several hours, before opening. Never open it hot.",
+        "Result: an amber, thick, glossy dulce de leche. Stir to smooth if needed. Keep refrigerated in a closed jar."
+      ],
+      "chemistry": [
+        "Long, moist heat makes the sugars in condensed milk (lactose and sucrose) react with the milk proteins: that is the [Maillard reaction](reaction-maillard), which gives the amber colour and caramel taste.",
+        "Over 4 hours the proteins denature and the mixture thickens; the longer the cook, the darker and more intense the dulce.",
+        "The sealed can under water cooks without air: the dulce stays smooth, with no crust or drying out."
+      ]
     },
     "creme-brulee": {
       "title": "Creme brulee",
@@ -955,14 +1805,42 @@
       "steps": [
         "Ratios: count 10 cl heavy cream, 1 tablespoon sugar and 1 egg yolk per person. For 4 people, use 40 cl cream, 4 tablespoons sugar and 4 egg yolks.",
         "Cream: warm the cream gently with 1 split vanilla pod or a little extract, without boiling.",
-        "Custard base: whisk the yolks with the sugar just enough to combine, without adding too much air. Pour in the hot cream gradually while stirring.",
-        "Baking: divide into ramekins, then bake in a bain-marie at 150 to 160 °C until the custard is set but still slightly wobbly in the centre.",
+        "Custard base: [blanchir the yolks](blanchir-les-jaunes) — whisk the yolks with the sugar just enough to combine, without adding too much air. Pour in the hot cream gradually while stirring.",
+        "Baking: divide into ramekins. Bain-marie: hot water halfway up the sides. Bake at 150 °C for about 35 to 40 minutes, until the centre still jiggles slightly. At 110 °C, count 1 hour 15 minutes. Overbake and the custard tastes eggy.",
         "Cooling and finish: let cool completely, then chill. Just before serving, sprinkle on a thin layer of sugar and caramelise it with a blowtorch to form a thin, crisp crust."
       ],
       "chemistry": [
         "Egg yolks coagulate gently with heat and give creme brulee its smooth, silky texture.",
         "Cream, which is richer in fat than milk, brings more richness and helps protect the custard texture from harsh heat.",
         "The caramelised sugar layer contrasts with the cold custard underneath: that contrast between brittle top and creamy interior is what defines the dessert."
+      ]
+    },
+    "tournedos-boeuf-tian": {
+      "title": "Beef tournedos & provençal skewer",
+      "intro": "Serves 2. Two beef tournedos — heart of the fillet, 3–4 cm medallions. A pepper, butter and crème fraîche sauce, deglazed with red wine: it pools on the bottom of the plate. Beside it, a single [Provençal tian](tian-provencal) skewer — courgette, tomato, aubergine — roasted. Not the earthenware dish: one brochette per plate.",
+      "steps": [
+        "Skewer: wash 1 courgette, 1 small aubergine, 2 firm tomatoes. Cut into rounds about 1 cm thick. Thread alternating — courgette, tomato, aubergine, as for the [tian](tian-provencal) — on 2 skewers. Olive oil, herbes de Provence, salt. One brochette per plate.",
+        "Oven: 200 °C. Roast the skewers 20 to 25 minutes, until the edges brown. Keep warm.",
+        "Tournedos: 2 beef fillet medallions (150–180 g, 3–4 cm). Pat dry. Take out 15–20 min. Salt. Crush black pepper in a mortar; crust both faces.",
+        "Sear: very hot pan, olive oil. Colour 2 to 3 minutes per side. Add a knob of [butter](beurre); baste. Lift out. Rest 3 minutes.",
+        "Deglaze: in the same pan, pour 8 cl red wine over the fond. Scrape. Reduce by half.",
+        "Sauce: off the heat, or over very low heat, beat in 30 g cold butter and 3 tablespoons [crème fraîche](creme). Whisk until it coats. Do not boil.",
+        "Plating: a pool of sauce on the bottom of the plate. Set the tournedos on it. The skewer beside, off the sauce."
+      ],
+      "chemistry": [
+        "The crust of the tournedos: [Maillard reaction](reaction-maillard). The crushed pepper toasts a little; it seasons without turning to powder.",
+        "Red wine deglazes the fond: the juices dissolve, the alcohol leaves, the acidity stays.",
+        "Off the heat, butter and cream mount the wine: an emulsion, nappe. Too hot, the cream splits.",
+        "The skewer roasts apart: the same vegetables as the [tian](tian-provencal), dry heat, a single stick."
+      ],
+      "figuresTitle": "Step by step",
+      "figures": [
+        {
+          "caption": "Deglaze the fond with red wine (8 cl). Scrape, reduce by half."
+        },
+        {
+          "caption": "One tian skewer: courgette, tomato, aubergine. One per plate, beside, off the sauce."
+        }
       ]
     },
     "tournedos-rossini": {

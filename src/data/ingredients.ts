@@ -35,6 +35,10 @@ export type Ingredient = {
   illustration: "beurre-noisette" | "brunoise" | "none";
   /** Ruta de imagen en public (ej: "/images/beurre-noisette.jpg"). Si existe, se usa en lugar del SVG. */
   image?: string;
+  /** Additional figures/images to display */
+  figures?: Array<{ src: string }>;
+  /** Whether to stack figures vertically */
+  figuresStacked?: boolean;
   pageNumber: number;
 };
 
