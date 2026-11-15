@@ -555,6 +555,36 @@ export const ingredients: Ingredient[] = [
     pageNumber: 22,
   },
   {
+    id: "mirepoix",
+    slug: "mirepoix",
+    sectionId: "coupes",
+    title: "Mirepoix",
+    intro:
+      "Le mirepoix est une préparation culinaire française de base composée de légumes coupés en petits dés (carotte, céleri, oignon). Il sert de fond aromatique pour les sauces, les soupes, les braisés et les fonds de cuisine classique.",
+    steps: [
+      "Éplucher et laver les légumes : carotte, céleri-branche et oignon.",
+      "Tailler chaque légume en dés réguliers d'environ 5 à 8 mm de côté (ou plus fin selon l'utilisation).",
+      "Respecter les proportions classiques : 50% d'oignon, 25% de carotte, 25% de céleri.",
+      "Faire revenir doucement dans du beurre ou de l'huile jusqu'à ce que les légumes soient tendres et légèrement dorés.",
+    ],
+    chemistry: [
+      "La cuisson lente du mirepoix permet une caramélisation naturelle des sucres des légumes, créant une base aromatique riche et complexe.",
+      "Les composés aromatiques des trois légumes se combinent pour former une fondation équilibrée qui rehausse le goût des plats mijotés sans dominer.",
+      "Le céleri apporte des notes fraîches, la carotte une douceur sucrée, et l'oignon une profondeur savoureuse.",
+    ],
+    tip: {
+      title: "Astuce : Mirepoix blanc ou classique",
+      description:
+        "Pour les sauces blanches ou les plats délicats, utilisez un mirepoix blanc en remplaçant la carotte par un navet ou du poireau blanc.",
+      steps: [
+        "Tailler oignon, céleri et navet (ou blanc de poireau) en dés réguliers.",
+        "Cuire très doucement sans coloration pour garder une base claire et subtile.",
+      ],
+    },
+    illustration: "none",
+    pageNumber: 23,
+  },
+  {
     id: "peler-a-vif",
     slug: "peler-a-vif",
     sectionId: "techniques",
@@ -573,7 +603,7 @@ export const ingredients: Ingredient[] = [
     ],
     illustration: "none",
     image: "/images/10-Peler-A-Vif.png",
-    pageNumber: 23,
+    pageNumber: 24,
   },
   {
     id: "trafilata-al-bronzo",
@@ -595,7 +625,7 @@ export const ingredients: Ingredient[] = [
     ],
     illustration: "none",
     image: "/images/Trafilata-Al-Bronzo.png",
-    pageNumber: 24,
+    pageNumber: 25,
   },
   {
     id: "temps-cuisson-pates-seches",
@@ -618,7 +648,7 @@ export const ingredients: Ingredient[] = [
     ],
     illustration: "none",
     image: "/images/Temps-Cuisson-Pates-Seches.png",
-    pageNumber: 25,
+    pageNumber: 26,
   },
   {
     id: "mijoter",
@@ -641,7 +671,7 @@ export const ingredients: Ingredient[] = [
     ],
     illustration: "none",
     image: "/images/Mijoter.png",
-    pageNumber: 26,
+    pageNumber: 27,
   },
   {
     id: "acciughe-pesto-prezzemolo",
@@ -664,7 +694,7 @@ export const ingredients: Ingredient[] = [
     ],
     illustration: "none",
     image: "/images/Acciughe-Pesto-Prezzemolo.png",
-    pageNumber: 27,
+    pageNumber: 28,
   },
   {
     id: "carpaccio-crevettes",
@@ -687,7 +717,7 @@ export const ingredients: Ingredient[] = [
     ],
     illustration: "none",
     image: "/images/15-Carpaccio-Crevettes.png",
-    pageNumber: 28,
+    pageNumber: 29,
   },
   {
     id: "carpaccio-dorade-salicorne",
@@ -710,7 +740,7 @@ export const ingredients: Ingredient[] = [
     ],
     illustration: "none",
     image: "/images/Carpaccio-Dorade-Salicorne.png",
-    pageNumber: 29,
+    pageNumber: 30,
   },
   {
     id: "calamari-mediterraneen",
@@ -734,7 +764,7 @@ export const ingredients: Ingredient[] = [
     ],
     illustration: "none",
     image: "/images/Calamari-Mediterraneen.png",
-    pageNumber: 30,
+    pageNumber: 31,
   },
   {
     id: "huitres",
@@ -770,7 +800,7 @@ export const ingredients: Ingredient[] = [
     },
     illustration: "none",
     image: "/images/Huitres.png",
-    pageNumber: 31,
+    pageNumber: 32,
   },
   {
     id: "sardines-grillees",
@@ -806,7 +836,7 @@ export const ingredients: Ingredient[] = [
     },
     illustration: "none",
     image: "/images/Sardines-Grillees.png",
-    pageNumber: 32,
+    pageNumber: 33,
   },
   {
     id: "vitello-tonnato",
@@ -831,7 +861,7 @@ export const ingredients: Ingredient[] = [
     ],
     illustration: "none",
     image: "/images/Vitello-Tonnato.png",
-    pageNumber: 33,
+    pageNumber: 34,
   },
   {
     id: "ravioli-saint-jacques",
@@ -852,7 +882,7 @@ export const ingredients: Ingredient[] = [
     ],
     illustration: "none",
     image: "/images/04-Ravioli-Saint-Jacques.png",
-    pageNumber: 34,
+    pageNumber: 35,
   },
   {
     id: "cavatelli-pesto",
@@ -874,7 +904,7 @@ export const ingredients: Ingredient[] = [
     ],
     illustration: "none",
     image: "/images/Cavatelli-Pesto.png",
-    pageNumber: 35,
+    pageNumber: 36,
   },
   {
     id: "ravioli-pesto-di-liguria",
@@ -897,7 +927,7 @@ export const ingredients: Ingredient[] = [
     ],
     illustration: "none",
     image: "/images/Ravioli-Pesto.png",
-    pageNumber: 36,
+    pageNumber: 37,
   },
   {
     id: "vol-au-vent-champignons-paris",
@@ -920,7 +950,7 @@ export const ingredients: Ingredient[] = [
     ],
     illustration: "none",
     image: "/images/Vol-Au-Vent-Fruits-Mer.jpg",
-    pageNumber: 37,
+    pageNumber: 38,
   },
   {
     id: "loup-mer-croute-sel",
@@ -943,7 +973,7 @@ export const ingredients: Ingredient[] = [
     ],
     illustration: "none",
     image: "/images/16-Loup-Mer-Croute-Sel.png",
-    pageNumber: 38,
+    pageNumber: 39,
   },
   {
     id: "filet-loup-papillote",
@@ -965,7 +995,7 @@ export const ingredients: Ingredient[] = [
     ],
     illustration: "none",
     image: "/images/Papillote.png",
-    pageNumber: 39,
+    pageNumber: 40,
   },
   {
     id: "canard-orange-pommes-domino",
@@ -986,7 +1016,7 @@ export const ingredients: Ingredient[] = [
     ],
     illustration: "none",
     image: "/images/06-Magret-Canard-Orange.png",
-    pageNumber: 40,
+    pageNumber: 41,
   },
   {
     id: "magret-canard-coulis-framboises",
@@ -1008,7 +1038,7 @@ export const ingredients: Ingredient[] = [
     ],
     illustration: "none",
     image: "/images/Magret-Canard-Framboises.png",
-    pageNumber: 41,
+    pageNumber: 42,
   },
   {
     id: "steak-au-poivre-veau",
@@ -1039,7 +1069,7 @@ export const ingredients: Ingredient[] = [
     },
     illustration: "none",
     image: "/images/08-Steak-Poivre.png",
-    pageNumber: 42,
+    pageNumber: 43,
   },
   {
     id: "tournedos-rossini",
@@ -1063,7 +1093,7 @@ export const ingredients: Ingredient[] = [
     ],
     illustration: "none",
     image: "/images/09-Tournedos-Rossini.png",
-    pageNumber: 43,
+    pageNumber: 44,
   },
   {
     id: "escalope-veau-milanaise-napolitaine",
@@ -1086,7 +1116,7 @@ export const ingredients: Ingredient[] = [
     ],
     illustration: "none",
     image: "/images/Milanesa-Napolitana.png",
-    pageNumber: 44,
+    pageNumber: 45,
   },
   {
     id: "cotelette-agneau-petits-pois-menthe",
@@ -1112,7 +1142,7 @@ export const ingredients: Ingredient[] = [
     ],
     illustration: "none",
     image: "/images/Cotelette-Agneau-Petits-Pois.png",
-    pageNumber: 45,
+    pageNumber: 46,
   },
   {
     id: "risotto-safran-magret-canard-orange",
@@ -1134,7 +1164,7 @@ export const ingredients: Ingredient[] = [
     ],
     illustration: "none",
     image: "/images/24-Magret-Risotto-Safran.png",
-    pageNumber: 46,
+    pageNumber: 47,
   },
   {
     id: "risotto-betterave-fruits-de-mer",
@@ -1160,7 +1190,7 @@ export const ingredients: Ingredient[] = [
     ],
     illustration: "none",
     image: "/images/26-Risotto-Betterave-Fruits-Mer.png",
-    pageNumber: 47,
+    pageNumber: 48,
   },
   {
     id: "risotto-osso-buco",
@@ -1183,7 +1213,7 @@ export const ingredients: Ingredient[] = [
     ],
     illustration: "none",
     image: "/images/Risotto-Osobucco-BW.png",
-    pageNumber: 48,
+    pageNumber: 49,
   },
   {
     id: "risotto-gambas",
@@ -1208,7 +1238,7 @@ export const ingredients: Ingredient[] = [
     ],
     illustration: "none",
     image: "/images/Risotto-Gambas.png",
-    pageNumber: 49,
+    pageNumber: 50,
   },
   {
     id: "creme-caramel",
@@ -1231,7 +1261,7 @@ export const ingredients: Ingredient[] = [
     ],
     illustration: "none",
     image: "/images/Creme-Caramel.png",
-    pageNumber: 50,
+    pageNumber: 51,
   },
   {
     id: "creme-brulee",
@@ -1254,7 +1284,7 @@ export const ingredients: Ingredient[] = [
     ],
     illustration: "none",
     image: "/images/Creme-Brulee-New.png",
-    pageNumber: 51,
+    pageNumber: 52,
   },
   {
     id: "flan-dulce-de-leche",
@@ -1281,7 +1311,7 @@ export const ingredients: Ingredient[] = [
     ],
     illustration: "none",
     image: "/images/Creme-Caramel-Dulce-De-Leche.png",
-    pageNumber: 52,
+    pageNumber: 53,
   },
   {
     id: "crepes-dulce-de-leche",
@@ -1305,7 +1335,7 @@ export const ingredients: Ingredient[] = [
     ],
     illustration: "none",
     image: "/images/Crepes-Dulce-De-Leche.png",
-    pageNumber: 53,
+    pageNumber: 54,
   },
   {
     id: "tarte-citron-menton",
@@ -1328,7 +1358,7 @@ export const ingredients: Ingredient[] = [
     ],
     illustration: "none",
     image: "/images/11-Tarte-Citron-Menton.png",
-    pageNumber: 54,
+    pageNumber: 55,
   },
   {
     id: "baba-au-rhum-saint-james",
@@ -1352,7 +1382,7 @@ export const ingredients: Ingredient[] = [
     ],
     illustration: "none",
     image: "/images/baba-au-rhum.png",
-    pageNumber: 55,
+    pageNumber: 56,
   },
   {
     id: "tiramisu",
@@ -1376,5 +1406,5 @@ export const ingredients: Ingredient[] = [
     ],
     illustration: "none",
     image: "/images/Tiramisu.png",
-    pageNumber: 56,
+    pageNumber: 57,
   },];
