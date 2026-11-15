@@ -380,6 +380,29 @@
         "The cooking liquid concentrates aromas from the mirepoix and meat: it becomes a rich broth, useful for sauces such as vitello tonnato."
       ]
     },
+    "mirepoix": {
+      "title": "Mirepoix",
+      "intro": "Mirepoix is a basic French culinary preparation made of vegetables cut into small dice (carrot, celery, onion). It serves as an aromatic base for sauces, soups, braises and classic cooking stocks.",
+      "steps": [
+        "Peel and wash the vegetables: carrot, celery stalk and onion.",
+        "Cut each vegetable into regular dice about 5 to 8 mm on each side (or finer depending on use).",
+        "Respect the classic proportions: 50% onion, 25% carrot, 25% celery.",
+        "Sauté gently in butter or oil until the vegetables are tender and lightly golden."
+      ],
+      "chemistry": [
+        "Slow cooking of mirepoix allows natural caramelisation of vegetable sugars, creating a rich and complex aromatic base.",
+        "The aromatic compounds of the three vegetables combine to form a balanced foundation that enhances the taste of braised dishes without dominating.",
+        "Celery brings fresh notes, carrot a sweet softness, and onion a savoury depth."
+      ],
+      "tip": {
+        "title": "Tip: White mirepoix or classic",
+        "description": "For white sauces or delicate dishes, use a white mirepoix by replacing the carrot with a turnip or white leek.",
+        "steps": [
+          "Cut onion, celery and turnip (or white part of leek) into regular dice.",
+          "Cook very gently without colouring to keep a clear and subtle base."
+        ]
+      }
+    },
     "ravioli-saint-jacques": {
       "title": "Scallop (Saint-Jacques) Ravioli",
       "intro": "Serves 4. Filling: fresh scallops (coquilles Saint-Jacques), washed and cut into pieces. Sauce: a few walnuts, crème fraîche, gorgonzola, a little cooking water, salt and pepper. Pasta: 400 g semola di grano duro rimacinata, 4 eggs (1 per person), half a glass of water, pinch of extra virgin olive oil.",
@@ -1226,6 +1249,29 @@
         {
           "caption": "Cold crème anglaise, the snows on top, a thread of blond caramel. As for the crème caramel: do not stir the sugar."
         }
+      ]
+    },
+    "pot-au-feu": {
+      "title": "Pot-au-feu",
+      "intro": "Serves 6 to 8. Classic French bourgeois dish: beef cuts (shank, chuck, brisket) and marrow bones simmered slowly with carrots, leeks, turnips, celery and onions in a broth flavoured with bouquet garni. Slow cooking for 3 to 4 hours to achieve tender meat and rich broth. Traditionally served with vegetables and bread, but also pairs beautifully with gnocchi for a modern variation.",
+      "steps": [
+        "Meats and bones: count about 1.2 to 1.5 kg of meat in total for 6 to 8 people. Choose 400 to 500 g beef shank, 400 to 500 g chuck or blade, 300 to 400 g brisket with bone, and 3 to 4 marrow bones. Rinse the meats in cold water and pat dry.",
+        "Cold water start: in a large pot, place all the meats and bones. Cover generously with cold water (about 3 to 4 litres), add 1 teaspoon of coarse salt. Bring very slowly to a boil uncovered: this gradual rise allows proteins to coagulate on the surface.",
+        "Skimming: as soon as the first tremors appear, carefully skim off the grey foam rising to the surface. Repeat several times during the first 20 minutes to obtain a clear broth.",
+        "Aromatics and vegetables: after the initial skimming, add 2 onions each studded with 2 cloves, 1 bouquet garni (thyme, bay, parsley), 2 garlic cloves in their skin. Simmer at very low boil for 2 hours.",
+        "Adding garnish vegetables: after 2 hours, add 4 to 5 carrots peeled and cut into chunks, 3 to 4 leeks washed and tied, 2 to 3 turnips peeled and cut into quarters, 2 celery stalks. Continue cooking 1½ to 2 more hours, until the meats are very tender and fall apart with a fork.",
+        "Marrow bones: remove the marrow bones after 1½ hours total cooking time to prevent them from emptying completely; keep warm in a little broth.",
+        "Degreasing: at the end of cooking, carefully remove the meats and vegetables. Degrease the broth on the surface with a ladle or paper towel.",
+        "Traditional plating: slice the meats, arrange in a serving dish with vegetables around. Drizzle with a little broth. Serve the marrow bones separately, with coarse salt and toasted bread. Accompany with gherkins, Dijon mustard and fleur de sel.",
+        "Gnocchi variation: for a modern presentation, serve the pot-au-feu with Italian-style gnocchi cooked in salted boiling water, drained and tossed in butter. Arrange the gnocchi on the plate, place a few slices of meat and vegetables, drizzle generously with hot broth."
+      ],
+      "chemistry": [
+        "Starting with cold water allows gradual extraction of soluble proteins and collagen; the slow temperature rise favours their coagulation on the surface rather than in the broth, which facilitates skimming and gives a clear consommé.",
+        "Long cooking at low boil (92 to 95 °C) transforms collagen from gelatinous meats (shank, chuck, brisket) into gelatin: fibres relax, meat becomes tender and the broth gains body and richness.",
+        "Marrow bones release their lipids and gelatin into the broth; removed after 1½ hours, they keep their creamy marrow for serving, while the broth has already captured their aromas.",
+        "Vegetables added mid-cooking bring sugars, aromas and body to the broth without completely breaking down; their volatile compounds (carrots, celery, leeks) enrich the aromatic palette of the consommé.",
+        "The onion studded with cloves and the bouquet garni structure the aromatic background: eugenol from cloves, thymol from thyme and lactones from bay leaf diffuse slowly during hours of simmering.",
+        "Degreasing at the end of cooking removes excess surface lipids while preserving dissolved gelatin and umami compounds, for a broth that is both powerful and light on the palate."
       ]
     },
     "poire-belle-helene": {

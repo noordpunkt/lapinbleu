@@ -380,6 +380,29 @@
         "Le liquide de cuisson concentre les arômes du mirepoix et de la viande : il devient un bouillon riche, utile pour les sauces comme le vitello tonnato."
       ]
     },
+    "mirepoix": {
+      "title": "Mirepoix",
+      "intro": "Le mirepoix est une préparation culinaire française de base composée de légumes coupés en petits dés (carotte, céleri, oignon). Il sert de fond aromatique pour les sauces, les soupes, les braisés et les fonds de cuisine classique.",
+      "steps": [
+        "Éplucher et laver les légumes : carotte, céleri-branche et oignon.",
+        "Tailler chaque légume en dés réguliers d'environ 5 à 8 mm de côté (ou plus fin selon l'utilisation).",
+        "Respecter les proportions classiques : 50% d'oignon, 25% de carotte, 25% de céleri.",
+        "Faire revenir doucement dans du beurre ou de l'huile jusqu'à ce que les légumes soient tendres et légèrement dorés."
+      ],
+      "chemistry": [
+        "La cuisson lente du mirepoix permet une caramélisation naturelle des sucres des légumes, créant une base aromatique riche et complexe.",
+        "Les composés aromatiques des trois légumes se combinent pour former une fondation équilibrée qui rehausse le goût des plats mijotés sans dominer.",
+        "Le céleri apporte des notes fraîches, la carotte une douceur sucrée, et l'oignon une profondeur savoureuse."
+      ],
+      "tip": {
+        "title": "Astuce : Mirepoix blanc ou classique",
+        "description": "Pour les sauces blanches ou les plats délicats, utilisez un mirepoix blanc en remplaçant la carotte par un navet ou du poireau blanc.",
+        "steps": [
+          "Tailler oignon, céleri et navet (ou blanc de poireau) en dés réguliers.",
+          "Cuire très doucement sans coloration pour garder une base claire et subtile."
+        ]
+      }
+    },
     "ravioli-saint-jacques": {
       "title": "Ravioli aux noix Saint-Jacques",
       "intro": "Pour 4 personnes. Farce : coquilles Saint-Jacques fraîches, lavées et coupées en morceaux. Sauce : quelques noix, crème fraîche, gorgonzola, un peu d'eau de cuisson, sel et poivre. Pâte : 400 g semola di grano duro rimacinata, 4 œufs (1 par personne), demi-verre d'eau, pincée d'huile d'olive extra vierge.",
@@ -1226,6 +1249,29 @@
         {
           "caption": "Crème anglaise froide, les neiges dessus, un filet de caramel blond. Comme pour la crème caramel : ne pas remuer le sucre."
         }
+      ]
+    },
+    "pot-au-feu": {
+      "title": "Pot-au-feu",
+      "intro": "Pour 6 à 8 personnes. Grand classique de la cuisine bourgeoise française : viandes de bœuf (jarret, palette, poitrine) et os à moelle mijotés longuement avec carottes, poireaux, navets, céleri et oignons dans un bouillon aromatisé au bouquet garni. Cuisson lente de 3 à 4 heures pour obtenir des viandes fondantes et un bouillon riche. Traditionnellement servi avec les légumes et du pain, mais se marie aussi très bien avec des gnocchi pour une variation moderne.",
+      "steps": [
+        "Viandes et os : compter environ 1,2 à 1,5 kg de viandes au total pour 6 à 8 personnes. Choisir 400 à 500 g de jarret de bœuf (shank), 400 à 500 g de palette ou de macreuse, 300 à 400 g de poitrine avec os, et 3 à 4 os à moelle. Rincer les viandes à l'eau froide et les éponger.",
+        "Démarrage à l'eau froide : dans une grande marmite, déposer toutes les viandes et les os. Couvrir largement d'eau froide (environ 3 à 4 litres), ajouter 1 cuillère à café de gros sel. Porter très lentement à ébullition sans couvrir : cette montée progressive permet aux protéines de coaguler en surface.",
+        "Écumage : dès les premiers frémissements, écumer soigneusement l'écume grise qui monte en surface. Répéter l'opération plusieurs fois pendant les 20 premières minutes pour obtenir un bouillon clair.",
+        "Aromates et légumes : après l'écumage initial, ajouter 2 oignons piqués de 2 clous de girofle chacun, 1 bouquet garni (thym, laurier, persil), 2 gousses d'ail en chemise. Laisser mijoter à très petite ébullition 2 heures.",
+        "Ajout des légumes de garniture : après 2 heures, ajouter 4 à 5 carottes épluchées et coupées en tronçons, 3 à 4 poireaux lavés et ficelés, 2 à 3 navets épluchés et coupés en quartiers, 2 branches de céleri. Poursuivre la cuisson 1 h 30 à 2 heures supplémentaires, jusqu'à ce que les viandes soient très tendres et se défassent à la fourchette.",
+        "Os à moelle : retirer les os à moelle après 1 h 30 de cuisson totale pour éviter qu'ils ne se vident complètement ; les garder au chaud dans un peu de bouillon.",
+        "Dégraissage : en fin de cuisson, retirer délicatement les viandes et les légumes. Dégraisser le bouillon en surface avec une louche ou un papier absorbant.",
+        "Dressage traditionnel : trancher les viandes, disposer dans un plat de service avec les légumes autour. Arroser d'un peu de bouillon. Servir les os à moelle à part, avec du gros sel et du pain grillé. Accompagner de cornichons, moutarde de Dijon et fleur de sel.",
+        "Variation gnocchi : pour une présentation moderne, servir le pot-au-feu avec des gnocchi à l'italienne cuits à l'eau bouillante salée, égouttés et montés au beurre. Dresser les gnocchi dans l'assiette, disposer quelques tranches de viande et légumes, arroser généreusement de bouillon chaud."
+      ],
+      "chemistry": [
+        "Le démarrage à l'eau froide permet une extraction progressive des protéines solubles et du collagène ; la montée lente en température favorise leur coagulation en surface plutôt que dans le bouillon, ce qui facilite l'écumage et donne un consommé clair.",
+        "La cuisson longue à faible ébullition (92 à 95 °C) transforme le collagène des viandes gélatineuses (jarret, palette, poitrine) en gélatine : les fibres se détendent, la viande devient fondante et le bouillon gagne en corps et en onctuosité.",
+        "Les os à moelle libèrent leurs lipides et leur gélatine dans le bouillon ; retirés après 1 h 30, ils gardent leur moelle crémeuse pour le service, tandis que le bouillon a déjà capté leurs arômes.",
+        "Les légumes ajoutés en milieu de cuisson apportent sucres, arômes et corps au bouillon sans se déliter complètement ; leurs composés volatils (carottes, céleri, poireaux) enrichissent la palette aromatique du consommé.",
+        "L'oignon piqué de clous de girofle et le bouquet garni structurent l'arrière-plan aromatique : eugénol des clous, thymol du thym et lactones du laurier se diffusent lentement pendant les heures de mijotage.",
+        "Le dégraissage en fin de cuisson retire l'excès de lipides de surface tout en conservant la gélatine et les composés umami dissous, pour un bouillon à la fois puissant et léger en bouche."
       ]
     },
     "poire-belle-helene": {
