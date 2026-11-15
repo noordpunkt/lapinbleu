@@ -2,14 +2,33 @@
   "coverTitle": "LE LAPIN BLEU",
   "nav": {
     "cover": "Couverture",
+    "chef": "Le Chef",
     "sommaire": "Sommaire",
     "page": "Page",
     "back": "Page précédente",
-    "forward": "Page suivante"
+    "forward": "Page suivante",
+    "close": "Fermer"
   },
   "sommaire": {
     "title": "Sommaire",
     "ariaLabel": "Table des matières"
+  },
+  "signpost": {
+    "index": "La table",
+    "ariaLabel": "Repères des sections",
+    "open": "Ouvrir le menu",
+    "close": "Fermer les repères"
+  },
+  "chef": {
+    "title": "Le Chef",
+    "name": "Andres Buzzio",
+    "heading": "Le Chef : Andres Buzzio",
+    "paragraphs": [
+      "Andres Buzzio, chef autodidacte d'origine italienne et méditerranéenne. La cuisine est dans sa famille depuis des générations.",
+      "Cuisiner est un acte d'amour. Nous sommes artistes, et chaque assiette est une œuvre d'art.",
+      "Chef en France depuis 2022. Avant cela : la Catalogne, et la Toscane.",
+      "Ici, Le Lapin Bleu est ce manifeste : un livre de cuisine pour cuisiner autrement — avec précision, sans chichi, et avec amour."
+    ]
   },
   "sections": {
     "corps-gras-liquides": "Les corps gras et liquides",
@@ -76,11 +95,24 @@
         ]
       }
     },
+    "julienne": {
+      "title": "Julienne",
+      "intro": "La julienne est une coupe en bâtonnets très fins, d'environ 1 à 3 mm de côté et 4 à 5 cm de long. C'est la base de la [brunoise](brunoise) : on tranche ensuite les bâtonnets pour obtenir des dés.",
+      "steps": [
+        "Éplucher et laver le légume — carotte, poireau, céleri, courgette. Couper des tranches régulières d'environ 1 à 3 mm d'épaisseur.",
+        "Empiler quelques tranches, puis les tailler en bâtonnets de même largeur, 4 à 5 cm de long.",
+        "Garder les bâtonnets alignés ; ils doivent cuire en même temps. Pour les herbes, voir plutôt la [chiffonnade](chiffonnade)."
+      ],
+      "chemistry": [
+        "Les bâtonnets fins offrent beaucoup de surface : ils cuisent vite et parfument un bouillon ou une garniture sans rester croquants trop longtemps.",
+        "Une largeur régulière évite que les uns brûlent pendant que les autres restent crus."
+      ]
+    },
     "brunoise": {
       "title": "Brunoise",
       "intro": "La brunoise est une coupe de légumes en tout petits dés (environ 2 à 3 mm de côté). Elle vient de la cuisine classique française et sert de base pour des sauces, des garnitures ou des soupes.",
       "steps": [
-        "Éplucher et laver le légume, puis le couper en bâtonnets réguliers (julienne).",
+        "Éplucher et laver le légume, puis le couper en bâtonnets réguliers ([julienne](julienne)).",
         "Superposer les bâtonnets et trancher perpendiculairement pour obtenir des dés très fins.",
         "Pour une brunoise fine, les dés font 2 à 3 mm ; pour une grosse brunoise, environ 5 mm."
       ],
@@ -97,6 +129,102 @@
         ]
       }
     },
+    "jardiniere": {
+      "title": "Jardinière",
+      "intro": "La jardinière est une coupe en bâtonnets plus épais que la julienne : environ 4 à 5 mm de côté et 4 à 5 cm de long. Elle sert de garniture de légumes, souvent glacés au beurre.",
+      "steps": [
+        "Éplucher carotte, navet, céleri ou haricot. Couper des tranches de 4 à 5 mm.",
+        "Tailler ces tranches en bâtonnets de même largeur, 4 à 5 cm de long.",
+        "Pour obtenir une [macédoine](macedoine), trancher ensuite ces bâtonnets en dés."
+      ],
+      "chemistry": [
+        "Plus épais que la julienne, le bâtonnet de jardinière garde du croquant après une cuisson courte à l'anglaise ou un glacé au beurre.",
+        "La taille homogène permet de mélanger plusieurs légumes sans que l'un cuise avant l'autre."
+      ]
+    },
+    "macedoine": {
+      "title": "Macédoine",
+      "intro": "La macédoine est une coupe en dés d'environ 5 à 8 mm, plus gros que la brunoise. On la tire de la [jardinière](jardiniere) en tranchant les bâtonnets. Classique en salade, en garniture ou en macédoine de légumes.",
+      "steps": [
+        "Tailler d'abord le légume en [jardinière](jardiniere) : bâtonnets de 5 à 8 mm.",
+        "Superposer les bâtonnets et les couper en dés de même côté.",
+        "Mélanger plusieurs légumes (carotte, navet, haricot, petit pois) de même taille pour une macédoine."
+      ],
+      "chemistry": [
+        "Le dé de macédoine cuit plus lentement que la brunoise : il reste identifiable dans une salade ou un plat tiède.",
+        "Une taille unique entre les légumes évite qu'un dé croque encore pendant qu'un autre se défait."
+      ]
+    },
+    "paysanne": {
+      "title": "Paysanne",
+      "intro": "La paysanne est une coupe mince, d'environ 1 cm de côté, qui suit la forme du légume : rondelles, carrés, triangles ou croissants. C'est la coupe des soupes et des légumes mijotés.",
+      "steps": [
+        "Éplucher le légume. Le couper d'abord en tronçons ou en quartiers selon sa forme.",
+        "Trancher en lamelles minces d'environ 1 à 2 mm, en gardant la silhouette. Exemple : la carotte en rondelles, pour bien voir l'épaisseur ; le céleri en croissants, le poireau en carrés.",
+        "Les morceaux doivent rester plats et fins, pas en dés. On les fait suer doucement pour une soupe paysanne."
+      ],
+      "chemistry": [
+        "La fine épaisseur cuit vite et rend du goût au bouillon, tout en laissant voir la forme du légume dans l'assiette.",
+        "Moins de surface cubique que la brunoise : la paysanne fond sans disparaître en une purée."
+      ]
+    },
+    "chiffonnade": {
+      "title": "Chiffonnade",
+      "intro": "La chiffonnade est une coupe en lanières fines de feuilles : basilic, oseille, laitue, menthe, épinard. On empile, on roule, on tranche. Pour les légumes fermes, on parle de [julienne](julienne).",
+      "steps": [
+        "Laver et bien essorer les feuilles. Les empiler à plat, une dizaine à la fois.",
+        "Rouler le tas en cigare serré.",
+        "Trancher perpendiculairement en lanières très fines. Détendre les rubans du bout des doigts."
+      ],
+      "chemistry": [
+        "Trancher les feuilles empilées libère plus d'huiles essentielles qu'une feuille entière : la chiffonnade parfume davantage.",
+        "Couper au dernier moment limite l'oxydation : le basilic noircit vite une fois tranché."
+      ],
+      "figuresTitle": "Le cigare serré",
+      "figures": [
+        {
+          "caption": "Les feuilles empilées, roulées en cigare : l'intérieur en spirale, prêt à trancher."
+        }
+      ]
+    },
+    "emincer": {
+      "title": "Émincer",
+      "intro": "Émincer, c'est trancher une échalote ou un oignon en lamelles très fines et régulières. Ce n'est pas [ciseler](ciseler) : on ne fait pas de dés, on tranche. On émince pour les sauces — le [steak au poivre](steak-au-poivre-veau), le [ragù d'entrecôte](polenta-ragu-entrecote).",
+      "steps": [
+        "Éplucher : ôter les deux extrémités — les professionnels disent araser. Retirer les pellicules de peau.",
+        "Couper l'échalote en deux dans le sens de la longueur. Retourner le demi, face coupée contre la planche.",
+        "Émincer le plus régulièrement et le plus finement possible, à la pointe du couteau."
+      ],
+      "chemistry": [
+        "La pointe du couteau tranche sans écraser : moins de sucs soufrés, moins de larmes.",
+        "Des lamelles de même épaisseur suent ensemble, sans qu'une pièce brûle pendant qu'une autre reste crue."
+      ],
+      "figuresTitle": "Le pas à pas",
+      "figures": [
+        {
+          "caption": "Araser : ôter les deux extrémités, puis les pellicules de peau."
+        },
+        {
+          "caption": "Couper en deux dans le sens de la longueur. Retourner le demi, face coupée contre la planche."
+        },
+        {
+          "caption": "Émincer à la pointe du couteau, le plus finement et le plus régulièrement possible."
+        }
+      ]
+    },
+    "ciseler": {
+      "title": "Ciseler",
+      "intro": "Ciseler, c'est hacher finement un oignon, une échalote ou de l'ail sans les écraser. La coupe reste nette, les cellules moins meurtries : moins de larmes, une cuisson plus régulière. On cisele dans presque toutes les sauces du livre.",
+      "steps": [
+        "Couper l'oignon ou l'échalote en deux de haut en bas, par la racine. Poser à plat.",
+        "Inciser en éventail vers la racine, sans la traverser : d'abord des fentes horizontales, puis des fentes verticales.",
+        "Trancher perpendiculairement : les petits dés se détachent. Jeter la racine. Saler un peu si on veut extraire l'eau avant de faire suer."
+      ],
+      "chemistry": [
+        "Écraser l'oignon libère plus de composés soufrés (larmes, amertume). Ciseler tranche plus qu'il n'écrase.",
+        "Des morceaux de même taille suent ensemble dans le beurre, sans qu'une pièce brûle pendant qu'une autre reste crue."
+      ]
+    },
     "peler-a-vif": {
       "title": "Peler a vif",
       "intro": "Peler a vif consiste a retirer entierement l'ecorce et le ziste blanc d'un agrume pour ne garder que la pulpe nette. C'est la base pour obtenir des segments propres, sans amertume ni membrane epaisse.",
@@ -111,35 +239,129 @@
         "Travailler au plus pres de la pulpe limite la perte de jus et garde des segments brillants, tendres et reguliers."
       ]
     },
-    "trafilata-al-bronzo": {
-      "title": "Pâtes trafilées au bronze",
-      "intro": "Les pâtes trafilées au bronze se distinguent surtout par leur surface plus rugueuse et mate. À l'inverse, beaucoup de pâtes industrielles extrudées dans des moules en téflon ont une surface plus lisse et brillante.",
+    "semola-grano-duro": {
+      "title": "Semola di grano duro rimacinata",
+      "intro": "Rimacinata, comme le mot le dit : remoulue deux fois. C'est du blé dur. La farine ordinaire, c'est du blé tendre — deux blés. On prend le dur : la pâte reste ferme, stable, elle ne devient pas molle. Puis l'endosperme seulement, sans son ni germe. C'est la farine des pâtes fraîches du Sud : cavatelli, orecchiette, ravioli.",
       "steps": [
-        "Ce qui change avant tout, c'est la texture : une pâte trafilée au bronze accroche mieux la sauce et donne souvent une sensation plus intéressante en bouche.",
-        "Le goût ne change pas directement à cause du bronze lui-même. Il dépend surtout du blé utilisé et du séchage de la pâte.",
-        "En pratique, beaucoup d'amateurs trouvent que cela vaut la peine pour des sauces comme le ragù, le pesto, la tomate ou les fruits de mer, parce que la sauce adhère mieux à la surface.",
-        "Pour l'identifier, regarder sur le paquet des mentions comme « trafilata al bronzo », « bronze cut » ou « bronze die extruded ».",
-        "Parmi les marques souvent citées pour ce type de fabrication, on trouve notamment Rummo, Garofalo, Mancini et Pastificio dei Campi."
+        "Pourquoi cette semoule : blé dur, pas blé tendre. Les deux ne sont pas la même plante. Le dur tient ; le tendre s'amollit, la pâte devient molle dans l'eau.",
+        "Le grain de blé a trois parties : le son (enveloppe), l'endosperme (cœur farineux) et le germe (embryon).",
+        "Le son : couches extérieures, riches en fibres. On l'enlève pour la semoule blanche ; il irait dans une farine complète.",
+        "L'endosperme : c'est lui qu'on utilise. Amidon et protéines (gluten). La première mouture donne une semoule granuleuse ; rimacinata veut dire remoulue une deuxième fois, plus fine, pour la pâte fraîche.",
+        "Le germe : petite graine à une extrémité, riche en huiles. On l'enlève : il rancirait et ramollirait la pâte.",
+        "Pour les [cavatelli au pesto](cavatelli-pesto) : semola + eau seulement, en plusieurs fois — c'est le [bassinage](bassinage). Pour les [ravioli](ravioli-saint-jacques) : semola + œufs."
       ],
       "chemistry": [
-        "La différence principale vient de l'état de surface : une pâte plus rugueuse retient mieux la sauce qu'une pâte lisse.",
-        "La perception de qualité vient donc surtout de la texture et de l'adhérence, plus que d'un changement direct du goût."
+        "Le blé dur a un endosperme vitreux, plus riche en gluten que le blé tendre : la pâte se tient, ferme, sans devenir molle — même sans œuf, comme pour les cavatelli.",
+        "Remoudre (rimacinare) réduit la taille des granules : plus de surface hydratée, une pâte plus lisse, plus facile à étaler.",
+        "Sans son ni germe, la semoule se conserve mieux : moins d'huiles oxydables, moins d'humidité."
+      ],
+      "figuresTitle": "Les trois parties du grain",
+      "figures": [
+        {
+          "caption": "Son — l'enveloppe. On ne l'utilise pas pour la semola."
+        },
+        {
+          "caption": "Endosperme — le cœur. C'est la semola di grano duro."
+        },
+        {
+          "caption": "Germe — l'embryon. On l'enlève : trop d'huile."
+        }
       ]
     },
-    "temps-cuisson-pates-seches": {
-      "title": "Temps de cuisson des pâtes sèches",
-      "intro": "Pour les pâtes sèches, surtout les pâtes trafilées au bronze comme Rummo ou d'autres bonnes marques italiennes, le temps indiqué sur le paquet est toujours le meilleur point de départ. Il dépend de la forme, de l'épaisseur et du séchage.",
+    "bassinage": {
+      "title": "Bassinage",
+      "intro": "Bassinage, de bassiner : humecter. On n'ajoute pas tout le liquide d'un coup. D'abord une pâte qui se tient ; le réseau se forme. Puis, en plusieurs fois, le reste — l'eau pour les [cavatelli](cavatelli-pesto), un peu d'eau pour les ravioli, le beurre pour le [baba](baba-au-rhum-saint-james). La pâte avale ce qu'elle peut.",
       "steps": [
-        "Lire le paquet : chercher la mention « cottura », « al dente » ou « cooking time ». Pour une marque comme Rummo, ce temps est en général fiable pour une cuisson al dente.",
-        "Si les pâtes sont servies directement avec une sauce déjà prête, viser le temps indiqué sur le paquet, puis goûter dans les 2 dernières minutes.",
-        "Si les pâtes finissent dans la poêle avec la sauce, les sortir 1 à 2 minutes avant le temps indiqué, puis finir avec un peu d'eau de cuisson pour que la sauce accroche.",
-        "Les pâtes trafilées au bronze peuvent sembler plus fermes et plus rugueuses en bouche : c'est normal. Ne pas les surcuire pour les rendre lisses ; il faut garder cette accroche.",
-        "Pour une salade de pâtes ou une cuisson sans finition en sauce, cuire plutôt jusqu'au temps du paquet, puis refroidir rapidement si besoin."
+        "Le mot : bassiner, humecter. Ce n'est pas une [autolyse](autolyse) — farine et eau au repos, avant de pétrir. Le bassinage vient après : le réseau est déjà là.",
+        "Cavatelli : [semola](semola-grano-duro) et eau seulement. 400 g de semola. L'eau tiède, en plusieurs fois, jusqu'à une pâte ferme. Tout d'un coup, des grumeaux, ou une pâte qui colle. Voir les [cavatelli au pesto](cavatelli-pesto).",
+        "Ravioli : semola et œufs, puis un peu d'eau tiède si besoin — la même logique. Homogène, pas molle. Voir les [ravioli aux Saint-Jacques](ravioli-saint-jacques).",
+        "Baba : une fois la pâte lisse, le beurre pommade en plusieurs fois, jusqu'à absorption. Même geste, autre matière. Voir le [baba au rhum](baba-au-rhum-saint-james).",
+        "On attend que la pâte prenne avant d'ajouter encore. Trop tôt, elle se défait."
       ],
       "chemistry": [
-        "Pendant la cuisson, l'eau hydrate l'amidon et le gluten de la pâte. Si la cuisson continue trop longtemps, la structure se relâche et la pâte devient molle.",
-        "Finir en sauce permet à l'amidon libéré dans l'eau de cuisson de lier l'huile, le fromage ou la tomate, ce qui donne une sauce plus adhérente.",
-        "Le bon repère reste la dégustation : le centre doit être cuit mais encore légèrement résistant, surtout pour une pâte al bronzo."
+        "L'eau hydrate l'amidon et plastifie le gluten. Trop d'eau avant que le réseau existe : la pâte n'a rien à quoi se raccrocher.",
+        "Une fois formé, le réseau retient davantage d'eau : une pâte plus extensible, une mie plus ouverte.",
+        "La semola di grano duro, vitreuse, absorbe lentement : d'où plusieurs fois, et le repos.",
+        "Le beurre du baba enrobe le gluten. En plusieurs fois, le réseau ne se casse pas."
+      ],
+      "figuresTitle": "Le pas à pas",
+      "figures": [
+        {
+          "caption": "Cavatelli : l'eau tiède, en plusieurs fois, dans la semola. La pâte avale, puis encore un peu."
+        },
+        {
+          "caption": "Baba : le beurre pommade, en plusieurs fois, dans une pâte déjà lisse. Même geste, autre matière."
+        }
+      ]
+    },
+    "autolyse": {
+      "title": "Autolyse",
+      "intro": "Autolyse, de Calvel : farine et eau, au repos, avant le sel, avant la levure, avant de pétrir. Ce n'est pas le [bassinage](bassinage). Le bassinage ajoute le liquide en plusieurs fois, le réseau déjà là. Ici, on mélange à peine. On attend.",
+      "steps": [
+        "Le mot : autolyse. Farine et eau seulement. Pas de sel, pas de levure. Mélanger à peine — une pâte encore grumeleuse. Puis le repos, à couvert.",
+        "Le temps : 20 à 40 minutes. Les protéases et les amylases travaillent. Le gluten se détend.",
+        "Ensuite : ajouter le sel et la levure. Pétrir plus court. Le réseau s'est déjà formé, un peu.",
+        "Ce n'est pas le repos d'une pâte déjà pétrie — ça, c'est la [détente](detente). Ici, on n'a pas encore pétri. Voir le [bassinage](bassinage) : l'inverse — on ajoute après, pas avant."
+      ],
+      "chemistry": [
+        "Les protéases coupent un peu le réseau de gluten : la pâte se détend, s'étire mieux ensuite.",
+        "Les amylases libèrent des sucres. Hydrater avant le sel : le sel resserre le gluten ; trop tôt, il bloque l'autolyse.",
+        "Ce n'est pas le repos après pétrissage — ça, c'est la [détente](detente). Ici, on n'a pas encore pétri."
+      ]
+    },
+    "detente": {
+      "title": "Détente",
+      "intro": "Détente, de détendre : le repos d'une pâte déjà faite. Farine, eau et/ou œufs, souvent déjà salée. On filme. On attend. Ce n'est pas une [autolyse](autolyse) — là, farine et eau seulement, avant le sel, avant de pétrir. Ici, on a déjà pétri. En italien : riposo.",
+      "steps": [
+        "Le mot : détente. Après le pétrissage, filmer. Repos à température ambiante, 20 à 30 minutes. Ou au frais, 30 minutes à quelques heures.",
+        "Le gluten, tendu par le pétrissage, se détend. La pâte s'étale sans revenir. Moins de contraction à la cuisson.",
+        "L'eau finit d'hydrater la farine. L'hydratation s'égalise dans la masse. Aux œufs, le frigo, c'est aussi l'hygiène.",
+        "Ce n'est pas une fermentation. Pas de levure. La pizza au froid, c'est un retard, une fermentation froide. Ici, rien ne lève.",
+        "Ce n'est pas une [autolyse](autolyse). L'autolyse : farine et eau seulement, avant le sel et le pétrissage. La détente : le repos d'une pâte déjà faite. Voir les [cavatelli au pesto](cavatelli-pesto), les [ravioli pesto di Liguria](ravioli-pesto-di-liguria), les [ravioli aux Saint-Jacques](ravioli-saint-jacques)."
+      ],
+      "chemistry": [
+        "Après le pétrissage, les liaisons disulfure et la tension rendent la pâte élastique. Au repos, les protéases entament un peu le réseau ; l'eau migre. La pâte redevient extensible.",
+        "Pas de levure : rien ne fermente. Le froid de la pizza, c'est autre chose.",
+        "Aux œufs, le frigo ralentit aussi les microbes."
+      ]
+    },
+    "reaction-maillard": {
+      "title": "Réaction de Maillard",
+      "intro": "Réaction de Maillard : acides aminés et sucres réducteurs, chaleur sèche, dès ~140 °C. La croûte brune, l'odeur de rôti. Ce n'est pas la caramélisation — ça, les sucres seuls, plus haut. Il faut une surface sèche. Mouillée, la poêle reste à 100 °C.",
+      "steps": [
+        "Le mot : Maillard. Acides aminés et sucres réducteurs. Chaleur sèche, dès ~140 °C. Ça colore. Ça sent le rôti. Ce n'est pas la caramélisation — les sucres seuls, plus haut encore.",
+        "La surface : sèche. Éponger la viande. Ne pas entasser. L'eau bout à 100 °C : une poêle mouillée reste en dessous, jusqu'à ce que l'humidité parte.",
+        "Ce qu'on voit : le [beurre noisette](beurre-noisette), le fond, la croûte du pain, du steak, de l'oignon. Les sucs au fond de la sauteuse.",
+        "Le [roux](roux) brun : Maillard et caramélisation ensemble. Plus il colore, plus le goût toasté monte. Voir le [steak au poivre](steak-au-poivre-veau), le [magret](canard-orange-pommes-domino)."
+      ],
+      "chemistry": [
+        "Acides aminés et sucres réducteurs se lient : mélanoïdines — la couleur brune — et des arômes de rôti.",
+        "La caramélisation n'a besoin que du sucre, plus haut. Ici, il faut les deux : protéines et sucres."
+      ]
+    },
+    "blanchir-les-jaunes": {
+      "title": "Blanchir les jaunes",
+      "intro": "Blanchir, de blanc : les jaunes pâlissent. On verse le sucre d'un coup, on fouette aussitôt. Posé trop longtemps, le sucre « cuit » les jaunes. Pour la [crème brûlée](creme-brulee), juste assez, sans trop d'air. Pour le [tiramisu](tiramisu), jusqu'à ce que ça tienne.",
+      "steps": [
+        "Le mot : blanchir. Jaunes et sucre, jusqu'à pâle. Ce n'est pas un sabayon — ça, c'est au bain-marie, chaud. Ce n'est pas monter les blancs : la neige, ce sont les blancs.",
+        "Le geste : verser le sucre d'un coup. Fouetter aussitôt. Posé, le sucre tire l'eau des jaunes par osmose — ça granule, « cuit ».",
+        "[Crème brûlée](creme-brulee), [crème caramel](creme-caramel), crème anglaise des [œufs à la neige](oeufs-a-la-neige) : juste assez pour mélanger, sans trop faire mousser. L'air ferait une crème trouée.",
+        "[Tiramisu](tiramisu) : on pousse. Fouetter jusqu'à ce que le mélange blanchisse, mousse et tienne.",
+        "Le ruban : lever le fouet. L'appareil retombe en nappe, lente. C'est assez."
+      ],
+      "chemistry": [
+        "Le sucre, un peu acide et hygroscopique, tire l'eau des jaunes par osmose s'il reste posé : les protéines se contractent, ça granule.",
+        "Fouetter dissout le sucre et disperse les caroténoïdes : le mélange pâlit. Un peu d'air, c'est le blanc ; trop d'air, dans une crème au four, des trous.",
+        "Dans le tiramisu, le sucre retient l'eau et tient la mousse des jaunes, sans cuisson."
+      ],
+      "figuresTitle": "Le pas à pas",
+      "figures": [
+        {
+          "caption": "Verser le sucre d'un coup. Fouetter aussitôt — posé, il « cuit » les jaunes."
+        },
+        {
+          "caption": "Crème brûlée, crème caramel : juste assez, encore doré, sans mousse. Le tiramisu, on pousse jusqu'au ruban."
+        }
       ]
     },
     "mijoter": {
@@ -162,7 +384,7 @@
       "title": "Ravioli aux noix Saint-Jacques",
       "intro": "Pour 4 personnes. Farce : coquilles Saint-Jacques fraîches, lavées et coupées en morceaux. Sauce : quelques noix, crème fraîche, gorgonzola, un peu d'eau de cuisson, sel et poivre. Pâte : 400 g semola di grano duro rimacinata, 4 œufs (1 par personne), demi-verre d'eau, pincée d'huile d'olive extra vierge.",
       "steps": [
-        "Pâte : compter 100 g de semola di grano duro rimacinata et 1 œuf entier par personne. Pour 4 personnes, mélanger 400 g de semola avec 4 œufs, l'eau et l'huile dans un bol ; former une boule, filmer et mettre au frigo 30 min.",
+        "Pâte : compter 100 g de semola di grano duro rimacinata et 1 œuf entier par personne. Pour 4 personnes, mélanger 400 g de semola avec 4 œufs, l'eau et l'huile dans un bol ; former une boule, filmer et mettre au frigo 30 min — c'est la [détente](detente).",
         "Préparer la farce : laver les Saint-Jacques, les sécher puis les couper en morceaux adaptés à la taille des raviolis (petits dés ou tranches).",
         "Préparer la sauce : marquer quelques noix avec un peu d'huile d'olive, puis ajouter la crème fraîche et le gorgonzola. Finir avec un peu d'eau de cuisson des ravioli, puis assaisonner avec sel et poivre.",
         "Étaler la pâte, déposer la farce aux Saint-Jacques, former les raviolis et les cuire à l'eau bouillante salée ; servir avec la sauce."
@@ -174,9 +396,9 @@
     },
     "beurre-manie-roux": {
       "title": "Beurre manié et roux",
-      "intro": "Le roux et le beurre manié sont deux liaisons à base de beurre et de farine. Le roux se cuit avant d'ajouter le liquide ; le beurre manié s'ajoute à froid en fin de cuisson pour lier une sauce sans la cuire.",
+      "intro": "Le [roux](roux) et le beurre manié sont deux liaisons à base de beurre et de farine. Le roux se cuit avant d'ajouter le liquide ; le beurre manié s'ajoute à froid en fin de cuisson pour lier une sauce sans la cuire.",
       "steps": [
-        "Roux : faire fondre du beurre à feu doux, ajouter la farine en quantité égale (en poids), mélanger et laisser cuire 2 à 5 min sans colorer (roux blanc) ou jusqu'à coloration blonde ou noisette selon la sauce. Puis verser le liquide froid (lait, bouillon) et faire épaissir en remuant.",
+        "[Roux](roux) : faire fondre du beurre à feu doux, ajouter la farine en quantité égale (en poids), mélanger et laisser cuire 2 à 5 min sans colorer (roux blanc) ou jusqu'à coloration blonde ou noisette selon la sauce. Puis verser le liquide froid (lait, bouillon) et faire épaissir en remuant.",
         "Beurre manié : mélanger à parts égales du beurre ramolli et de la farine jusqu'à obtenir une pâte lisse. Réfrigérer si besoin. En fin de cuisson, incorporer par petits morceaux dans la sauce bouillante en fouettant ; la sauce épaissit en quelques minutes sans cuire la farine.",
         "Quand utiliser quoi : le roux sert de base pour béchamel, velouté, sauces longues. Le beurre manié sert à corriger ou lier rapidement une sauce déjà en cours sans la recuire."
       ],
@@ -280,28 +502,44 @@
         "Employer ce fond pour une sauce brune, une réduction au vin ou pour renforcer un jus de viande."
       ],
       "chemistry": [
-        "La coloration initiale déclenche des réactions de Maillard, qui construisent des notes grillées et plus complexes.",
+        "La coloration initiale déclenche des [réactions de Maillard](reaction-maillard), qui construisent des notes grillées et plus complexes.",
         "Comme le fond blanc, il apporte de la gélatine ; mais ici elle s'accompagne d'arômes plus puissants et plus sombres."
       ]
     },
-    "vin-cuisine": {
-      "title": "Le vin en cuisine",
-      "intro": "Le vin est un liquide de cuisson et de déglaçage central en cuisine française. Il apporte acidité, parfum et tension, à condition d'être réduit correctement.",
+    "roux": {
+      "title": "Roux",
+      "intro": "Le roux est une liaison : beurre et farine à parts égales, cuits ensemble avant d'ajouter le liquide. Il est la base des sauces mères — blanc pour la [béchamel](sauce-bechamel), blond pour le [velouté](sauce-veloute), brun pour l'[espagnole](sauce-espagnole). Ce n'est pas le [beurre manié](beurre-manie-roux), qui s'ajoute cru, en fin de cuisson.",
       "steps": [
-        "Utiliser le vin pour déglacer après une saisie, afin de décoller les sucs et de les intégrer à la sauce.",
-        "Le laisser réduire avant d'ajouter crème, fond ou beurre, sinon la sauce restera trop acide et trop liquide.",
-        "Choisir un vin adapté au plat : blanc pour les sauces claires et les poissons, rouge ou madère pour les préparations plus sombres."
+        "Parts égales en poids : 50 g de beurre, 50 g de farine. Toujours peser, jamais mesurer en volume.",
+        "Faire fondre le beurre à feu doux. Ajouter la farine d'un coup, fouetter jusqu'à une pâte homogène, sans grumeaux.",
+        "Roux blanc : cuire 2 à 3 min en fouettant, sans coloration — base de la [béchamel](sauce-bechamel).",
+        "Roux blond : poursuivre jusqu'à une teinte dorée pâle et un parfum de noisette — base du [velouté](sauce-veloute).",
+        "Roux brun : continuer jusqu'à brun, goût toasté — base de l'[espagnole](sauce-espagnole). Plus il colore, moins il épaissit : on en met un peu plus.",
+        "Le liquide — lait, fond — vient ensuite, progressivement. Le roux se cuit avant le liquide."
       ],
       "chemistry": [
-        "La réduction concentre les arômes et évapore une partie de l'eau et de l'alcool.",
-        "L'acidité du vin équilibre les préparations grasses et aide à donner plus de relief au goût final."
+        "La cuisson de la farine désactive une enzyme (amylase) qui, crue, liquéfierait la sauce.",
+        "La matière grasse enrobe les grains d'amidon : au mouillage, ils se dispersent sans faire de grumeaux.",
+        "Plus le roux colore, plus l'amidon se dégrade : un roux brun lie moins qu'un roux blanc."
+      ],
+      "figuresTitle": "Le pas à pas",
+      "figures": [
+        {
+          "caption": "Parts égales en poids : 50 g de beurre, 50 g de farine. Toujours peser."
+        },
+        {
+          "caption": "Faire fondre le beurre à feu doux, ajouter la farine d'un coup, fouetter."
+        },
+        {
+          "caption": "Roux blanc, blond, brun. Plus il colore, moins il lie."
+        }
       ]
     },
     "sauce-bechamel": {
       "title": "Sauce béchamel",
-      "intro": "L'une des cinq grandes sauces mères de la cuisine française, codifiées par Auguste Escoffier. La béchamel est une sauce blanche faite à partir d'un roux blanc et de lait, souvent parfumée au clou de girofle ou à la muscade.",
+      "intro": "L'une des cinq grandes sauces mères de la cuisine française, codifiées par Auguste Escoffier. La béchamel est une sauce blanche faite à partir d'un [roux blanc](roux) et de lait, souvent parfumée au clou de girofle ou à la muscade. La [sauce Mornay](sauce-mornay) part de là : Gruyère et moutarde, hors du feu.",
       "steps": [
-        "Préparer un roux blanc : faire fondre 50 g de beurre à feu doux, ajouter 50 g de farine et cuire 2 à 3 minutes sans coloration, en remuant.",
+        "Préparer un [roux blanc](roux) : faire fondre 50 g de beurre à feu doux, ajouter 50 g de farine et cuire 2 à 3 minutes sans coloration, en remuant.",
         "Faire chauffer 500 ml de lait à part jusqu'à environ 60 à 70 °C (idéalement autour de 65 °C). On peut l'infuser avec 1 ou 2 clous de girofle, puis filtrer.",
         "Verser le lait chaud progressivement sur le roux en fouettant pour éviter les grumeaux.",
         "Remettre sur feu doux et cuire quelques minutes jusqu'à épaississement, en remuant régulièrement.",
@@ -312,11 +550,24 @@
         "La cuisson douce évite un goût de farine crue tout en gardant la sauce lisse et blanche."
       ]
     },
+    "sauce-mornay": {
+      "title": "Sauce Mornay",
+      "intro": "La Mornay est une [béchamel](sauce-bechamel) au fromage. Ici, seulement du Gruyère et de la moutarde de Dijon. Pas de jaune d'œuf, pas de Parmesan, pas de muscade.",
+      "steps": [
+        "Béchamel : un [roux blanc](roux), 50 g de [beurre](beurre) et 50 g de farine, 2 à 3 minutes sans coloration. Verser 500 ml de [lait](lait) chaud en fouettant. Cuire à feu doux jusqu'à ce que la sauce nappe la cuillère.",
+        "Gruyère : hors du feu, ajouter 80 g de Gruyère râpé. Fouetter jusqu'à ce qu'il fonde, sans remettre à bouillir.",
+        "Moutarde : 1 cuillère à café de moutarde de Dijon. Mélanger. Rectifier le sel — le fromage et la moutarde salent déjà. Servir aussitôt."
+      ],
+      "chemistry": [
+        "Hors du feu, le Gruyère fond dans la béchamel encore chaude : le gras et les protéines se mêlent à l'amidon. Si l'on bout, le gras se sépare.",
+        "La moutarde de Dijon, un peu acide, aide à tenir l'émulsion et relève le fromage. Cuite longtemps, elle devient amère."
+      ]
+    },
     "sauce-veloute": {
       "title": "Sauce velouté",
       "intro": "Le velouté est une autre sauce mère d'Escoffier. Il repose sur un roux blond très léger allongé avec un fond clair, comme un fond de volaille, de veau ou de poisson.",
       "steps": [
-        "Préparer un roux blond très pâle avec 50 g de beurre et 50 g de farine, sans trop le colorer.",
+        "Préparer un [roux blond](roux) très pâle avec 50 g de beurre et 50 g de farine, sans trop le colorer.",
         "Chauffer 500 à 600 ml de fond clair (volaille, veau ou poisson selon l'usage).",
         "Verser le fond chaud progressivement sur le roux en fouettant pour obtenir une texture lisse.",
         "Laisser cuire doucement 20 à 30 minutes, en écumant si nécessaire, jusqu'à obtenir une sauce souple et brillante.",
@@ -333,28 +584,43 @@
       "steps": [
         "Faire revenir une mirepoix d'oignon, carotte et céleri dans un peu de matière grasse jusqu'à légère coloration.",
         "Ajouter un peu de concentré de tomate ou de tomate, puis cuire brièvement pour développer les arômes.",
-        "Incorporer un roux brun ou singer légèrement avec de la farine pour préparer la liaison.",
+        "Incorporer un [roux brun](roux) ou singer légèrement avec de la farine pour préparer la liaison.",
         "Mouiller avec un fond brun chaud de veau ou de bœuf, puis ajouter bouquet garni, ail et éventuellement un peu de tomate supplémentaire.",
         "Laisser mijoter longuement à feu doux, écumer, puis passer et réduire jusqu'à obtenir une sauce brune riche et liée."
       ],
       "chemistry": [
-        "La coloration des légumes et du roux déclenche des réactions de Maillard qui donnent à l'espagnole sa profondeur aromatique.",
+        "La coloration des légumes et du roux déclenche des [réactions de Maillard](reaction-maillard) qui donnent à l'espagnole sa profondeur aromatique.",
         "La gélatine du fond brun et l'amidon du roux travaillent ensemble pour produire une texture nappante et soyeuse."
       ]
     },
-    "sauce-tomate": {
-      "title": "Sauce tomate",
-      "intro": "Chez Escoffier, la sauce tomate fait partie des grandes sauces de base. Plus structurée qu'une simple sauce maison, elle combine tomate, aromates et cuisson lente pour une saveur ronde et profonde.",
+    "passata": {
+      "title": "Passata",
+      "intro": "Passata veut dire passée : la tomate traverse un tamis. On écarte la peau et les pépins — les parties les plus acides — et il reste la pulpe, épaisse. Ce n'est pas une tomate concassée. La passata italienne, souvent de San Marzano, est déjà presque une sauce.",
       "steps": [
-        "Faire revenir doucement oignon et ail dans de l'huile d'olive ou un peu de graisse, avec éventuellement une petite garniture aromatique.",
-        "Ajouter les tomates concassées ou pelées, un peu de concentré de tomate, bouquet garni, sel et poivre.",
-        "Laisser compoter à feu doux pendant 30 à 45 minutes en remuant de temps en temps.",
-        "Mixer ou passer la sauce selon la texture souhaitée, puis remettre à réduire si elle est trop liquide.",
-        "Rectifier l'assaisonnement en fin de cuisson avec un peu de sucre seulement si l'acidité est trop marquée."
+        "Le mot : passata, passer au tamis. La peau et les pépins sortent. Il reste la pulpe, dense, peu d'eau.",
+        "La tomate concassée, triturée : le fruit entier. Plus d'eau. Le gel autour des pépins est amer ; la peau, acide. Dès la bouteille, plus d'acidité.",
+        "San Marzano : tomate allongée, peu d'eau, un équilibre de sucres et d'acidité. Le sol volcanique du Vésuve — un rouge intense, un peu de douceur. DOP, comme le Roquefort ou le champagne : des règles, une qualité.",
+        "Cueilli à point. Pour la pizza, pour un ragù, le produit doit être bon dès l'ouverture. L'arôme, la couleur : on a envie de le boire. Presque rien à faire.",
+        "L'ordinaire en bouteille : souvent cueilli trop tôt pour le transport, plus d'eau, peau plus épaisse, élevé pour le rendement. Ce n'est pas la même chose.",
+        "Pour une [sauce tomate](passata) ou le [ragù d'entrecôte](polenta-ragu-entrecote) : une passata. Sel, un peu d'huile d'olive, le temps. Pas de sucre pour corriger."
       ],
       "chemistry": [
-        "La cuisson lente évapore l'eau des tomates et concentre le glutamate naturel, ce qui renforce la saveur umami.",
-        "L'acidité de la tomate s'adoucit avec le temps et avec la matière grasse, donnant une sauce plus ronde."
+        "La peau et les pépins concentrent les acides de la tomate. Le gel qui entoure les pépins est amer. Les passer au tamis les écarte : moins d'acidité, moins d'amertume.",
+        "Sans peaux, moins d'eau liée. La pulpe reste : pectine, glutamate. Une passata est déjà nappante.",
+        "À maturité, les sucres montent, l'acide reste en équilibre. Cueilli vert, plus d'eau, moins de sucre, peau plus dure.",
+        "Le sol volcanique draine et minéralise : un fruit plus concentré, un rouge plus profond."
+      ],
+      "figuresTitle": "Le pas à pas",
+      "figures": [
+        {
+          "caption": "Passata : la tomate traverse un tamis. Peau et pépins restent ; la pulpe passe."
+        },
+        {
+          "caption": "San Marzano : allongée, peu d'eau, sucres et acidité en équilibre. Sol du Vésuve."
+        },
+        {
+          "caption": "À gauche, le concassé — eau, peaux, pépins. À droite, la passata — pulpe seule."
+        }
       ]
     },
     "sauce-hollandaise": {
@@ -370,6 +636,18 @@
       "chemistry": [
         "Les jaunes d'œufs contiennent de la lécithine, un émulsifiant naturel qui permet de stabiliser le mélange entre eau et matière grasse.",
         "Une chaleur trop forte fait coaguler les protéines des jaunes et peut faire trancher la sauce."
+      ],
+      "figuresTitle": "Les trois piliers",
+      "figures": [
+        {
+          "caption": "Jaunes d'œufs — lécithine, base de l'émulsion."
+        },
+        {
+          "caption": "Beurre clarifié — le gras pur qui monte la sauce."
+        },
+        {
+          "caption": "Citron — acidité pour la réduction et la finition."
+        }
       ]
     },
     "sauce-bearnaise": {
@@ -385,6 +663,18 @@
       "chemistry": [
         "Comme pour la hollandaise, la lécithine des jaunes stabilise l'émulsion entre la phase aqueuse et le beurre.",
         "Les herbes ajoutées en fin de préparation gardent mieux leur parfum ; une chaleur excessive peut casser la sauce et ternir les arômes."
+      ],
+      "figuresTitle": "Les trois piliers",
+      "figures": [
+        {
+          "caption": "Échalote — base de la réduction."
+        },
+        {
+          "caption": "Estragon — l'herbe signature de la béarnaise."
+        },
+        {
+          "caption": "Cerfeuil — fraîcheur ajoutée hors du feu."
+        }
       ]
     },
     "mayonnaise-fait-maison": {
@@ -424,7 +714,7 @@
         "description": "Aïoli = ail + huile de pépins de raisin (+ jaunes d'œuf pour stabiliser). Mayonnaise = jaunes d'œuf + huile neutre, souvent avec moutarde, sans ail.",
         "steps": [
           "Pour 4 personnes : 4 gousses d'ail, 2 jaunes d'œufs, 200 à 240 ml d'huile de pépins de raisin.",
-          "Pour une base froide plus neutre (tonnato, parisienne) : mayonnaise faite maison."
+          "Pour une base froide plus neutre (tonnato) : mayonnaise faite maison."
         ]
       }
     },
@@ -443,48 +733,78 @@
         "Le thon, les anchois et les câpres apportent sel, iode et umami ; la mayonnaise stabilise l'émulsion froide.",
         "L'huile d'olive et le citron détendent la sauce sans la casser, tant que l'incorporation reste douce.",
         "Un repos au frais permet aux arômes de se fondre et donne une sauce plus nappante sur viande froide."
-      ]
-    },
-    "sauce-parisienne": {
-      "title": "Sauce parisienne",
-      "intro": "Pour 6 personnes, environ 400 à 500 ml. Sauce froide française à base de mayonnaise et de crème, parfumée aux fines herbes. Elle accompagne viandes froides, poissons, légumes crus ou œufs durs.",
-      "steps": [
-        "Préalable : préparer de la mayonnaise faite maison (voir recette Mayonnaise faite maison). Pour 6 personnes, compter environ 200 à 250 ml de mayonnaise.",
-        "Crème : fouetter 200 ml de crème liquide entière bien froide jusqu'à obtenir une chantilly ferme, ou utiliser 200 g de crème fraîche épaisse.",
-        "Base : dans un bol froid, mélanger la mayonnaise avec la crème en incorporant délicatement, pour garder une texture aérée.",
-        "Herbes et assaisonnement : ajouter 2 cuillères à soupe de fines herbes hachées (persil, cerfeuil, estragon, ciboulette), 1 cuillère à café de moutarde de Dijon, le jus d'un demi-citron, sel et poivre blanc.",
-        "Finition : si souhaité, ajouter quelques câpres hachées ou un blanc d'œuf dur coupé en petits dés pour plus de relief. Rectifier l'acidité avec un peu de citron si besoin.",
-        "Service : réserver au frais au moins 30 minutes avant de servir. La sauce doit être souple, pâle et très parfumée."
       ],
-      "chemistry": [
-        "La mayonnaise apporte l'émulsion et le corps ; la crème fouettée ou la crème fraîche l'allège et donne une texture plus mousseuse.",
-        "Les fines herbes et le citron ajoutent des composés aromatiques volatils : un repos au frais permet de les fixer sans chauffer la sauce.",
-        "Incorporer la crème sans trop travailler évite de casser l'émulsion et de rendre la sauce trop liquide."
+      "figuresTitle": "Les trois piliers",
+      "figures": [
+        {
+          "caption": "Thon — le corps de la sauce."
+        },
+        {
+          "caption": "Câpres — acidité et piquant."
+        },
+        {
+          "caption": "Anchois — sel et umami."
+        }
       ]
     },
     "steak-au-poivre-veau": {
       "title": "Steak au poivre",
-      "intro": "Pour 2 personnes. 2 filets mignons de veau (150–180 g chacun, 3–4 cm d'épaisseur), beaucoup de grains de poivre noir, vert et rouge, 1 échalote, une bonne quantité de beurre, cognac, 100–150 ml de crème liquide, fond de veau (optionnel). Saisir les filets ; sauce au poivre : échalote au beurre, poivre concassé cuit dans la poêle, cognac flambé, crème.",
+      "intro": "Pour 1 personne. 1 tournedos de bœuf — médaillon de filet (150–180 g, 3–4 cm d'épaisseur), 2 cuillères à soupe de grains de poivre noir et rouge, 1 petite échalote, huile d'olive extra vierge, 25 g de beurre (une noix), 2 cl de cognac, vin rouge, 2 cuillères à soupe de crème fraîche d'Isigny. Dorer le tournedos à l'huile d'olive extra vierge ; dès qu'il est retiré, beurre dans la poêle avec le jus de cuisson, échalote émincée, poivre concassé, flamber au cognac, déglaçage au vin rouge, crème fraîche d'Isigny.",
       "steps": [
-        "Concasser beaucoup de grains de poivre noir, vert et rouge au mortier (gros grains, pas en poudre). Réserver.",
-        "Sortir le veau du frigo 15–20 min à l'avance. Poêle en fonte ou à fond épais, bien chaude à feu vif.",
-        "Faire fondre une bonne quantité de beurre dans la poêle. Déposer les filets mignons. Cuisson 2–3 min par côté selon l'épaisseur (reste rosé au centre). Saler en fin de cuisson. Retirer sur une assiette et couvrir.",
-        "Dans la même poêle à feu moyen : échalote et beurre, puis mettre le poivre écrasé et le laisser cuire 1 min. Verser le cognac et flamber. Déglacer le fond à la spatule. Ajouter la crème (et un peu de fond de veau si vous en avez). Réduire 2–3 min, saler si besoin.",
-        "Remettre brièvement les filets dans la sauce ou napper à l'assiette. Servir avec frites, purée, légumes verts ou salade."
+        "Concasser 2 cuillères à soupe de grains de poivre noir et rouge au mortier (gros grains, pas en poudre). Réserver.",
+        "Émincer 1 petite échalote (voir [Émincer](emincer)). Sortir le tournedos du frigo 15–20 min à l'avance. Poêle De Buyer en acier inox, bien chaude à feu vif.",
+        "Huile d'olive extra vierge dans la poêle bien chaude. Pour un tournedos de 3–4 cm : bleu 1 min par côté ; saignant 2 min ; à point 3 min ; bien cuit 4 à 5 min. Saler en fin de cuisson. Retirer sur une assiette et couvrir.",
+        "Baisser à feu moyen. Ajouter 25 g de beurre (une noix) dans la même poêle, avec le jus du tournedos. Faire revenir l'échalote émincée, puis mettre le poivre écrasé et le laisser cuire 1 min.",
+        "Cognac : mesurer 2 cl dans un verre — jamais verser depuis la bouteille. Verser dans la poêle, éloigner le visage. Allumer au bord avec un allume-gaz. Laisser la flamme s'éteindre d'elle-même. Tenir un couvercle à portée de main.",
+        "Déglacer au vin rouge (4 à 5 cl), racler le fond à la spatule. Laisser réduire de moitié.",
+        "Ajouter 2 cuillères à soupe de crème fraîche d'Isigny. Réduire 2–3 min, saler si besoin.",
+        "Remettre brièvement le tournedos dans la sauce ou napper à l'assiette. Servir aussitôt."
       ],
       "chemistry": [
-        "Cuire le poivre dans la poêle (avec l'échalote et le beurre) développe et adoucit son parfum ; le poivre cru uniquement sur la viande peut rester trop âcre.",
-        "Flamber le cognac évapore l'alcool et concentre les arômes ; la crème lie la sauce."
+        "L'huile d'olive extra vierge, plus stable à feu vif, dore le tournedos sans brûler — [réaction de Maillard](reaction-maillard) ; le beurre trop tôt noircirait.",
+        "Dès que la viande est retirée, le beurre rejoint les sucs : l'échalote s'y attendrit et le poivre, cuit 1 min, développe et adoucit son parfum.",
+        "Le cognac, à ~40 %, s'enflamme : l'alcool brûle, les arômes de raisin et de fût restent. Le vin rouge seul (~12 %) ne flambe pas.",
+        "Le vin rouge déglace les sucs de la poêle et apporte acidité ; en réduisant, l'alcool s'évapore. La crème fraîche d'Isigny, plus épaisse et plus grasse, lie la sauce sans la rendre trop liquide.",
+        "Le repos de 2 à 3 minutes continue un peu la cuisson : sortir juste avant le degré visé. Trop cuit, le filet se dessèche."
       ],
       "tip": {
         "title": "Conseils",
-        "description": "Le veau se dessèche vite ; mieux vaut un cœur encore rosé qu'une cuisson à fond.",
+        "description": "Cuisson pour un tournedos de 3–4 cm, poêle très chaude, viande sortie 15–20 min. Le filet se sert plutôt saignant ou à point ; bien cuit, il se dessèche.",
         "steps": [
-          "Frites : blanchir les bâtonnets de pomme de terre 4 min dans l'eau bouillante, les laisser refroidir et bien sécher.",
-          "Double friture : première friture à 135 °C (275 °F) environ 5 min, puis à 175 °C (350 °F) 5–7 min jusqu'à ce qu'ils soient bien dorés et croustillants.",
-          "Saler pendant que les frites sont encore chaudes pour que le sel adhère. Sel marin de Camargue."
+          "Bleu : 1 min par côté.",
+          "Saignant : 2 min par côté.",
+          "À point : 3 min par côté.",
+          "Bien cuit : 4 à 5 min par côté.",
+          "Saler en fin de cuisson, pas avant : le sel trop tôt tire le jus.",
+          "Laisser reposer 2 à 3 minutes sous une assiette : le jus se redistribue, la cuisson avance encore un peu.",
+          "Sel marin de Camargue.",
+          "Pour flamber : jamais depuis la bouteille. Un couvercle à portée de main ; jamais d'eau sur la flamme."
         ]
-      }
+      },
+      "figuresTitle": "Le pas à pas",
+      "figures": [
+        {
+          "caption": "Par personne : 2 cuillères à soupe de grains de poivre noir et rouge, concassés au mortier — gros grains, pas en poudre."
+        },
+        {
+          "caption": "Dorer le tournedos à l'huile d'olive extra vierge. Saler en fin de cuisson, puis retirer."
+        },
+        {
+          "caption": "Guide de cuisson, tournedos 3–4 cm, poêle très chaude : bleu 1 min par côté ; saignant 2 min ; à point 3 min ; bien cuit 4 à 5 min."
+        },
+        {
+          "caption": "1 petite échalote émincée (voir [Émincer](emincer)). Dès que le tournedos est retiré : 25 g de beurre (une noix) dans la poêle, avec le jus de cuisson, puis l'échalote."
+        },
+        {
+          "caption": "2 cl de cognac, mesurés dans un verre. Allumer au bord avec un allume-gaz ; laisser la flamme s'éteindre d'elle-même."
+        },
+        {
+          "caption": "Déglacer au vin rouge (4 à 5 cl) : verser dans la poêle, racler les sucs, laisser réduire de moitié."
+        },
+        {
+          "caption": "Ajouter 2 cuillères à soupe de crème fraîche d'Isigny. Réduire 2–3 min."
+        }
+      ]
     },
     "vol-au-vent-champignons-paris": {
       "title": "Vol-au-vent aux fruits de mer",
@@ -500,6 +820,37 @@
       "chemistry": [
         "La réduction du vin blanc concentre les arômes et équilibre l'iode des fruits de mer avec l'acidité.",
         "La crème fraîche apporte de la rondeur et lie la sauce ; le montage final au dernier moment évite de détremper la pâte feuilletée."
+      ]
+    },
+    "amuse-bouche": {
+      "title": "Amuse-bouche",
+      "intro": "L'amuse-bouche n'est pas une entrée. Une seule bouchée, offerte avant le repas, non commandée. Ici, niçoise : une pizzetta pissaladière — oignons fondus, anchois, olives noires, sur une pâte fine. Pas de tomate. Une par personne.",
+      "steps": [
+        "Le geste : une bouchée, une seule. On la sert chaude, à l'apéritif ou juste avant l'entrée. Ce n'est pas la [petite attention](petite-attention).",
+        "Oignons : 4 oignons jaunes émincés. Cocotte, 3 cuillères à soupe d'[huile d'olive](huile), feu très doux, 40 à 50 minutes — ils fondent, blondissent, sans colorer fort. Une pincée de thym. Saler peu : les anchois salent.",
+        "Pâte : 200 g de farine, 12 cl d'eau tiède, 1 cuillère à soupe d'huile d'olive, ½ sachet de levure de boulanger, une pincée de sel. Pétrir, [détente](detente) 30 minutes. Étaler très fin. Découper 8 disques de 6 à 7 cm — une pizzetta par bouchée.",
+        "Montage : napper chaque disque d'oignons. Croiser 2 filets d'anchois (ou en étoile). 2 ou 3 olives noires de Nice. Un filet d'huile.",
+        "Four : 220 °C, 8 à 10 minutes, jusqu'à bord croustillant et oignons dorés. Servir aussitôt — une pizzetta par invité."
+      ],
+      "chemistry": [
+        "La cuisson lente des oignons casse les cellules et libère les sucres : fondant, doux, sans amertume de la coloration forte.",
+        "Anchois et olives apportent sel et umami ; sans tomate, la pissaladière reste sèche et croustillante en bouchée.",
+        "La pâte fine, bien chaude, reste croquante sous les oignons — trop épaisse, elle pâte et ce n'est plus un amuse-bouche."
+      ]
+    },
+    "petite-attention": {
+      "title": "Petite attention",
+      "intro": "La petite attention est un cadeau du chef — à l'arrivée, ou entre deux services. Ce n'est pas un amuse-bouche : plus libre, parfois plus long à grignoter, toujours offert. Exemple niçois : olives noires cassées au citron, au thym et à l'[huile d'olive](huile).",
+      "steps": [
+        "Le geste : on n'attend pas de commande. Une coupelle arrive — olives, un biscuit, une verrine. L'attention dit la maison.",
+        "Olives : 150 g d'olives noires de Nice (ou Cailletier). Les casser légèrement au fond d'un bol avec un poids — elles s'ouvrent, prennent le parfum.",
+        "Parfum : zeste d'un demi-citron non traité, quelques branches de thym frais, un filet d'[huile d'olive](huile) extra vierge. Mélanger. Repos 30 minutes à température ambiante.",
+        "Service : petite coupelle ou ramequin. Une cuillère. Pas de pain obligatoire — l'attention se tient seule.",
+        "Autre voie : un verre de soupe froide, un biscuit salé. Toujours libre, toujours offert — ce n'est pas l'[amuse-bouche](amuse-bouche)."
+      ],
+      "chemistry": [
+        "Casser l'olive ouvre la chair : l'huile et le citron entrent, l'amertume s'adoucit sans rinçage.",
+        "Le thym et le zeste sont volatils ; à température ambiante, ils parfument sans cuisson."
       ]
     },
     "carpaccio-crevettes": {
@@ -625,17 +976,40 @@
     },
     "filet-loup-papillote": {
       "title": "Filet de loup en papillote",
-      "intro": "Pour 4 personnes. Un filet de loup par personne, cuit en papillote avec câpres, tomates cerises coupées en deux, olives vertes et olives noires Kalamata, échalotes finement coupées et une tranche de citron. Le plat est servi avec des pommes de terre domino, sel, poivre et citron.",
+      "intro": "Pour 4 personnes. Un filet de loup par personne, cuit en papillote. Avant de fermer : échalotes coupées en lignes horizontales du sommet à la racine puis émiettées, câpres capucines, tomates cerises rouges et jaunes coupées en deux, olives vertes et noires. Servi avec des pommes de terre domino.",
       "steps": [
+        "Arêtes : passer le doigt le long de la ligne centrale de chaque filet, côté chair. Les petites arêtes intramusculaires se sentent comme des pointes. Les tirer une à une avec des pinces à arêtes, dans le sens de l'arête, sans déchirer la chair.",
         "Pommes de terre domino : tailler les pommes de terre de façon régulière. Les démarrer à l'eau froide salée, porter à ébullition puis compter encore environ 10 minutes. Égoutter, assaisonner avec sel et poivre, puis finir au four à 200 °C jusqu'à ce qu'elles soient bien dorées.",
-        "Papillotes : poser au centre d'un morceau de papier cuisson 1 filet de loup par personne. Ajouter dessus des câpres, des tomates cerises coupées en deux, des olives vertes, des olives noires Kalamata, des échalotes finement coupées et enfin une tranche de citron.",
-        "Refermer soigneusement chaque papillote pour bien garder la vapeur à l'intérieur, puis cuire au four jusqu'à ce que le poisson soit juste nacré et cuit à cœur.",
-        "Service : ouvrir les papillotes au dernier moment, vérifier l'assaisonnement, ajouter un peu de citron si besoin puis servir aussitôt avec les pommes de terre domino."
+        "Échalotes : les couper en lignes horizontales, du sommet à la racine, puis les émietter. Répartir sur chaque filet.",
+        "Câpres capucines : ajouter les câpres capucines — boutons de capucine au vinaigre, plus doux qu'une câpre de buisson.",
+        "Tomates : couper en deux des tomates cerises rouges et des tomates cerises jaunes. Les poser à côté du filet, face coupée vers le haut.",
+        "Olives : ajouter des olives vertes et des olives noires.",
+        "Fermer : refermer soigneusement chaque papillote pour garder la vapeur, puis cuire au four jusqu'à ce que le poisson soit juste nacré et cuit à cœur.",
+        "Service : ouvrir les papillotes au dernier moment, vérifier l'assaisonnement, puis servir aussitôt avec les pommes de terre domino."
       ],
       "chemistry": [
-        "La cuisson en papillote retient la vapeur et les jus des garnitures : le filet de loup reste plus moelleux et prend les parfums du citron, des olives, des câpres et de l'échalote.",
-        "Les tomates cerises apportent eau, douceur et acidité ; en chauffant, elles forment un jus léger qui assaisonne naturellement le poisson.",
-        "La pré-cuisson à l'eau puis la finition au four aident les pommes de terre domino à être fondantes à cœur et dorées à l'extérieur."
+        "Les arêtes du filet sont intramusculaires : on les sent au doigt et on les retire à la pince, dans leur axe, pour ne pas casser la chair.",
+        "Les lignes horizontales, du sommet à la racine, laissent l'échalote se défaire ensuite en petits morceaux : plus de surface pour parfumer la vapeur.",
+        "Les tomates rouges et jaunes, coupées en deux, rendent un jus doux et acidulé qui assaisonne le loup.",
+        "Câpres capucines et olives apportent sel et amertume légère ; la papillote enferme ces parfums autour du filet."
+      ],
+      "figuresTitle": "Avant de fermer la papillote",
+      "figures": [
+        {
+          "caption": "Arêtes : les sentir au doigt, les tirer à la pince dans le sens de l'arête."
+        },
+        {
+          "caption": "Échalotes en rondelles, comme un oignon."
+        },
+        {
+          "caption": "Câpres capucines : boutons de capucine au vinaigre."
+        },
+        {
+          "caption": "Tomates cerises rouges et jaunes, coupées en deux."
+        },
+        {
+          "caption": "Olives vertes et olives noires."
+        }
       ]
     },
     "canard-orange-pommes-domino": {
@@ -644,12 +1018,22 @@
       "steps": [
         "Sauce : dans une poêle à feu moyen, faire fondre le sucre sans remuer jusqu'à un caramel blond. Retirer du feu, ajouter progressivement le jus d'orange chaud (attention aux éclaboussures). Remettre à feu doux, mélanger jusqu'à dissolution du caramel, puis laisser réduire 5 à 8 min jusqu'à texture sirupeuse mais fluide.",
         "Pommes de terre : pour les produits qui poussent sous terre, on démarre la cuisson à l'eau froide. Mettre donc les pommes de terre dans une casserole d'eau froide, porter à ébullition puis compter encore 10 minutes. Les sortir, les égoutter, puis les enfourner 1 h à 200 °C.",
-        "Magret : inciser la peau, marquer en poêle avec huile d'olive à feu vif (déposer côté peau, cuire environ 3 min de chaque côté jusqu'à peau dorée), puis finir au four 18 min à 200 °C.",
+        "Magret : quadriller la peau en diagonale, sans entamer la chair. Marquer en poêle avec huile d'olive à feu vif (déposer côté peau, cuire environ 3 min de chaque côté jusqu'à peau dorée), puis finir au four 18 min à 200 °C.",
         "Laisser reposer le magret 5 min, trancher et napper de sauce. Servir avec les pommes de terre et du thym."
       ],
       "chemistry": [
         "Le sucre caramélisé apporte couleur et amertume douce ; le jus d'orange et le zeste donnent l'acidité et le parfum.",
-        "Le magret cuit peau en premier rend le gras et crispe la peau ; le repos permet une redistribution du jus."
+        "Le magret cuit peau en premier rend le gras et crispe la peau — [réaction de Maillard](reaction-maillard) ; le repos permet une redistribution du jus.",
+        "Les incisions en losange ouvrent la graisse : la peau ne se rétracte pas d'un bloc, le gras fond dans la poêle et la peau croustille. On ne coupe pas la chair, pour garder le jus."
+      ],
+      "figuresTitle": "Le magret et le quadrillage de la peau",
+      "figures": [
+        {
+          "caption": "Le magret est la poitrine — les muscles pectoraux — d'un canard gras."
+        },
+        {
+          "caption": "Inciser la peau en diagonale, sans toucher à la chair : le gras fond, la peau reste à plat."
+        }
       ]
     },
     "magret-canard-coulis-framboises": {
@@ -665,10 +1049,46 @@
         "L'acidité du citron et des framboises équilibre le gras du magret et rehausse les notes fruitées sans recourir à un caramel sucré.",
         "Commencer la cuisson côté peau dans une poêle tiède permet de fondre le gras lentement et d'obtenir une peau croustillante tout en gardant la chair rosée.",
         "Passer le coulis au chinois donne une sauce lisse et brillante ; les pectines des framboises suffisent à l'épaissir légèrement sans cuisson longue."
+      ],
+      "figuresTitle": "Le magret",
+      "figures": [
+        {
+          "caption": "Le magret est la poitrine — les muscles pectoraux — d'un canard gras."
+        }
+      ]
+    },
+    "cuisse-canard-safran": {
+      "title": "Cuisse de canard, pommes safran",
+      "intro": "Pour 4 personnes. Une cuisse de canard par assiette, peau croustillante, sur des [pommes de terre safran](pommes-safran). À côté : tomates cerises caramélisées dans la graisse du canard.",
+      "steps": [
+        "Cuisses : 4 cuisses de canard. Bien les éponger, quadriller la peau sans entamer la chair, saler et sortir 20 minutes.",
+        "Dorure : chauffer 1 c. à soupe de [graisse de canard](graisse-canard) dans une poêle, feu moyen. Déposer les cuisses côté peau et laisser rendre le gras 8 à 10 minutes, jusqu'à une dorure profonde, presque caramélisée. Retourner 2 minutes côté chair. Réserver le gras.",
+        "Four : enfourner les cuisses 1 h 30 à 2 h à 165 °C, jusqu'à ce qu'elles soient très tendres et se détachent facilement de l'os. Arroser une ou deux fois avec la graisse de canard et finir côté peau vers le haut pour la garder croustillante. Reposer 5 minutes.",
+        "Pommes de terre safran : préparer les [pommes de terre safran](pommes-safran) et les garder au chaud.",
+        "Tomates cerises : dans le gras du canard, 250 g de tomates cerises entières. Une pincée de sucre. 4 à 5 minutes à feu moyen, jusqu'à peaux ridées et jus caramélisé.",
+        "Dressage : purée, la cuisse dessus, les tomates à côté."
+      ],
+      "chemistry": [
+        "La cuisse contient davantage de collagène que le magret : la cuisson douce de 1 h 30 à 2 h le transforme progressivement en gélatine, ce qui attendrit la viande jusqu'à ce qu'elle se détache facilement de l'os.",
+        "La surface bien épongée, au contact de la [graisse de canard](graisse-canard) chaude, brunit par [réaction de Maillard](reaction-maillard) : elle prend une couleur profonde et des arômes grillés avant la cuisson douce au four.",
+        "Les [pommes de terre safran](pommes-safran) apportent leur texture onctueuse et leurs notes florales légères.",
+        "Le sucre et le gras du canard caramélisent les peaux des tomates : acidité contre le gras, un peu de sucs grillés."
+      ],
+      "figuresTitle": "La cuisse et le pas à pas",
+      "figures": [
+        {
+          "caption": "La cuisse réunit le haut de cuisse et le pilon, riches en os et en tissu conjonctif."
+        },
+        {
+          "caption": "Les [pommes de terre safran](pommes-safran) : presse-purée, ail, safran, beurre et crème."
+        },
+        {
+          "caption": "Tomates cerises dans le gras du canard, une pincée de sucre. Peaux ridées, jus caramélisé."
+        }
       ]
     },
     "risotto-safran-magret-canard-orange": {
-      "title": "Risotto safran avec magret de canard à l'orange",
+      "title": "Risotto au magret de canard à l'orange",
       "intro": "Pour 4 personnes. Risotto carnaroli au safran naturel, servi avec des tranches de magret de canard et une sauce à l'orange. L'assiette joue sur l'équilibre entre le gras du canard, la douceur crémeuse du risotto et la tension acidulée de l'orange.",
       "steps": [
         "Préparer la sauce à l'orange : faire fondre 100 g de sucre jusqu'à un caramel blond, puis ajouter progressivement 200 ml de jus d'orange fraîchement pressé. Laisser réduire doucement jusqu'à une texture nappante, puis ajouter un peu de zeste fin si souhaité.",
@@ -680,45 +1100,12 @@
       "chemistry": [
         "Le riz carnaroli libère progressivement son amidon pendant la cuisson, ce qui donne au risotto sa texture naturellement crémeuse.",
         "Le safran naturel en filaments, ajouté directement dans la sauteuse après 5 minutes de cuisson, parfume et colore le risotto ; l'acidité de l'orange équilibre la richesse du gras du canard."
-      ]
-    },
-    "risotto-betterave-fruits-de-mer": {
-      "title": "Risotto betterave et fruits de mer",
-      "intro": "Pour 4 personnes. Risotto carnaroli cuit dans un bouillon de légumes infusé aux parures de fruits de mer (têtes et queues de crevettes, pattes de crabe), puis coloré au jus de betterave cru filtré et monté au beurre et au Parmigiano. Les têtes et queues ne se grillent pas : elles servent uniquement au bouillon. On grille à part les corps de crevettes décortiqués, puis on les dispose sur le risotto avec du persil et une sauce parmesane tiède.",
-      "steps": [
-        "Bouillon : préparer un bouillon de légumes, y faire bouillir les têtes et queues de crevettes ainsi que les pattes de crabe, laisser infuser, puis filtrer soigneusement. Garder le bouillon bien chaud pour la cuisson du risotto.",
-        "Risotto : compter 100 g de riz carnaroli par personne (400 g pour 4). Faire suer les échalotes dans du beurre environ 1 minute, ajouter tout le riz et le nacrer 90 secondes en remuant.",
-        "Mouiller progressivement avec le bouillon chaud en remuant ; la cuisson dure environ 20 minutes jusqu'à un riz fondant mais encore légèrement ferme au centre.",
-        "Vers la fin, incorporer le jus de betterave frais filtré (betteraves crues mixées ou passées à l'extracteur, puis filtrées au chinois).",
-        "Hors du feu, monter le risotto avec 100 g de Parmigiano Reggiano râpé et 100 g de beurre pour obtenir l'effet crémeux caractéristique.",
-        "Garniture : décortiquer les crevettes (têtes et queues réservées pour le bouillon uniquement — ne pas les griller). Griller à la poêle, avec un filet d'huile d'olive extra vierge, uniquement les corps nets des deux côtés jusqu'à belle coloration et légère croustillance en surface.",
-        "Sauce Parmigiano : mélanger 100 g de Parmigiano râpé avec de la crème liquide française, une pointe de muscade, poivre et sel ; chauffer doucement en remuant jusqu'à une texture nappante.",
-        "Dressage : dresser le risotto, disposer les crevettes grillées (corps) dessus, parsemer de feuilles de persil frais et napper légèrement de sauce parmesane tiède."
       ],
-      "chemistry": [
-        "Nacrer le riz avant d'humecter favorise une texture plus régulière et limite l'excès d'amidon libéré d'un coup.",
-        "Les carapaces et parures de crustacés libèrent des composés aromatiques iodés et umami dans le bouillon, qui parfument le riz pendant la cuisson lente.",
-        "Le jus de betterave apporte couleur et une légère douceur terreuse ; le montage froid au beurre et au fromage forme une émulsion onctueuse sans faire bouillir la crème du lait."
-      ]
-    },
-    "flan-dulce-de-leche": {
-      "title": "Crème caramel dulce de leche",
-      "intro": "Pour 4 personnes. Crème caramel dulce de leche : un caramel ambré au fond du ramequin et une crème onctueuse à base de lait, de crème épaisse, de dulce de leche, de sucre et d'œufs, cuite doucement au bain-marie. À préparer à l'avance : minimum 3 à 4 h au frais, idéalement une nuit.",
-      "steps": [
-        "Caramel : faire chauffer 100 g de sucre (soit 5 cuillères à soupe) avec quelques gouttes d'eau dans une casserole jusqu'à obtenir un caramel ambré. Verser aussitôt au fond de 4 ramequins. Laisser prendre.",
-        "Lait et crème : chauffer doucement 250 ml de lait avec 175 g de crème épaisse entière (30 à 35 % MG, texture épaisse et onctueuse, pas une crème liquide légère). Ajouter la vanille. Ne pas faire bouillir fortement.",
-        "Œufs, sucre et dulce de leche : fouetter 2 œufs entiers et 2 jaunes d'œufs avec 60 g de sucre, puis incorporer 350 g de dulce de leche jusqu'à obtenir un appareil lisse.",
-        "Lier : verser progressivement le mélange lait-crème chaud dans les œufs en fouettant.",
-        "Remplir : passer l'appareil au chinois si possible pour une texture plus lisse, puis verser sur le caramel dans les ramequins.",
-        "Bain-marie : disposer les ramequins dans un plat allant au four, verser de l'eau chaude à mi-hauteur.",
-        "Cuisson : enfourner à 150 °C environ 35 à 45 minutes, jusqu'à ce que le centre tremblote légèrement.",
-        "Refroidissement : laisser refroidir complètement, puis placer au frais au minimum 3 à 4 heures — idéalement une nuit.",
-        "Service : passer une lame fine sur le bord, retourner sur une assiette ; le caramel coule sur la crème."
-      ],
-      "chemistry": [
-        "Le dulce de leche et le sucre apportent douceur, couleur et onctuosité ; le lait et la crème épaisse enrichissent l'appareil pour une texture ferme mais fondante.",
-        "Les protéines des œufs coagulent doucement au bain-marie et donnent à la crème caramel sa tenue.",
-        "Le refroidissement prolongé permet à la crème de se contracter légèrement et de se démouler proprement ; le caramel liquéfié au frais nappe le dessert au retournement."
+      "figuresTitle": "Le magret",
+      "figures": [
+        {
+          "caption": "Le magret est la poitrine — les muscles pectoraux — d'un canard gras."
+        }
       ]
     },
     "crepes-dulce-de-leche": {
@@ -735,7 +1122,7 @@
       "chemistry": [
         "Le repos de la pâte hydrate l'amidon et détend le gluten : les crêpes sont plus souples et moins élastiques à la cuisson.",
         "Le dulce de leche concentre lactose et sucres caramélisés : il lie et nappe la crêpe sans recuire, surtout si la crêpe est encore tiède.",
-        "La coloration dorée de la crêpe vient de la réaction de Maillard entre protéines de l'œuf et sucres du lait et du sucre."
+        "La coloration dorée de la crêpe vient de la [réaction de Maillard](reaction-maillard) entre protéines de l'œuf et sucres du lait et du sucre."
       ]
     },
     "tarte-citron-menton": {
@@ -758,7 +1145,7 @@
       "title": "Baba au rhum (Rhum Saint-James)",
       "intro": "Classique français. Petites brioches alvéolées imbibées d'un sirop sucré parfumé au Rhum Saint-James (Martinique). Pour 6 babas individuels environ. Le rhum s'ajoute au sirop tiède, jamais en ébullition, pour garder tout son parfum.",
       "steps": [
-        "Pâte : délayer 20 g de levure de boulanger fraîche dans 2 à 3 cuillères à soupe de lait tiède. Dans un saladier, mélanger 250 g de farine, 40 g de sucre et 1 pincée de sel ; creuser un puits, ajouter 3 œufs entiers et la levure délayée. Pétrir jusqu'à une pâte lisse et élastique (robot ou à la main), puis incorporer 100 g de beurre pommade en plusieurs fois jusqu'à absorption complète.",
+        "Pâte : délayer 20 g de levure de boulanger fraîche dans 2 à 3 cuillères à soupe de lait tiède. Dans un saladier, mélanger 250 g de farine, 40 g de sucre et 1 pincée de sel ; creuser un puits, ajouter 3 œufs entiers et la levure délayée. Pétrir jusqu'à une pâte lisse et élastique (robot ou à la main), puis incorporer 100 g de beurre pommade en plusieurs fois jusqu'à absorption complète — même geste que le [bassinage](bassinage), autre matière.",
         "Filmer et laisser lever 1 h à température ambiante jusqu'à doublement de volume. Beurrer 6 moules à baba (ou un grand moule), remplir aux trois quarts, laisser lever encore 30 à 45 min jusqu'à ce que la pâte arrive presque au bord.",
         "Cuisson : four à 180 °C environ 20 à 25 min (moins si petits moules) jusqu'à coloration dorée. Démouler encore tiède sur une grille.",
         "Sirop : porter à ébullition 400 ml d'eau avec 200 g de sucre et 1 gousse de vanille fendue (ou un peu d'extrait) ; laisser frémir 3 à 4 min puis retirer du feu. Laisser tiédir jusqu'à environ 50 °C, puis incorporer 12 à 15 cl de Rhum Saint-James (ajuster selon l'intensité souhaitée).",
@@ -767,32 +1154,114 @@
       ],
       "chemistry": [
         "La levure transforme les sucres en CO₂ et composés aromatiques : les bulles et l'alcool de fermentation gonflent la mie avant cuisson.",
-        "La cuisson fixe la structure protéique des œufs et gélifie l'amidon de la farine, ce qui retient l'humidité du sirop sans effondrer complètement la mie.",
+        "La cuisson fixe la structure protéique des œufs et gélifie l'amidon de la farine, ce qui retient l'humidité du sirop sans effondrer complètement la mie. La croûte dorée : [réaction de Maillard](reaction-maillard).",
         "Le sucre du sirop augmente la tension osmotique et retient l'eau dans le baba ; le rhum, riche en arômes volatils, se fixe mieux si le sirop n'est plus bouillant."
       ]
     },
     "tiramisu": {
       "title": "Tiramisu",
-      "intro": "Pour 4 personnes. Classique italien du Veneto, sans cuisson : biscuits à la cuillère imbibés d'un café espresso froid, alternés avec une crème onctueuse au mascarpone, œufs et sucre. À préparer à l'avance : minimum 4 h au frais, idéalement une nuit. Saupoudrer de cacao amer juste avant de servir.",
+      "intro": "Pour 4 personnes. Classique italien du Veneto, sans cuisson : biscuits à la cuillère (savoiardi) imbibés d'un café de la moka froid, alternés avec une crème onctueuse au mascarpone, œufs et sucre. À préparer à l'avance : minimum 4 h au frais, idéalement une nuit. Saupoudrer de cacao amer juste avant de servir.",
       "steps": [
-        "Café : préparer 250 ml d'espresso fort ou de café très corsé, laisser refroidir complètement, puis ajouter 2 cuillères à soupe de Marsala ou de rhum ambré si souhaité.",
-        "Crème au mascarpone : fouetter 3 jaunes d'œufs avec 60 g de sucre jusqu'à ce que le mélange blanchisse et devienne mousseux. Incorporer 250 g de mascarpone en mélangeant doucement jusqu'à obtenir une crème lisse.",
-        "Blancs : monter 3 blancs d'œufs en neige ferme, puis les incorporer délicatement à la crème au mascarpone en trois fois, sans trop travailler la préparation.",
-        "Montage : dans un plat rectangulaire ou des verrines individuelles, tremper rapidement 24 biscuits à la cuillère dans le café froid — une seconde par face, sans les ramollir. Alterner une couche de biscuits et une couche de crème ; terminer par une couche de crème.",
+        "Café : préparer 15 cl de café de la moka bien fort, sucrer d'une demi-cuillère à café de sucre, puis laisser refroidir complètement. Ajouter 1 cuillère à soupe de Marsala ou de rhum ambré si souhaité.",
+        "Jaunes : séparer 3 œufs très frais. [Blanchir les jaunes](blanchir-les-jaunes) : fouetter les 3 jaunes avec 30 g de sucre (soit 2 cuillères à soupe) jusqu'à ce que le mélange blanchisse, mousse et tienne — fouetter jusqu'à ce qu'il soit ferme.",
+        "Mascarpone : incorporer 250 g de mascarpone aux jaunes, en mélangeant jusqu'à obtenir une crème lisse.",
+        "Blancs : monter les 3 blancs en neige en ajoutant progressivement 30 g de sucre (soit 2 cuillères à soupe). Fouetter jusqu'à ce qu'ils soient bien fermes : pour vérifier, retourner le saladier — les blancs ne doivent pas bouger.",
+        "Crème : incorporer délicatement les blancs à la crème au mascarpone, en trois fois, sans trop travailler.",
+        "Montage : dans un plat rectangulaire ou des verrines individuelles, tremper rapidement 125 g de biscuits à la cuillère (savoiardi, environ 12) dans le café froid — une seconde par face, sans les ramollir. Alterner une couche de biscuits et une couche de crème ; terminer par une couche de crème.",
         "Repos : couvrir au contact et placer au frais au minimum 4 heures, idéalement une nuit, pour que la crème se fixe et que les biscuits s'imprègnent uniformément.",
         "Service : saupoudrer généreusement de cacao amer non sucré au moment de servir."
       ],
       "chemistry": [
         "Le mascarpone, très riche en matière grasse, forme avec les jaunes d'œufs et le sucre une crème épaisse et onctueuse ; les blancs montés apportent légèreté sans cuisson.",
+        "Le sucre ajouté progressivement aux blancs stabilise la mousse en retenant l'eau : on obtient une neige ferme, assez solide pour tenir si l'on retourne le saladier.",
         "Tremper les biscuits très brièvement limite l'absorption d'eau : ils restent moelleux à cœur tout en prenant le parfum du café.",
         "Le repos au frais permet à la crème de se stabiliser et aux arômes de café et de Marsala de se répartir ; le cacao amer équilibre la douceur du sucre et du mascarpone."
+      ]
+    },
+    "fondant-chocolat": {
+      "title": "Fondant au chocolat",
+      "intro": "Pour 4 personnes. Petit gâteau au chocolat noir cuit à four très chaud : les bords sont pris, le cœur reste coulant. Se prépare à l'avance : l'appareil peut attendre au frais ; on enfourne au dernier moment.",
+      "steps": [
+        "Moules : beurrer 4 ramequins et les chemiser de cacao amer ou d'un peu de farine, puis tapoter pour retirer l'excédent.",
+        "Chocolat : faire fondre 120 g de chocolat noir 70 % avec 120 g de beurre doux au bain-marie, jusqu'à un mélange lisse. Laisser tiédir légèrement.",
+        "Appareil : fouetter 3 œufs avec 60 g de sucre (soit 3 cuillères à soupe) juste assez pour les mélanger, sans trop faire mousser. Verser le chocolat tiède, puis incorporer 40 g de farine et une pincée de sel, jusqu'à une pâte homogène.",
+        "Répartir : verser l'appareil dans les ramequins. On peut les réserver au frais jusqu'à 24 heures.",
+        "Cuisson : four préchauffé à 200 °C. Enfourner 8 à 10 minutes : les bords doivent être pris et le centre encore tremblotant. Trop cuit, le cœur se fige.",
+        "Service : laisser reposer 1 à 2 minutes, puis démouler ou servir dans le ramequin. Servir aussitôt."
+      ],
+      "chemistry": [
+        "Le beurre de cacao fond à basse température : au cœur du gâteau, il reste liquide et donne le coulant.",
+        "En périphérie, les protéines des œufs coagulent et l'amidon de la farine gélifie : c'est ce qui forme la coque.",
+        "Un four très chaud et un temps court cuisent l'extérieur avant que le centre n'atteigne la température de prise."
+      ]
+    },
+    "oeufs-a-la-neige": {
+      "title": "Œufs à la neige",
+      "intro": "Pour 4 personnes. Grand classique : des îlots de blancs montés, pochés dans le lait, nagent sur une crème anglaise. Un filet de caramel. Le lait de pochage devient la crème. À préparer à l'avance : la crème au frais ; les neiges se pochent au dernier moment, ou se réservent tièdes.",
+      "steps": [
+        "Blancs : séparer 4 œufs très frais. Monter les 4 blancs en neige avec une pincée de sel. Ajouter progressivement 40 g de sucre (soit 2 cuillères à soupe). Fouetter jusqu'à ce qu'ils soient bien fermes : pour vérifier, retourner le saladier — les blancs ne doivent pas bouger.",
+        "Lait : aplatir une gousse de vanille, la fendre, gratter les grains. Chauffer 50 cl de lait avec les grains et la gousse, à 80–85 °C, à couvert. Le lait frémit, il ne bout pas.",
+        "Pocher : former des quenelles à deux cuillères, les glisser dans le lait. 2 minutes d'un côté, retourner, 2 minutes de l'autre. Elles gonflent. Les égoutter sur un linge. Le lait reste — c'est la base de la crème anglaise.",
+        "Crème anglaise : [blanchir les jaunes](blanchir-les-jaunes) — fouetter les 4 jaunes avec 60 g de sucre (soit 3 cuillères à soupe), sans trop faire mousser. Verser le lait chaud progressivement. Remettre sur feu doux jusqu'à 82–84 °C, nappant le dos de la cuillère. Ne pas bouillir — trop cuit, ça tranche. Passer au chinois. Refroidir.",
+        "Caramel : comme pour la [crème caramel](creme-caramel) — verser 2 cuillères à soupe d'eau (30 g) sur 80 g de sucre. Ne pas remuer. Blond ambré.",
+        "Service : nappe de crème anglaise froide, les neiges dessus, un filet de caramel. Amandes effilées grillées, si l'on veut."
+      ],
+      "chemistry": [
+        "Les protéines des blancs (ovalbumine) se dénaturent au fouet et emprisonnent l'air. Le sucre retient l'eau : une neige ferme.",
+        "À 80–85 °C, les protéines de surface coagulent : la mousse tient sans s'effondrer. À ébullition, les bulles éclatent.",
+        "Les jaunes, à 82–84 °C, lient le lait : lécithine, coagulation douce. Au-delà de 85 °C, ça tranche.",
+        "Le caramel, comme pour la crème caramel : le sucre poussé sans remuer. Un cristal relance toute la recristallisation."
+      ],
+      "figuresTitle": "Le pas à pas",
+      "figures": [
+        {
+          "caption": "Blancs fermes : une pincée de sel, 40 g de sucre progressivement. Le saladier retourné, ils ne bougent pas."
+        },
+        {
+          "caption": "Quenelles dans le lait à 80–85 °C. 2 minutes de chaque côté. Le lait ne bout pas ; il servira la crème anglaise."
+        },
+        {
+          "caption": "Jaunes et lait jusqu'à 82–84 °C : nappant le dos de la cuillère. Au-delà, ça tranche."
+        },
+        {
+          "caption": "Crème anglaise froide, les neiges dessus, un filet de caramel blond. Comme pour la crème caramel : ne pas remuer le sucre."
+        }
+      ]
+    },
+    "poire-belle-helene": {
+      "title": "Poire Belle Hélène",
+      "intro": "Pour 4 personnes. Paris, 1864. Jacques Offenbach donne La Belle Hélène aux Variétés : Hélène de Sparte en opéra-bouffe, le Second Empire qui se moque d'Homère. Auguste Escoffier baptise un dessert du même nom : une poire Williams pochée à la vanille, une glace vanille, une sauce chocolat chaude, des amandes. Le chaud sur le froid. On prépare les poires à l'avance ; la sauce, au dernier moment.",
+      "steps": [
+        "Le nom : le 17 décembre 1864, au Théâtre des Variétés, La Belle Hélène fait salle comble. Ce n'est pas l'Hélène d'Homère — c'est la farce parisienne. Escoffier, encore jeune, donne au dessert le titre de l'opérette. La poire, la glace, le chocolat brûlant : trois températures, un seul geste.",
+        "Poires : 4 Williams fermes, pas trop mûres. Peler en gardant la queue. Évider le cœur par la base. Citronner aussitôt — sans acide, elles noircissent.",
+        "Sirop : 1 litre d'eau, 200 g de sucre, 1 gousse de vanille fendue, le jus d'un demi-citron. Porter à frémissement.",
+        "Pocher : immerger les poires. 20 à 25 minutes, une lame s'enfonce, elles tiennent. Laisser refroidir dans le sirop — elles prennent la vanille.",
+        "Sauce chocolat : fondre 120 g de chocolat noir 70 % avec 12 cl de crème fleurette et 1 cuillère du sirop, au bain-marie. Garder au chaud : elle doit arriver brûlante à table.",
+        "Service : poire égouttée, une boule de glace vanille à côté. Napper de chocolat devant l'invité. Amandes effilées grillées."
+      ],
+      "chemistry": [
+        "Le citron freine la polyphénol oxydase : sans acide, la chair brunit à l'air.",
+        "Dans le sirop, la chaleur détend la pectine ; le sucre entre par osmose. La Williams, à chair fine, pochée sans s'effondrer.",
+        "Le chocolat et la crème : une émulsion de beurre de cacao. Servie chaude, elle reste fluide ; sur la glace, elle commence à prendre. C'est le contraste d'Escoffier."
+      ],
+      "figuresTitle": "Le pas à pas",
+      "figures": [
+        {
+          "caption": "Peler en gardant la queue. Évider par la base. Citronner : sans acide, la chair noircit."
+        },
+        {
+          "caption": "Sirop vanillé, frémissement. 20 à 25 minutes. Refroidir dans le sirop : la poire prend la vanille."
+        },
+        {
+          "caption": "Chocolat et crème au bain-marie. Brûlant à table, sur la glace : le chaud sur le froid."
+        }
       ]
     },
     "cavatelli-pesto": {
       "title": "Cavatelli au pesto",
       "intro": "Pour 4 personnes. Cavatelli dans l'esprit des Pouilles, préparés avec seulement 2 ingrédients : semola di grano duro rimacinata et eau. Ils sont servis avec un pesto alla ligure au basilic frais de Frejus, pignons de pin, huile d'olive Carapelli, Parmigiano Reggiano et ail.",
       "steps": [
-        "Pâte : compter 100 g de semola di grano duro rimacinata par personne. Pour 4 personnes, mélanger 400 g de semola avec de l'eau tiède en plusieurs fois jusqu'à obtenir une pâte ferme, lisse et malléable. Pétrir quelques minutes puis laisser reposer 20 à 30 minutes couvert.",
+        "Pâte : compter 100 g de semola di grano duro rimacinata par personne. Pour 4 personnes, mélanger 400 g de semola avec de l'eau tiède en plusieurs fois jusqu'à obtenir une pâte ferme, lisse et malléable — c'est le [bassinage](bassinage). Pétrir quelques minutes puis laisser reposer 20 à 30 minutes couvert — c'est la [détente](detente).",
         "Façonnage : rouler la pâte en boudins, couper de petits morceaux puis les tirer avec les doigts ou un couteau à beurre pour former les cavatelli. Les déposer sur un linge ou une plaque légèrement farinée.",
         "Pesto : mixer ou piler du basilic frais de Frejus avec 1 à 2 gousses d'ail, des pignons de pin, du Parmigiano Reggiano râpé et de l'huile d'olive Carapelli jusqu'à obtenir une sauce souple et parfumée. Saler légèrement si besoin.",
         "Cuisson : cuire les cavatelli dans une grande casserole d'eau bouillante salée jusqu'à ce qu'ils remontent à la surface et soient tendres mais encore légèrement fermes.",
@@ -803,11 +1272,44 @@
         "Ajouter un peu d'eau de cuisson au pesto aide à lier l'huile, le fromage et l'eau autour des pâtes, pour une sauce plus souple et plus homogène."
       ]
     },
+    "gnocchi-daube": {
+      "title": "Gnocchi à la daube",
+      "intro": "Pour 4 personnes. Classique niçois : des gnocchi de pomme de terre nappés d'une daube de bœuf — viande mijotée au vin rouge, à la [passata](passata), à l'orange et aux herbes. À Nice, la daube n'accompagne pas seulement les pâtes : elle trouve les gnocchi. On prépare la daube d'avance ; les gnocchi, au dernier moment.",
+      "steps": [
+        "Daube — viande : 1 kg de paleron ou de joue de bœuf, en gros cubes. Dans une cocotte, [huile d'olive](huile) bien chaude : saisir la viande de tous côtés, puis la réserver.",
+        "Daube — base : dans la même cocotte, faire suer 2 oignons et 2 carottes en [brunoise](brunoise), 3 gousses d'ail. Remettre la viande. Déglacer avec 50 cl de vin rouge de Provence. Ajouter 400 g de [passata](passata), 1 zeste d'orange non traité, thym, laurier, 2 clous de girofle, sel, poivre.",
+        "Mijoter : couvrir à peine. Laisser mijoter 2 h 30 à 3 h à feu très doux, jusqu'à ce que la viande se défasse (voir [Mijoter](mijoter)). Si la sauce réduit trop, un peu d'eau. Retirer le zeste, le laurier et les clous. Rectifier l'assiette — la sauce doit napper.",
+        "Gnocchi : 800 g de pommes de terre farineuses (Bintje), cuites en robe des champs. Peler encore chaudes, passer au presse-purée. Sur le plan, 200 à 250 g de farine, 1 œuf, une pincée de sel. Pétrir juste assez. Boudins, tronçons, stries à la fourchette.",
+        "Cuisson et service : eau bouillante salée. Dès que les gnocchi remontent, 30 secondes de plus. Égoutter, napper de daube bien chaude. Un peu de persil plat. Pas de fromage — ou un peu de Parmigiano, selon la table."
+      ],
+      "chemistry": [
+        "À basse température, le collagène du paleron devient gélatine : la viande fond, la sauce s'épaissit sans farine.",
+        "Le vin et la passata acidulent ; le zeste d'orange, touche niçoise, relève sans sucrer.",
+        "Les pommes farineuses absorbent peu de farine : des gnocchi légers, qui portent la daube sans durcir."
+      ]
+    },
+    "gnocchi-parisienne": {
+      "title": "Gnocchi à la parisienne",
+      "intro": "Pour 6 personnes. Gnocchi à la parisienne d'après Escoffier : une pâte à choux au lait, enrichie d'une purée de pomme de terre, d'œufs, de Gruyère et de muscade. On les poche, puis on les gratine sous une [sauce Mornay](sauce-mornay). Ce ne sont pas les [gnocchi à la daube](gnocchi-daube) niçois, ni les gnocchi alla romana à la semoule.",
+      "steps": [
+        "Pâte à choux : dans une casserole, 50 cl de [lait](lait), 100 g de [beurre](beurre), une pincée de sel, une pointe de poivre. Porter à ébullition. Hors du feu, verser d'un coup 250 g de farine ; remuer vivement jusqu'à absorption. Remettre sur feu doux pour dessécher — la pâte se détache de la casserole et de la spatule.",
+        "Purée : 600 g de pommes de terre farineuses, cuites en robe des champs, pelées encore chaudes. Passer au presse-purée ou au moulin — jamais écraser en écrasant : on tape, on ne fait pas de colle. Incorporer aussitôt la purée à la pâte à choux encore chaude.",
+        "Œufs et fromage : laisser tiédir un peu. Incorporer 6 œufs entiers, un à un, jusqu'à une pâte lisse qui forme un bec. Ajouter 150 g de Gruyère râpé et une bonne râpure de muscade — indispensable.",
+        "Pocher : eau frémissante, légèrement salée — pas à gros bouillons. Poche à douille, ou deux cuillères mouillées si l'on n'a pas de poche. Petites noix d'environ 3 cm. Dès qu'ils remontent et gonflent, environ 3 minutes ; égoutter.",
+        "Gratin : beurrer un plat. Un peu de [sauce Mornay](sauce-mornay) au fond — assez nappante, un peu détendue si elle a épaissi. Ranger les gnocchi sur deux ou trois couches, napper du reste (environ ¾ litre pour 6). Parsemer de Gruyère. Four assez chaud, jusqu'à dorure.",
+        "Sans poche : fariner le plan, former de petites quenelles à la cuillère mouillée, pocher de même. On peut aussi en frire quelques-unes, plus grosses, en panier — autre présentation, même appareil."
+      ],
+      "chemistry": [
+        "La pâte à choux emprisonne la vapeur : au pochage elle gonfle ; au four, sous la Mornay, elle souffle encore un peu.",
+        "La purée farineuse allège et allonge l'appareil ; trop d'eau dans la pomme, ou un mixer, et la pâte colle, les gnocchi s'alourdissent.",
+        "La muscade et le Gruyère parfument ; la [Mornay](sauce-mornay) protège du dessèchement et gratine sans noyer — trop liquide, ils ne tiennent pas."
+      ]
+    },
     "ravioli-pesto-di-liguria": {
       "title": "Ravioli pesto di Liguria",
       "intro": "Pour 4 personnes. Ravioli à la semola di grano duro rimacinata et aux œufs entiers, garnis d'une farce ricotta-épinards et servis avec un pesto di Liguria au basilic, pignons de pin, Parmigiano Reggiano, huile d'olive, ail et une pointe de citron.",
       "steps": [
-        "Pâte : compter 100 g de semola di grano duro rimacinata et 1 œuf entier par personne. Pour 4 personnes, mélanger 400 g de semola avec 4 œufs jusqu'à obtenir une pâte homogène, en ajoutant un peu d'eau tiède si besoin. Filmer au contact et laisser reposer 30 minutes au frigo.",
+        "Pâte : compter 100 g de semola di grano duro rimacinata et 1 œuf entier par personne. Pour 4 personnes, mélanger 400 g de semola avec 4 œufs jusqu'à obtenir une pâte homogène, en ajoutant un peu d'eau tiède si besoin. Filmer au contact et laisser reposer 30 minutes au frigo — c'est la [détente](detente).",
         "Farce : mélanger 250 g de ricotta pour 4 personnes, soit environ 62,5 g par personne, avec 300 g d'épinards frais réduits à l'huile d'olive, à l'italienne, surtout pas à l'eau, puis bien égouttés et hachés. Assaisonner avec sel, poivre et noix de muscade pour garder une farce nette et pas trop humide.",
         "Pesto : compter une demi-plante de basilic et une demi-gousse d'ail par personne, avec des pignons de pin, du Parmigiano Reggiano, de l'huile d'olive et une pincée de citron. Mixer ou piler jusqu'à obtenir une sauce souple et parfumée.",
         "Montage : étaler la pâte finement, déposer de petites portions de farce, refermer puis former les ravioli en chassant l'air autour de la garniture.",
@@ -819,20 +1321,54 @@
         "Le citron relève le pesto sans le rendre acide : une petite quantité suffit à rafraîchir le basilic et à équilibrer le gras du fromage et de l'huile."
       ]
     },
-    "acciughe-pesto-prezzemolo": {
-      "title": "Acciughe et pesto di prezzemolo",
-      "intro": "Pour 4 personnes. Les acciughe sotto sale del Mar Ligure entrent dans de nombreuses préparations, ou se dégustent simplement en filet sur un canapé. Ici, après désalage, ils sont dressés sur un lit de pesto di prezzemolo — persil, ail, origan et huile d'olive extra vierge — dans l'esprit de l'acciughe alla ligure, le hors-d'œuvre génois traditionnellement confit au bocal dans la même huile parfumée.",
+    "cannelloni-ricotta-epinards": {
+      "title": "Cannelloni ricotta-épinards",
+      "intro": "Pour 4 personnes. Des cannelloni dont la « pâte » est une crêpe salée, farcis de ricotta et d'épinards, nappés de [béchamel](sauce-bechamel) et d'un peu de [sauce tomate](passata), puis gratinés.",
       "steps": [
-        "Désalage : avant consommation, passer chaque filet d'anchois sous sel sous un filet d'eau froide quelques secondes seulement, puis l'éponger soigneusement avec un linge ou une serviette. L'objectif est d'enlever l'excès de sel sans ramollir la chair.",
-        "Pesto di prezzemolo : mixer ou piler une grosse botte de persil plat bien essoré avec 1 à 2 gousses d'ail, de l'origan frais ou sec, et de l'huile d'olive extra vierge jusqu'à obtenir une pâte verte épaisse et très parfumée, pas liquide. Saler très peu : les anchois apportent déjà le sel.",
-        "Lit de pesto : sur chaque assiette, former un disque régulier de pesto d'environ 10 à 12 cm de diamètre et 1 à 1,5 cm d'épaisseur, en tassant légèrement avec le dos d'une cuillère pour une surface nette.",
-        "Acciughe : disposer les filets désalés entiers sur le lit de pesto, côte à côte et parallèles, en couvrant le centre du disque. On peut aussi les servir seuls sur canapé en apéritif, ou les mettre au bocal couverts d'huile d'olive avec persil, ail et origan pour préparer des acciughe alla ligure classiques.",
-        "Finition : ajouter un filet d'huile d'olive extra vierge si besoin et servir aussitôt, bien frais, avec du pain légèrement grillé."
+        "Crêpes : mélanger 250 g de farine, 4 œufs, 50 cl de lait, 40 g de beurre fondu refroidi et une pincée de sel — pas de sucre. Fouetter jusqu'à une pâte lisse, laisser reposer 30 minutes. Beurrer une poêle chaude, cuire 8 crêpes fines, 1 à 2 minutes par face.",
+        "Farce : mélanger 250 g de ricotta avec 300 g d'épinards frais réduits à l'huile d'olive, à l'italienne, surtout pas à l'eau, puis bien égouttés et hachés. Sel, poivre et noix de muscade, pour une farce nette.",
+        "Montage : étaler la farce sur chaque crêpe et rouler serré en cylindre, comme un cannelloni. La jointure dessous.",
+        "Plat : beurrer un plat à gratin. Napper le fond d'un peu de [sauce tomate](passata). Ranger les cannelloni, napper de [béchamel](sauce-bechamel), encore un peu de tomate, et du Parmigiano Reggiano râpé.",
+        "Cuisson : four à 180 °C, 20 à 25 minutes, jusqu'à gratin doré. Servir chaud."
       ],
       "chemistry": [
-        "Le désalage rapide à l'eau froide dissout le sel de surface sans lessiver toute la saveur ; l'essuyage immédiat préserve la texture ferme des acciughe sotto sale del Mar Ligure.",
-        "L'acciughe alla ligure traditionnelle associe huile d'olive, persil, ail et origan : le pesto di prezzemolo concentre ces mêmes arômes en lit, tandis que les filets entiers au-dessus gardent leur identité saline et umami.",
-        "Tasser le pesto en disque concentre les huiles essentielles du persil et évite que l'assiette ne paraisse vide autour des filets, comme pour un piattino de trattoria."
+        "La crêpe est déjà cuite : le four ne fait que réchauffer la farce et gratiner les sauces, sans durcir une pâte crue.",
+        "Bien essorer les épinards limite l'eau dans le plat ; sinon la béchamel se dilue et les crêpes se détrempent.",
+        "La béchamel protège les crêpes du dessèchement ; l'acidité de la tomate équilibre le gras de la ricotta."
+      ]
+    },
+    "linguine-ai-frutti-di-mare": {
+      "title": "Linguine ai frutti di mare",
+      "intro": "Pour 4 personnes. Linguine trafilées au bronze, 2 noix de Saint-Jacques et 3 crevettes par personne, des poulpettes. Sauce : [passata](passata) montée sur un bisque de crevettes. Pas de Parmigiano — on finit au pan grattato. Plat ovale — cuivre ou inox — cuisson et présentation.",
+      "steps": [
+        "Fruits de mer : 8 noix de Saint-Jacques (2 par personne), 12 crevettes (3 par personne), 300 g de poulpettes. Décortiquer les crevettes en gardant têtes et carapaces pour le bisque — comme pour les [crevettes provençales](gambas-provencales-pastis) ; retirer la veine. Éponger les Saint-Jacques. Rincer les poulpettes, les sécher.",
+        "Bisque : dans une casserole, [huile d'olive](huile), têtes et carapaces 3 à 4 minutes à feu moyen. 1 échalote, 1 gousse d'ail. Mouiller avec 40 cl d'eau. Frémir 15 à 20 minutes. Filtrer en pressant bien — on veut un jus iodé, nappant.",
+        "Pan grattato : 60 g de chapelure de pain sec. Poêle sèche ou avec 1 cuillère à soupe d'huile d'olive, feu moyen, jusqu'à dorée et croustillante. Réserver — pas de Parmigiano.",
+        "Saisie : plat ovale de 35 cm, cuivre ou inox, ou sauteuse. Huile d'olive bien chaude, 2 gousses d'ail émincées, 30 secondes. Saint-Jacques 1 minute par face, crevettes 1 minute par face, poulpettes 2 à 3 minutes. Réserver.",
+        "Sauce passata-bisque : dans le même plat, 300 g de [passata](passata), puis le bisque filtré. Un filet d'huile, sel, poivre, une pointe de piment d'Espelette si l'on veut. 4 à 5 minutes à feu moyen, jusqu'à nappant — la passata prend le goût de la mer.",
+        "Linguine : 400 g de linguine trafilées au bronze. Eau bouillante salée, al dente moins 1 minute.",
+        "Finition : linguine dans le plat, un peu d'eau de cuisson, la sauce. Tourner 1 minute. Remettre Saint-Jacques, crevettes, poulpettes. Persil plat ciselé. Parsemer généreusement de pan grattato. Porter le plat ovale à table, tout de suite."
+      ],
+      "chemistry": [
+        "Têtes et carapaces libèrent iode et umami dans le bisque ; la [passata](passata) l'épaissit et l'acidule sans crème.",
+        "Le pan grattato grillé apporte croquant et Maillard — le rôle du Parmigiano sur une pasta di mare, sans lait.",
+        "Saint-Jacques, crevettes et poulpettes caoutchoutent si on les laisse trop longtemps : saisie courte, puis seulement réchauffer dans la sauce.",
+        "La surface rugueuse des pâtes au bronze accroche sauce et chapelure."
+      ],
+      "figuresTitle": "Le pas à pas",
+      "figures": [
+        {
+          "caption": "Bisque : têtes et carapaces de crevettes rôties à l'[huile d'olive](huile), puis filtrées."
+        },
+        {
+          "caption": "Pan grattato : chapelure de pain sec dorée à la poêle — pas de Parmigiano."
+        },
+        {
+          "caption": "Sauce passata-bisque : [passata](passata) montée sur le bisque filtré, jusqu'à nappant."
+        },
+        {
+          "caption": "Plat ovale — cuivre ou inox. Linguine, fruits de mer, pan grattato."
+        }
       ]
     },
     "risotto-osso-buco": {
@@ -869,6 +1405,287 @@
         "Décortiquer et éponger les gambas avant la saisie rapide évite l'excès d'humidité et limite une cuisson caoutchouteuse de la chair."
       ]
     },
+    "risotto-safran-fruits-de-mer": {
+      "title": "Risotto safran aux fruits de mer",
+      "intro": "Pour 4 personnes. Risotto carnaroli au safran, mouillé d'un bouillon maison. Dessus : crevettes — tête ôtée, queue gardée —, poulpitos frits aux tomates cerises et au vin rouge, noix de Saint-Jacques juste saisies.",
+      "steps": [
+        "Crevettes : 8 crevettes crues. Ôter la tête. Retirer la carapace, garder la queue. Inciser le dos, retirer la veine. Éponger.",
+        "Poulpitos : 400 g de petits poulpes, rincés, bien épongés. Poêle bien chaude, un filet d'[huile d'olive](huile). Les faire frire jusqu'à dorés. Ajouter 250 g de tomates cerises, puis 10 cl de vin rouge. Réduire 3 à 4 minutes, jusqu'à peaux ridées et jus nappant. Réserver avec le jus.",
+        "Risotto : faire suer 1 [échalote émincée](emincer) dans l'huile. Ajouter 400 g de riz carnaroli, nacrer 1 à 2 minutes. Puis 10 cl de vin blanc, 90 secondes, jusqu'à absorption. Mouiller progressivement avec un bouillon maison bien chaud, en remuant. Après 5 minutes, une pincée de filaments de safran. 18 à 20 minutes au total, riz fondant, encore un peu al dente.",
+        "Saint-Jacques : 8 noix, bien épongées. Poêle très chaude, un filet d'huile. 1 minute par face, juste prises. Voir les [ravioli aux Saint-Jacques](ravioli-saint-jacques).",
+        "Crevettes : dans une poêle chaude, un filet d'huile, 1 minute par face, jusqu'à rosées. Saler.",
+        "Finition : hors du feu, monter le risotto avec 80 g de beurre français froid en morceaux et 200 g de Parmigiano Reggiano râpé. Sel, poivre blanc.",
+        "Dressage : le risotto, les crevettes queue vers le haut, les poulpitos avec les tomates cerises et un peu de jus, les Saint-Jacques. Persil plat ciselé, si l'on veut."
+      ],
+      "chemistry": [
+        "La chair des crevettes, trop cuite, caoutchoute : une minute suffit. La queue reste pour le dressage.",
+        "Les poulpitos, petits, se frient : la peau dore — [réaction de Maillard](reaction-maillard). Puis les tomates cerises rendent leur jus ; le vin rouge déglace, l'acidité contre l'iode.",
+        "La noix de Saint-Jacques prend en une minute : au-delà, elle rend son eau et se ramasse.",
+        "Le riz carnaroli libère l'amidon ; le beurre et le Parmigiano Reggiano, hors du feu, émulsionnent avec cet amidon. Le safran, en filaments après 5 minutes, colore et parfume."
+      ],
+      "figuresTitle": "Le pas à pas",
+      "figures": [
+        {
+          "caption": "Crevettes : tête ôtée, queue gardée. Veine retirée."
+        },
+        {
+          "caption": "Poulpitos frits, tomates cerises, vin rouge. Réduire jusqu'à jus nappant."
+        }
+      ]
+    },
+    "risotto-aux-truffes": {
+      "title": "Risotto aux truffes",
+      "intro": "Pour 4 personnes. Risotto carnaroli monté au beurre et au Parmigiano Reggiano, parfumé à la truffe noire. La truffe entre hors du feu — râpée ou en lamelles — pour garder son parfum volatil.",
+      "steps": [
+        "Bouillon : porter à frémissement 1,2 litre de bouillon de volaille ou de légumes. Garder bien chaud.",
+        "Risotto : faire suer 1 [échalote émincée](emincer) dans 30 g de beurre français. Ajouter 400 g de riz carnaroli, nacrer 1 à 2 minutes. Déglacer avec 10 cl de vin blanc sec, jusqu'à absorption.",
+        "Cuisson : mouiller progressivement avec le bouillon chaud, louche après louche, en remuant. 18 à 20 minutes au total — riz fondant, encore légèrement al dente.",
+        "Finition : hors du feu, monter avec 80 g de beurre français froid en morceaux et 80 g de Parmigiano Reggiano râpé. Texture souple, brillante. Sel, poivre blanc.",
+        "Truffe : râper ou couper en lamelles fines 20 à 30 g de truffe noire (fraîche, ou conservée au jus). Incorporer la moitié hors du feu ; disposer le reste sur le risotto au dressage. Servir tout de suite."
+      ],
+      "chemistry": [
+        "Le riz carnaroli libère son amidon progressivement ; le beurre et le Parmigiano Reggiano, hors du feu, forment l'émulsion crémeuse du risotto — sans crème.",
+        "Les arômes de la truffe sont volatils : la chaleur forte les dissipe. On l'ajoute hors du feu, ou juste en finition.",
+        "Le gras du beurre et du fromage porte les composés aromatiques de la truffe et les fixe dans l'assiette."
+      ]
+    },
+    "tian-provencal": {
+      "title": "Tian provençal",
+      "intro": "Pour 4 personnes. Plat d'été de Provence : rondelles de courgettes, aubergines, tomates et oignons, dressées debout dans un tian — le plat en terre qui a donné son nom à la recette — puis cuites longuement à l'huile d'olive, à l'ail et aux herbes.",
+      "steps": [
+        "Légumes : laver 2 courgettes, 2 aubergines moyennes et 4 tomates fermes. Éplucher 2 oignons. Couper le tout en rondelles régulières d'environ 5 mm.",
+        "Tian : huiler généreusement un plat ovale allant au four (tian ou gratin). Frotter le fond avec 1 gousse d'ail coupée.",
+        "Dressage : alterner les rondelles debout, serrées, en suivant le sens du plat : courgette, tomate, aubergine, oignon, et ainsi de suite, jusqu'à remplir le tian.",
+        "Assaisonnement : répartir 6 cuillères à soupe d'huile d'olive extra vierge, 1 gousse d'ail émincée, thym frais ou herbes de Provence, sel et poivre. Un filet d'huile encore sur le dessus.",
+        "Cuisson : four à 180 °C, 50 à 60 minutes. Les bords doivent dorer et le fond rendre un jus concentré. Si le dessus sèche trop, couvrir de papier sulfurisé les 20 dernières minutes.",
+        "Service : laisser reposer 10 minutes. Servir tiède, en plat unique ou à côté d'un [rôti](steak-au-poivre-veau), d'un [tournedos](tournedos-boeuf-tian) ou d'un poisson."
+      ],
+      "chemistry": [
+        "La cuisson longue à chaleur sèche concentre les sucres des tomates et des oignons ; l'eau s'évapore, le goût s'intensifie.",
+        "L'huile d'olive conduit la chaleur et empêche les légumes de coller ; elle porte aussi les arômes du thym et de l'ail.",
+        "Serrer les rondelles limite le retrait : elles se tiennent debout en cuissant au lieu de s'affaisser."
+      ]
+    },
+    "gambas-provencales-pastis": {
+      "title": "Crevettes Provençales",
+      "intro": "Pour 4 personnes. Quatre gambas très grosses — calibre langoustine — par assiette, tête et queue, cuites à l'ail, au persil et au pastis. À côté : pommes grenaille coupées en deux, bien cuites, 4 minutes par face dans la sauteuse, huile d'olive extra vierge bien chaude. Tomates cerises avec leurs feuilles. Dressage minimal.",
+      "steps": [
+        "Grenaille : laver 8 à 12 petites pommes grenaille, les couper en deux. Sauteuse bien chaude, huile d'olive extra vierge. Poser les moitiés à plat, 4 minutes par face, jusqu'à bien cuites et dorées. Saler. Réserver.",
+        "Gambas : compter 4 gambas très grosses par personne, calibre langoustine (16 pour 4). Les laisser entières : tête et queue. Inciser le dos, retirer la veine intestinale. Éponger.",
+        "Saisie : dans la même sauteuse, huile d'olive extra vierge bien chaude. Saisir les gambas 1 à 2 minutes par face, jusqu'à rosées. Saler en fin de cuisson.",
+        "Persillade : émincer 2 gousses d'ail. Ajouter l'ail et une poignée de persil plat ciselé. 30 secondes, sans brûler l'ail.",
+        "Pastis : mesurer 8 cl dans un verre — jamais verser depuis la bouteille. Verser dans la sauteuse, éloigner le visage. Allumer au bord avec un allume-gaz, ou laisser réduire 1 minute. Tenir un couvercle à portée de main.",
+        "Dressage : 4 gambas entières par assiette, quelques moitiés de grenaille, 2 ou 3 tomates cerises avec leurs feuilles. Un peu de jus de pastis. Rien de plus."
+      ],
+      "chemistry": [
+        "Les 4 minutes par face colorent la grenaille : [réaction de Maillard](reaction-maillard), amidon cuit à cœur, peau croustillante.",
+        "La chair des gambas prend en 1 à 2 minutes : trop longtemps, elle caoutchoute.",
+        "Le pastis, à ~45 %, s'enflamme comme le cognac : l'alcool brûle, l'anéthol — le même arôme que le fenouil — reste. Ail et persil sont la persillade provençale.",
+        "Les tomates cerises, avec leurs feuilles, restent crues : acidité fraîche contre l'huile et l'anis."
+      ],
+      "figuresTitle": "Le pas à pas",
+      "figures": [
+        {
+          "caption": "Pommes grenaille coupées en deux. Sauteuse, huile d'olive extra vierge bien chaude, 4 minutes par face, bien cuites."
+        },
+        {
+          "caption": "Persillade : 2 gousses d'ail émincées, une poignée de persil plat."
+        },
+        {
+          "caption": "8 cl de pastis, mesurés dans un verre. Flamber au bord, ou réduire 1 minute."
+        }
+      ]
+    },
+    "polenta-ragu-entrecote": {
+      "title": "Polenta, ragù d'entrecôte",
+      "intro": "Pour 4 personnes. Entrecôte de bœuf limousin saisie 4 min par côté, puis remise dans un ragù : jus déglacés au vin rouge, échalotes, [passata](passata) pomodoro, eau, sel, poivre et piment d'Espelette. Deux heures à mijoter, jusqu'à ce que la viande se défasse. Polenta au lait et au beurre. Servi avec Parmigiano Reggiano.",
+      "steps": [
+        "Entrecôte : sortir 4 entrecôtes de bœuf limousin (200–250 g) 15–20 min à l'avance. Poêle bien chaude, huile d'olive extra vierge. Saisir 4 minutes par côté. Retirer la viande et la réserver.",
+        "Déglacer : dans la même poêle, verser 25 cl de vin rouge sur les jus de l'entrecôte. Racler le fond. Laisser réduire de moitié.",
+        "Échalotes : émincer 4 échalotes (voir [Émincer](emincer)). Les ajouter dans le vin réduit. Faire suer jusqu'à translucides.",
+        "Pomodoro : ajouter 700 g de [passata](passata), un peu d'eau, sel, poivre et 1 cuillère à café de piment d'Espelette. Porter à frémissement.",
+        "Mijoter : remettre l'entrecôte dans le ragù. Couvrir à peine. Laisser mijoter 2 heures à feu doux, jusqu'à ce que la viande se défasse (voir [Mijoter](mijoter)). Si la sauce réduit trop, un peu d'eau.",
+        "Polenta : porter à ébullition 1 litre de lait. Verser 250 g de polenta instantanée en pluie, en fouettant. Elle prend en 2 à 3 minutes. Hors du feu, incorporer 60 g de beurre. La polenta doit rester souple, elle s'étale.",
+        "Dressage : dresser la polenta, poser l'entrecôte défaite, napper de ragù. Parmigiano Reggiano râpé au moment de servir."
+      ],
+      "chemistry": [
+        "Les 4 minutes par côté colorent la viande : [réaction de Maillard](reaction-maillard), sucs au fond de la poêle.",
+        "Le vin rouge déglace ces sucs ; l'alcool s'en va, l'acidité reste. Les échalotes, ensuite, sucrent le fond.",
+        "Remise dans le pomodoro, l'entrecôte mijote 2 heures : le collagène fond, la viande se défait, le ragù s'épaissit. Eau, sel, poivre et piment d'Espelette portent la sauce.",
+        "La polenta gélatinise dans le lait : lactose et protéines laitières donnent une crème ; le beurre, hors du feu, émulsionne."
+      ],
+      "figuresTitle": "Le pas à pas",
+      "figures": [
+        {
+          "caption": "Saisir l'entrecôte 4 minutes par côté, poêle très chaude. Retirer."
+        },
+        {
+          "caption": "Déglacer les jus au vin rouge (25 cl). Racler le fond, réduire de moitié."
+        },
+        {
+          "caption": "Puis les échalotes émincées (voir [Émincer](emincer)), dans le vin réduit."
+        },
+        {
+          "caption": "Passata, eau, sel, poivre, piment d'Espelette. Remettre l'entrecôte. Mijoter 2 heures, jusqu'à ce qu'elle se défasse."
+        },
+        {
+          "caption": "Polenta instantanée au lait : 250 g en pluie dans 1 litre de lait, 2 à 3 minutes, puis 60 g de beurre hors du feu."
+        }
+      ]
+    },
+    "fenouil-caramelise": {
+      "title": "Fenouil caramélisé à la poêle",
+      "intro": "Pour 4 personnes. Préparation 5 minutes, cuisson 15 à 20 minutes. Entrée de fenouil caramélisé à la poêle : des quartiers saisis dans un beurre sucré, mijotés au bouillon de légumes, puis glacés dans la réduction.",
+      "steps": [
+        "Fenouil : parer 3 à 4 bulbes moyens. Couper chaque bulbe en quartiers. Retirer les feuilles extérieures si elles sont trop fibreuses. Réserver les pluches pour le service.",
+        "Base de caramel : dans une grande poêle, à feu moyen, fondre 50 g de beurre avec ½ c. à c. de sel et 3 c. à c. de sucre. Ajouter 1 c. à c. de graines de fenouil si souhaité.",
+        "Saisie : poser les quartiers face coupée contre la poêle. Faire revenir environ 30 secondes.",
+        "Bouillon : verser du bouillon de légumes jusqu'à environ les deux tiers de la hauteur du fenouil.",
+        "Mijoter : couvrir d'un couvercle, ou de préférence d'un cartouche de papier sulfurisé percé de quelques trous pour laisser échapper la vapeur. Laisser mijoter doucement environ 10 minutes : le fenouil doit être tendre mais encore légèrement ferme, à mi-cuisson.",
+        "Réduction : retirer délicatement les quartiers et les réserver. Poursuivre la cuisson du mélange bouillon-beurre jusqu'à obtenir une consistance épaisse, proche d'un caramel.",
+        "Caramélisation : remettre le fenouil dans la poêle, encore face coupée. Faire revenir jusqu'à ce que les faces soient bien dorées, d'un brun profond.",
+        "Service : dresser dans un plat et parsemer de pluches de fenouil ciselées."
+      ],
+      "chemistry": [
+        "Le sucre et le beurre forment une base de caramel : le saccharose fond et brunit, le beurre apporte des solides laitiers qui colorent.",
+        "Le fenouil est riche en sucres naturels et en anéthol, l'arôme anisé ; la face coupée, au contact du caramel, dore plus vite.",
+        "Le bouillon à hauteur des deux tiers cuit le légume à l'étuvée sans le noyer ; le cartouche laisse échapper la vapeur pour que le liquide réduise.",
+        "La réduction concentre bouillon et beurre en un nappage sirupeux qui glace les quartiers au retour dans la poêle."
+      ]
+    },
+    "tournedos-canard-aligot": {
+      "title": "Tournedos de canard, aligot",
+      "intro": "Pour 4 personnes. Magret de canard coupé en tournedos, saisis 4 minutes par côté, puis 10 minutes au four à 200 °C. Servis sur un [aligot](aligot) encore chaud, nappés d'un coulis de groseilles, déglacé au jus d'1 citron.",
+      "steps": [
+        "Aligot : le préparer comme pour [Aligot](aligot) — Bintje, [tome fraîche](tome-aubrac), moulin, travail en huit jusqu'aux rubans. Le tenir au chaud : il se fige s'il attend.",
+        "Tournedos : 2 magrets. Quadriller la peau sans entamer la chair. Rouler chaque magret, peau dehors, bien serré. Ficeler. Couper en tournedos de 3–4 cm (150–180 g). Sortir 15–20 min à l'avance.",
+        "Saisir : sauteuse bien chaude, huile d'olive extra vierge. Saisir 4 minutes par côté. Retirer.",
+        "Four : enfourner les tournedos 10 minutes à 200 °C. Laisser reposer 3 à 5 minutes.",
+        "Déglacer : dans la même sauteuse, verser le jus d'1 citron sur les jus du canard. Racler le fond.",
+        "Coulis : dans cette sauteuse, ajouter 400 g de groseilles. Laisser fondre 3 à 5 minutes à feu moyen, jusqu'à un coulis nappant. Passer au chinois si l'on veut une sauce lisse ; garder quelques fruits entiers pour le service.",
+        "Dressage : un lit d'[aligot](aligot) chaud. Poser le tournedos. Napper de coulis. Servir aussitôt."
+      ],
+      "chemistry": [
+        "Les 4 minutes par côté colorent le canard : [réaction de Maillard](reaction-maillard), sucs au fond de la sauteuse.",
+        "Le four à 200 °C, 10 minutes, cuit le cœur sans dessécher : le gras du canard fond, la chair reste rosée.",
+        "Le jus de citron déglace les sucs ; les groseilles, acides et pectiques, lient le coulis sans farine : l'acidité vient du citron et des groseilles.",
+        "L'aligot, à la Bintje et à la [tome](tome-aubrac), file en rubans. Il se fige s'il refroidit : on le tient chaud, on dresse au dernier moment."
+      ],
+      "figuresTitle": "Le magret et le pas à pas",
+      "figures": [
+        {
+          "caption": "Le magret est la poitrine — les muscles pectoraux — d'un canard gras."
+        },
+        {
+          "caption": "Saisir le tournedos 4 minutes par côté, sauteuse très chaude. Retirer."
+        },
+        {
+          "caption": "Incorporer les groseilles. Un coulis nappant, déglacé au jus d'1 citron."
+        }
+      ]
+    },
+    "aligot": {
+      "title": "Aligot",
+      "intro": "Pour 4 personnes. L'aligot de l'Aubrac : une purée de pommes de terre farineuses — Bintje — travaillée avec de la [tome fraîche de l'Aubrac](tome-aubrac), du beurre et de la [crème](creme), jusqu'à ce qu'elle fasse des rubans. Pas de Charlotte, pas de grenaille : trop d'eau, pas assez d'amidon, ça ne file pas.",
+      "steps": [
+        "Pommes de terre : 1 kg de Bintje, farineuses. Les éplucher, les couper en morceaux réguliers. Eau froide salée — elles poussent sous terre. Porter à ébullition, cuire environ 20 minutes, jusqu'à ce qu'une lame s'enfonce. Bien égoutter, laisser évaporer 1 minute.",
+        "Purée : passer au moulin à légumes, comme pour la [côtelette d'agneau](cotelette-agneau-petits-pois-menthe). Pas de mixer : il colle l'amidon.",
+        "Ail : 1 gousse, [émincée](emincer), dans la purée encore chaude.",
+        "Beurre et crème : 80 g de [beurre](beurre) froid en morceaux, 100 g de [crème fraîche](creme). Incorporer hors du feu, sel, poivre blanc.",
+        "Tome : 400 g de [tome fraîche de l'Aubrac](tome-aubrac), en lamelles minces. Remettre sur feu très doux. Ajouter la tome par poignées, travailler à la cuillère en bois, en huit, jusqu'à ce que la masse file en rubans longs. Elle se détache de la casserole.",
+        "Service : aussitôt, dans la casserole. L'aligot qui attend se fige."
+      ],
+      "chemistry": [
+        "La Bintje est farineuse : beaucoup d'amidon sec, peu d'eau. Les pommes à chair ferme — Charlotte, grenaille — restent en grains ; l'aligot ne file pas.",
+        "La [tome fraîche](tome-aubrac), jeune, fond sans huiler. Ses protéines et l'amidon de la Bintje forment un réseau élastique : les rubans.",
+        "Le mixer cisaille ce réseau : une colle, plus des fils. Le moulin, lui, passe la chair sans la battre.",
+        "Le travail en huit, à feu doux, aligne les protéines. Trop chaud, la tome tranche ; trop froid, elle ne fond pas."
+      ],
+      "figuresTitle": "Le pas à pas",
+      "figures": [
+        {
+          "caption": "Bintje, farineuses. [Tome fraîche de l'Aubrac](tome-aubrac), en lamelles. Pas de Charlotte."
+        },
+        {
+          "caption": "À la cuillère en bois, en huit, feu doux. L'aligot file en rubans."
+        }
+      ]
+    },
+    "pommes-boulangere": {
+      "title": "Pommes de terre boulangère",
+      "intro": "Pour 4 personnes. Classique du four du boulanger : pommes de terre et oignons en lamelles, mouillés de bouillon, cuits dans un plat ovale jusqu'à dessus doré et fond fondant. Pas de crème — ce n'est pas un gratin dauphinois. On sert le plat à table.",
+      "steps": [
+        "Plat : beurrer un plat ovale allant au four (comme pour les [gnocchi à la parisienne](gnocchi-parisienne)). Four à 180 °C.",
+        "Coupe : éplucher 1 kg de pommes de terre à chair ferme (Charlotte ou similaire). Les tailler en lamelles régulières d'environ 3 mm — [émincer](emincer). Émincer 3 oignons jaunes de même épaisseur.",
+        "Montage : alterner dans le plat des couches de pommes de terre et d'oignons, en terminant par les pommes. Saler, poivrer chaque couche. Parsemer de thym frais. Répartir 40 g de [beurre](beurre) en noix sur le dessus.",
+        "Mouiller : verser du bouillon de volaille ou de viande chaud jusqu'à hauteur des pommes — elles doivent baigner sans nager. Un filet d'[huile d'olive](huile) sur le dessus.",
+        "Cuisson : four 1 h à 1 h 15. Les bords doivent dorer, le bouillon se concentrer. Si le dessus brûle, couvrir de papier sulfurisé les 20 dernières minutes. Servir dans le plat ovale, tiède."
+      ],
+      "chemistry": [
+        "L'amidon des pommes épaissit légèrement le bouillon en cuisant : une sauce liée sans crème ni farine.",
+        "Les oignons fondent et sucrent ; le beurre et l'huile dorent la surface par [réaction de Maillard](reaction-maillard).",
+        "Lamelles régulières : cuisson égale. Trop épaisses, le cœur reste cru pendant que le dessus brûle."
+      ]
+    },
+    "pommes-safran": {
+      "title": "Pommes de terre safran",
+      "intro": "Pour 4 personnes. 800 g de pommes de terre Label Rouge farineuses, passées au presse-purée. Six gousses d'ail entières, caramélisées à l'huile d'olive. Puis le safran, le [beurre](beurre) et la [crème](creme).",
+      "steps": [
+        "Ail : peler 6 gousses d'ail, les laisser entières. Les faire caraméliser doucement dans 4 cuillères à soupe d'huile d'olive, 8 à 10 minutes, jusqu'à dorées et souples. Réserver les gousses et l'huile.",
+        "Pommes de terre : éplucher 800 g de pommes de terre Label Rouge farineuses, couper en morceaux réguliers et cuire à l'eau bouillante salée environ 20 minutes, jusqu'à ce qu'une lame s'enfonce facilement. Bien égoutter, remettre 1 minute dans la casserole à feu doux pour chasser l'eau.",
+        "Presse-purée : passer les pommes de terre encore chaudes au presse-purée, disque fin, au-dessus d'une casserole. Ne jamais utiliser de mixer.",
+        "Safran, beurre et crème : hors du feu, mettre une pincée de filaments de safran dans la purée, avec 1 cuillère à soupe de l'huile à l'ail, 80 g de [beurre](beurre) froid en morceaux et 80 g de [crème](creme). Le safran s'intègre à la purée avec le beurre et la crème. Saler, râper un peu de noix de muscade. Déposer les 6 gousses entières sur la purée. Servir aussitôt."
+      ],
+      "chemistry": [
+        "Le safran, en filaments, se disperse dans la purée chaude avec le beurre et la crème : la matière grasse porte la couleur et le parfum.",
+        "Le presse-purée passe la chair à travers les trous sans battre l'amidon. Un mixer le cisaille et transforme la purée en colle.",
+        "L'huile des gousses caramélisées parfume sans écraser l'ail. Le beurre froid et la crème enrobent l'amidon ; la noix de muscade relève le tout."
+      ]
+    },
+    "comte-morbier-roquefort": {
+      "title": "Comté, Morbier et Roquefort",
+      "intro": "Le fromage se sert après le plat, avant le dessert. À table nous proposons trois AOP, du plus doux au plus fort : Comté (Jura, lait de vache, pâte pressée cuite), Morbier (Franche-Comté, lait de vache, ligne de cendre) et Roquefort (Aveyron, lait de brebis, persillé).",
+      "steps": [
+        "Température : sortir les fromages du frigo 30 à 45 minutes avant le service. Froid, le gras est muet et l'on ne goûte que le sel.",
+        "Comté : lait de vache cru, pâte pressée cuite, affiné plusieurs mois. Texture ferme, notes de noisette et de fruit. Couper en lamelles minces, pas en cubes.",
+        "Morbier : même massif jurassien, lait de vache. La ligne noire est de la cendre végétale : autrefois elle protégeait le caillé du soir jusqu'au lait du matin. Pâte plus souple, goût lacté, légèrement animal.",
+        "Roquefort : lait de brebis, caves de Roquefort-sur-Soulzon. Les veines bleues sont le Penicillium roqueforti. Pâte fondante, salée, piquante. Une petite portion suffit.",
+        "Ordre : Comté d'abord, Morbier ensuite, Roquefort en dernier — le bleu écraserait tout ce qui vient après.",
+        "Toursades : c'est ce que nous servons avec le plateau, à la place du pain. Couteau propre entre les pâtes. Envelopper chaque fromage à part pour le lendemain."
+      ],
+      "chemistry": [
+        "L'affinage du Comté dégrade les protéines : cristaux de tyrosine, arômes de noisette. Plus le fromage est vieux, plus la pâte est sèche et concentrée.",
+        "La cendre du Morbier n'est plus un garde-manger : elle reste un marqueur visuel et un léger goût minéral entre deux caillés.",
+        "Le Roquefort est percé pour laisser entrer l'air : le Penicillium a besoin d'oxygène. Le lait de brebis, plus riche, porte le bleu sans le rendre cassant."
+      ],
+      "figuresTitle": "Les trois AOP",
+      "figures": [
+        {
+          "caption": "Comté — vache, pâte pressée cuite, Jura."
+        },
+        {
+          "caption": "Morbier — vache, ligne de cendre, Franche-Comté."
+        },
+        {
+          "caption": "Roquefort — brebis, persillé, Aveyron."
+        }
+      ]
+    },
+    "tome-aubrac": {
+      "title": "Tome fraîche de l'Aubrac",
+      "intro": "Tome fraîche de l'Aubrac : un caillé jeune de lait de vache, du plateau de l'Aubrac — Aveyron, Cantal, Lozère. Peu ou pas salée. C'est elle qui fait filer l'[aligot](aligot) en rubans.",
+      "steps": [
+        "Nature : caillé blanc, jeune, élastique. Pas une tomme affinée. Pas la Tomme de Savoie. Pas le Cantal. Pas la mozzarella.",
+        "Couper : en lamelles minces. Elle fond dans une purée de Bintje, avec du beurre et de la [crème](creme).",
+        "Aligot : travailler à la cuillère en bois, en huit, feu doux, jusqu'aux rubans. Voir [Aligot](aligot).",
+        "Service : aussi sous le [tournedos de canard, aligot](tournedos-canard-aligot). Tenir au chaud : elle fige en refroidissant."
+      ],
+      "chemistry": [
+        "Jeune, ses protéines restent intactes : élastiques. Avec l'amidon de la Bintje, elles forment un réseau — les rubans de l'[aligot](aligot).",
+        "Trop affinée, trop salée, trop pressée : elle huile ou casse. La mozzarella file autrement.",
+        "À défaut : un Laguiole jeune, ou une autre tome fraîche. Jamais de mozzarella."
+      ]
+    },
     "vitello-tonnato": {
       "title": "Vitello tonnato",
       "intro": "Pour 6 personnes. Plat d'origine piémontaise, servi froid : fines tranches de veau mijoté 2 heures, nappées de sauce tonnato, puis terminées avec quelques câpres supplémentaires. S'il vient du Piémont, le vitello tonnato est devenu un classique de la Côte d'Azur et de Monaco en été. Préparer la mayonnaise faite maison et la sauce tonnato pour 6 (voir Mayonnaise faite maison et La sauce tonnato). La cuisson du veau demande une sauteuse et une cuisson mijotée (voir technique Mijoter).",
@@ -888,66 +1705,99 @@
       ]
     },
     "escalope-veau-milanaise-napolitaine": {
-      "title": "Escalope de veau à la milanaise, version napolitaine",
-      "intro": "Pour 4 personnes. Escalope de veau panée et dorée, puis finie version napolitaine, comme en Argentine, avec tomate et mozzarella gratinée, sans jambon.",
+      "title": "Escalope milanaise alla napolitana",
+      "intro": "Pour 4 personnes. Escalope de veau panée, dorée, puis [sauce tomate](passata), jambon, mozzarella, et gratiner. La milanesa a la napolitana n'est pas napolitaine. Elle est argentine — Buenos Aires, milieu du XXe. Les Italiens ont apporté la cotoletta, la milanesa alla milanese : chapelure, friture. Le topping est né là-bas. On raconte le restaurant Nápoli, rue Corrientes : un cuisinier recouvre une milanesa, la passe au gril. Le nom, c'est le restaurant, ou la pizza, pas la ville. En Italie, la cousine plus proche est la cotoletta alla bolognese.",
       "steps": [
         "Préparation du veau : aplatir 4 escalopes de veau entre deux feuilles pour obtenir une épaisseur régulière. Saler et poivrer légèrement.",
         "Panure : préparer des œufs battus d'un côté et, de l'autre, une chapelure mélangée avec ail et persil secs (persillade). Passer chaque escalope dans la chapelure, puis dans l'œuf, puis encore une fois dans la chapelure, en appuyant légèrement pour bien faire adhérer.",
         "Cuisson milanaise : poêler les escalopes dans un mélange beurre-huile ou dans une huile douce jusqu'à belle coloration dorée et croustillante des deux côtés. Égoutter sur grille ou papier.",
-        "Version napolitaine : disposer les escalopes sur une plaque ou dans un plat, ajouter dessus un peu de sauce tomate, puis de la mozzarella en tranches ou râpée. Finir avec un peu d'origan si souhaité, sans ajouter de jambon.",
+        "Alla napolitana : disposer les escalopes sur une plaque ou dans un plat. Napper d'un peu de [sauce tomate](passata) ou de [passata](passata), poser une tranche de jambon, puis de la mozzarella en tranches ou râpée. Un peu d'origan, si l'on veut.",
         "Finition : passer quelques minutes au four ou sous le gril juste pour faire fondre et gratiner légèrement la mozzarella. Servir aussitôt, avec une salade simple, des frites ou des pommes de terre si souhaité."
       ],
       "chemistry": [
         "La panure forme une couche protectrice qui dore rapidement et aide l'escalope à rester moelleuse à l'intérieur.",
-        "Le contraste entre la croûte croustillante, la sauce tomate et la mozzarella fondue donne à la version napolitaine son identité très gourmande.",
+        "Le contraste entre la croûte croustillante, la sauce tomate, le jambon et la mozzarella fondue donne à la napolitana son identité.",
         "Une finition courte sous le gril permet de faire fondre le fromage sans détremper complètement la panure."
       ]
     },
     "cotelette-agneau-petits-pois-menthe": {
-      "title": "Côtelette d'agneau, purée Label Rouge au safran et menthe à l'huile d'olive",
-      "intro": "Pour 4 personnes. Côtelettes d'agneau poêlées rosées sur une purée de pommes de terre Label Rouge au safran, la viande terminée d'une menthe en julienne, huile d'olive, citron, sel et poivre.",
+      "title": "Côtelette d'agneau",
+      "intro": "Pour 4 personnes. Côtelettes d'agneau poêlées rosées sur des [pommes de terre safran](pommes-safran), la viande terminée d'une menthe en julienne, huile d'olive, citron, sel et poivre.",
       "steps": [
         "Sortir les côtelettes du réfrigérateur 20 minutes avant la cuisson pour qu'elles reviennent à température ambiante. Saler et poivrer légèrement.",
-        "Lait au safran : infuser une pincée de safran dans 100 ml de lait chaud pendant 10 minutes.",
-        "Pommes de terre Label Rouge : éplucher 800 g de pommes de terre Label Rouge, les couper en morceaux réguliers et les cuire à l'eau bouillante salée environ 20 minutes, jusqu'à ce qu'une lame s'enfonce facilement. Bien les égoutter.",
-        "Purée : passer les pommes de terre au moulin à légumes ou les mixer, puis incorporer 80 g de beurre froid en morceaux, les 100 ml de lait au safran, 80 g de crème fraîche, sel et poivre blanc jusqu'à obtenir une purée lisse et souple. Garder au chaud.",
+        "Pommes de terre safran : préparer les [pommes de terre safran](pommes-safran) et les garder au chaud.",
         "Menthe : tailler une grosse poignée de feuilles de menthe fraîche en julienne fine. Au moment de servir, mélanger avec 4 cuillères à soupe d'huile d'olive, le jus d'un demi-citron, sel et poivre du moulin.",
         "Cuisson des côtelettes : dans une poêle très chaude avec un filet d'huile d'olive et un peu de beurre, saisir 4 côtelettes d'agneau 3 à 4 minutes de chaque côté pour une cuisson rosée, ou un peu plus selon l'épaisseur.",
         "Repos : laisser reposer les côtelettes 5 minutes sous une feuille d'aluminium avant de servir.",
         "Dressage : dresser la purée au centre de l'assiette, poser la côtelette dessus et répartir la menthe en julienne par-dessus."
       ],
       "chemistry": [
-        "La cuisson rapide à feu vif développe les arômes de Maillard sur la viande tout en gardant l'intérieur rosé et tendre.",
-        "Après égouttage, le beurre, le lait au safran et la crème fraîche lient l'amidon des pommes de terre Label Rouge : la matière grasse et l'acidité de la crème fraîche donnent une purée onctueuse ; le safran apporte couleur et notes florales légères.",
+        "La cuisson rapide à feu vif développe les [arômes de Maillard](reaction-maillard) sur la viande tout en gardant l'intérieur rosé et tendre.",
+        "Les [pommes de terre safran](pommes-safran) apportent leur texture onctueuse et leurs notes florales légères.",
         "La menthe en julienne libère davantage d'arômes volatils ; l'huile d'olive et le citron forment une sauce fraîche qui équilibre la richesse de la viande et de la purée."
       ]
     },
     "creme-caramel": {
       "title": "Crème caramel",
-      "intro": "Pour 4 personnes. Grand classique de la cuisine française : un caramel blond au fond du moule et une crème prise très lisse à base de lait, de sucre et d'œufs, cuite doucement au bain-marie.",
+      "intro": "Pour 4 personnes. Grand classique de la cuisine française : un caramel blond au fond du ramequin et une crème prise très lisse à base de lait, de crème fleurette, de sucre et d'œufs, cuite doucement au bain-marie. À préparer à l'avance : plusieurs heures au frais, idéalement une nuit.",
       "steps": [
-        "Caramel : faire chauffer 100 g de sucre avec 2 à 3 cuillères à soupe d'eau jusqu'à obtenir un caramel blond ambré. Le verser aussitôt au fond de 4 ramequins ou d'un moule, puis incliner rapidement pour bien répartir.",
-        "Crème : chauffer 500 ml de lait avec une gousse de vanille fendue ou un peu d'extrait. Pour une version plus riche, on peut remplacer 150 à 250 ml de lait par de la crème liquide entière (environ 30 à 35 % de matière grasse), plutôt que d'utiliser uniquement de la crème. Fouetter à part 3 œufs entiers avec 60 à 80 g de sucre sans trop faire mousser, puis verser le liquide chaud progressivement en mélangeant.",
-        "Passer l'appareil au chinois si souhaité pour obtenir une texture encore plus lisse, puis le verser sur le caramel dans les moules.",
-        "Cuisson : disposer les moules dans un plat allant au four, verser de l'eau chaude à mi-hauteur et cuire au bain-marie à 150 à 160 °C pendant environ 35 à 45 minutes, jusqu'à ce que la crème soit prise mais encore très légèrement tremblotante au centre.",
-        "Refroidissement et service : laisser refroidir, puis placer au frais plusieurs heures. Pour démouler, passer doucement une lame fine sur le bord et retourner sur une assiette afin que le caramel nappe la crème."
+        "Caramel : verser 3 cuillères à soupe d'eau (45 g) sur 120 g de sucre (soit 6 cuillères à soupe) dans une casserole. Ne pas remuer — si l'on remue, le sucre cristallise en rocher. Chauffer jusqu'à un caramel blond ambré, un peu poussé : au four il perd un peu de couleur. Verser aussitôt au fond de 4 ramequins, puis incliner rapidement pour bien répartir. Laisser durcir un instant avant de couler l'appareil.",
+        "Lait et crème : aplatir une gousse de vanille, la fendre sur toute la longueur, gratter les grains. Chauffer doucement 20 cl de lait avec 20 cl de crème fleurette (crème liquide entière, environ 30 % MG), les grains et la gousse, à 65–70 °C, à couvert. Ne pas faire bouillir. Récupérer la gousse dans le sucre.",
+        "Œufs : [blanchir les jaunes](blanchir-les-jaunes) — verser d'un coup 60 g de sucre (soit 3 cuillères à soupe) sur 2 œufs entiers et 2 jaunes. Fouetter aussitôt — le sucre, un peu acide, « cuit » les jaunes s'il reste posé. Juste assez pour les mélanger, sans trop faire mousser.",
+        "Lier : verser progressivement le mélange lait-crème chaud dans les œufs en mélangeant. Passer au chinois si possible. Quand le caramel a durci au fond des ramequins, répartir l'appareil.",
+        "Cuisson : disposer les ramequins dans un plat allant au four, verser de l'eau chaude à mi-hauteur. Enfourner à 150 °C environ 35 à 40 minutes, jusqu'à ce que le centre tremblote encore légèrement. Trop cuit, le goût d'œuf ressort.",
+        "Refroidissement et service : laisser refroidir, puis placer au frais plusieurs heures. Pour démouler, passer une lame fine sur le bord et retourner sur une assiette ; le caramel nappe la crème."
       ],
       "chemistry": [
-        "Le caramel provient de la transformation du sucre sous l'effet de la chaleur : il apporte couleur, amertume douce et notes grillées.",
-        "Pendant la cuisson douce, les protéines des œufs coagulent progressivement et donnent à la crème sa tenue sans la rendre granuleuse.",
-        "Le bain-marie limite la chaleur directe et aide à obtenir une texture plus régulière, lisse et délicate."
+        "Le caramel provient de la transformation du sucre sous l'effet de la chaleur : il apporte couleur, amertume douce et notes grillées. Un cristal, si l'on remue, relance toute la recristallisation — d'où le rocher.",
+        "Pendant la cuisson douce, les protéines des œufs coagulent progressivement et donnent à la crème sa tenue sans la rendre granuleuse. Le sucre posé trop longtemps sur les jaunes les « cuit » par osmose : on le verse d'un coup et l'on fouette aussitôt.",
+        "La crème fleurette, plus grasse que le lait, adoucit le goût d'œuf et donne une texture plus soyeuse ; le bain-marie limite la chaleur directe. Infuser la vanille à couvert retient les arômes volatils."
       ],
       "atelier": {
         "title": "Atelier — 4 personnes, 4 ramequins",
-        "description": "Pour un atelier avec 4 participantes, le plus simple est d'adapter légèrement la recette pour que chacune fasse sa crème séparément dans son bol puis dans son ramequin. Version atelier conseillée : 4 ramequins, 4 bols, 4 œufs, 600 ml de lait chaud (ou 450 ml de lait + 150 ml de crème liquide entière), 80 g de sucre pour l'appareil et 120 g de sucre pour le caramel. Cela donne par personne environ 1 œuf, 150 ml de liquide, 20 g de sucre pour la crème et 30 g de sucre pour le caramel.",
+        "description": "Pour un atelier avec 4 participantes, on prépare un seul appareil avec la recette pour 4, puis chacune verse dans son ramequin. Compter 20 cl de lait, 20 cl de crème fleurette, 2 œufs entiers, 2 jaunes, 60 g de sucre pour la crème et 120 g de sucre pour le caramel.",
         "steps": [
-          "Poste 1 — Caramel : sous surveillance, préparer le caramel ramequin par ramequin ou en petite série. Compter environ 30 g de sucre par ramequin avec quelques gouttes d'eau, puis verser aussitôt au fond.",
-          "Poste 2 — Lait : chauffer les 600 ml de lait avec la vanille jusqu'à environ 60 à 70 °C, sans faire bouillir.",
-          "Poste 3 — Bols individuels : chaque participante fouette dans son bol 1 œuf avec 20 g de sucre, sans trop faire mousser.",
-          "Poste 4 — Montage individuel : verser environ 150 ml de lait chaud dans chaque bol, progressivement, en mélangeant. Passer au chinois si souhaité, puis verser dans le ramequin de chacune.",
-          "Cuisson commune : disposer les 4 ramequins dans un plat, ajouter l'eau chaude à mi-hauteur et cuire tous ensemble au bain-marie 35 à 45 minutes à 150 à 160 °C. Refroidir puis réserver au frais."
+          "Poste 1 — Caramel : sous surveillance, verser 3 cuillères à soupe d'eau (45 g) sur 120 g de sucre. Ne pas remuer. Pousser jusqu'à un blond ambré. Répartir au fond des 4 ramequins, environ 30 g de sucre par ramequin. Laisser durcir.",
+          "Poste 2 — Lait et crème : aplatir, fendre et gratter une gousse de vanille. Chauffer 20 cl de lait avec 20 cl de crème fleurette, les grains et la gousse, à 65–70 °C, à couvert, sans faire bouillir. Récupérer la gousse dans le sucre.",
+          "Poste 3 — Œufs : verser d'un coup 60 g de sucre sur 2 œufs entiers et 2 jaunes. Fouetter aussitôt, sans trop faire mousser.",
+          "Poste 4 — Montage : verser le liquide chaud progressivement dans les œufs, passer au chinois, puis remplir les 4 ramequins une fois le caramel durci.",
+          "Cuisson commune : disposer les 4 ramequins dans un plat, ajouter l'eau chaude à mi-hauteur et cuire tous ensemble au bain-marie 35 à 40 minutes à 150 °C, jusqu'à ce que le centre tremblote encore. Refroidir puis réserver au frais."
         ]
-      }
+      },
+      "figuresTitle": "Le pas à pas",
+      "figures": [
+        {
+          "caption": "Eau sur le sucre, dans la casserole. Ne pas remuer : si l'on remue, le sucre cristallise en rocher."
+        },
+        {
+          "caption": "Pousser jusqu'à un blond ambré : au four, le caramel perd un peu de couleur."
+        },
+        {
+          "caption": "Aplatir la gousse, la fendre sur toute la longueur, gratter les grains. Infuser à 65–70 °C, à couvert. Récupérer la gousse dans le sucre."
+        },
+        {
+          "caption": "Verser le sucre d'un coup sur les œufs et fouetter aussitôt — le sucre, un peu acide, « cuit » les jaunes s'il reste posé. Sans trop faire mousser."
+        },
+        {
+          "caption": "Laisser durcir le caramel au fond des ramequins avant de couler l'appareil."
+        }
+      ]
+    },
+    "dulce-de-leche": {
+      "title": "Dulce de leche",
+      "intro": "Préparation de base. Dulce de leche obtenu en cuisant une boîte de lait concentré sucré au bain-marie pendant 4 heures : le lait et le sucre brunissent et s'épaississent. Une boîte de 397 g donne environ 350 g de dulce de leche, assez pour les crêpes. À faire à l'avance : laisser refroidir complètement avant d'ouvrir.",
+      "steps": [
+        "Boîte : prendre une boîte de lait concentré sucré de 397 g, encore fermée. Retirer l'étiquette. Déposer la boîte à plat dans une grande casserole.",
+        "Eau : couvrir d'eau froide, avec au moins 3 à 4 cm d'eau au-dessus de la boîte. Porter à petit frémissement, jamais à gros bouillon.",
+        "Cuisson : laisser cuire 4 heures à frémissement doux. Le niveau d'eau ne doit jamais descendre sous la boîte : rajouter de l'eau chaude si besoin.",
+        "Refroidissement : éteindre le feu et laisser la boîte refroidir entièrement dans l'eau, plusieurs heures, avant de l'ouvrir. Ne jamais ouvrir chaude.",
+        "Résultat : un dulce de leche ambré, épais et brillant. Mélanger pour lisser si besoin. Se conserve au frais dans un bocal fermé."
+      ],
+      "chemistry": [
+        "La chaleur longue et humide fait réagir les sucres du lait concentré (lactose et saccharose) avec les protéines du lait : c'est la [réaction de Maillard](reaction-maillard), qui donne la couleur ambrée et le goût de caramel.",
+        "En 4 heures, les protéines se dénaturent et le mélange s'épaissit ; plus la cuisson est longue, plus le dulce est foncé et corsé.",
+        "La boîte fermée sous l'eau cuit à l'abri de l'air : le dulce reste lisse, sans croûte ni dessèchement."
+      ]
     },
     "creme-brulee": {
       "title": "Crème brûlée",
@@ -955,14 +1805,42 @@
       "steps": [
         "Proportions : compter par personne 10 cl de crème liquide entière, 1 cuillère à soupe de sucre et 1 jaune d'œuf. Pour 4 personnes, utiliser 40 cl de crème, 4 cuillères à soupe de sucre et 4 jaunes d'œufs.",
         "Crème : chauffer doucement la crème avec une gousse de vanille fendue ou un peu d'extrait, sans faire bouillir.",
-        "Appareil : fouetter les jaunes avec le sucre juste assez pour les mélanger, sans trop incorporer d'air. Verser la crème chaude progressivement en remuant.",
-        "Cuisson : répartir dans des ramequins, puis cuire au bain-marie à 150 à 160 °C jusqu'à ce que la crème soit prise mais encore légèrement tremblotante au centre.",
+        "Appareil : [blanchir les jaunes](blanchir-les-jaunes) — fouetter les jaunes avec le sucre juste assez pour les mélanger, sans trop incorporer d'air. Verser la crème chaude progressivement en remuant.",
+        "Cuisson : répartir dans des ramequins. Bain-marie : eau chaude à mi-hauteur. Enfourner à 150 °C environ 35 à 40 minutes, jusqu'à ce que le centre tremblote encore légèrement. À 110 °C, compter 1 h 15. Trop cuit, le goût d'œuf ressort.",
         "Refroidissement et finition : laisser refroidir complètement puis mettre au frais. Au moment de servir, saupoudrer une fine couche de sucre et caraméliser au chalumeau pour former une croûte fine et cassante."
       ],
       "chemistry": [
         "Les jaunes d'œufs coagulent doucement avec la chaleur et donnent à la crème brûlée sa texture lisse et soyeuse.",
         "La crème, plus riche en matière grasse que le lait, apporte plus d'onctuosité et protège un peu la texture contre une cuisson trop brutale.",
         "La couche de sucre caramélisée contraste avec la crème froide : c'est ce jeu de textures entre surface cassante et intérieur fondant qui fait l'identité du dessert."
+      ]
+    },
+    "tournedos-boeuf-tian": {
+      "title": "Tournedos de bœuf, tian",
+      "intro": "Pour 2 personnes. Deux tournedos de bœuf — cœur de filet, médaillons de 3–4 cm. Sauce au poivre, beurre, crème fraîche, déglacée au vin rouge : elle nappe le fond de l'assiette. À côté, une seule brochette de [tian provençal](tian-provencal) — courgette, tomate, aubergine — rôtie. Pas le plat en terre : une brochette par assiette.",
+      "steps": [
+        "Brochette : laver 1 courgette, 1 petite aubergine, 2 tomates fermes. Couper en rondelles d'environ 1 cm. Enfiler en alternant — courgette, tomate, aubergine, comme le [tian](tian-provencal) — sur 2 brochettes. Huile d'olive, herbes de Provence, sel. Une brochette par assiette.",
+        "Four : 200 °C. Rôtir les brochettes 20 à 25 minutes, jusqu'à bords dorés. Réserver au chaud.",
+        "Tournedos : 2 médaillons de filet de bœuf (150–180 g, 3–4 cm). Éponger. Sortir 15–20 min. Saler. Concasser du poivre noir au mortier ; en croûter les deux faces.",
+        "Saisir : poêle bien chaude, huile d'olive. Colorer 2 à 3 minutes par côté. Ajouter une noix de [beurre](beurre) ; arroser. Retirer. Reposer 3 minutes.",
+        "Déglacer : dans la même poêle, verser 8 cl de vin rouge sur le fond. Racler. Réduire de moitié.",
+        "Sauce : hors du feu, ou feu très doux, incorporer 30 g de beurre froid et 3 cuillères à soupe de [crème fraîche](creme). Fouetter jusqu'à nappant. Ne pas faire bouillir.",
+        "Dressage : nappe de sauce au fond de l'assiette. Poser le tournedos dessus. La brochette à côté, hors de la sauce."
+      ],
+      "chemistry": [
+        "La croûte du tournedos : [réaction de Maillard](reaction-maillard). Le poivre concassé grille un peu ; il parfume sans devenir poudre.",
+        "Le vin rouge déglace le fond : les sucs se dissolvent, l'alcool s'en va, l'acidité reste.",
+        "Hors du feu, le beurre et la crème montent le vin : émulsion, nappant. Trop chaud, la crème tranche.",
+        "La brochette rôtit à part : mêmes légumes que le [tian](tian-provencal), chaleur sèche, une seule tige."
+      ],
+      "figuresTitle": "Le pas à pas",
+      "figures": [
+        {
+          "caption": "Déglacer le fond au vin rouge (8 cl). Racler, réduire de moitié."
+        },
+        {
+          "caption": "Une brochette de tian : courgette, tomate, aubergine. Une par assiette, à côté, hors de la sauce."
+        }
       ]
     },
     "tournedos-rossini": {
