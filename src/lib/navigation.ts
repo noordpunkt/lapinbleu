@@ -1,10 +1,24 @@
-import { ingredients } from "@/data/ingredients";
+import { ingredients, type SectionId } from "@/data/ingredients";
 import type { Locale } from "@/lib/i18n";
 
-/** 0 = cover, 1 = sommaire, 2+ = ingredients (same order as PageNavDots). */
+export type SignpostActiveKey = "cover" | "chef" | "sommaire" | SectionId;
+
+export function getSignpostActiveKey(currentPath: string): SignpostActiveKey {
+  if (!currentPath) return "cover";
+  if (currentPath === "chef") return "chef";
+  if (currentPath === "sommaire") return "sommaire";
+  return ingredients.find((item) => item.slug === currentPath)?.sectionId ?? "sommaire";
+}
+
+export function getSommaireSectionHref(lang: Locale, sectionId: SectionId): string {
+  return `/${lang}/sommaire#${sectionId}`;
+}
+
+/** 0 = cover, 1 = chef, 2 = sommaire, 3+ = ingredients. */
 export function getPageHrefs(lang: Locale): string[] {
   return [
     `/${lang}`,
+    `/${lang}/chef`,
     `/${lang}/sommaire`,
     ...ingredients.map((i) => `/${lang}/${i.slug}`),
   ];

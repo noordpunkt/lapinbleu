@@ -20,7 +20,7 @@ export function RecipeText({ text, lang }: { text: string; lang: string }) {
       <Link
         key={index}
         href={`/${lang}/${slug}`}
-        className="underline underline-offset-2 decoration-neutral-400 hover:decoration-black"
+        className="relative z-10 underline underline-offset-2 decoration-current/40 hover:decoration-current"
         onClick={(e) => e.stopPropagation()}
       >
         {label}

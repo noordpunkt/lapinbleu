@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { bodoniBold } from "@/lib/fonts";
+import { apercu } from "@/lib/fonts";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -14,7 +14,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="fr">
-      <body className={`${bodoniBold.variable} antialiased bg-white text-neutral-900 font-sans`}>
+      <body className={`${apercu.variable} antialiased bg-white text-neutral-900 font-sans`}>
         {children}
       </body>
     </html>

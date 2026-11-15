@@ -69,7 +69,7 @@ export const ingredients: Ingredient[] = [
       ],
     },
     illustration: "beurre-noisette",
-    image: "/images/01-Beurre-Noisette.png",
+    image: "/images/Beurre-Noisette.png",
     pageNumber: 1,
   },
   {

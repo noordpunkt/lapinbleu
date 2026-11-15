@@ -3,20 +3,128 @@
 :root {
   --background: #ffffff;
   --foreground: #111111;
+  --signpost-width: 13.5rem;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --font-sans: var(--font-apercu), "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: var(--font-sans), "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: var(--font-apercu), "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+
   -webkit-print-color-adjust: exact;
   print-color-adjust: exact;
+}
+
+/* White-on-transparent engravings → black ink on light pages */
+.book-drawing-ink {
+  filter: invert(1);
+}
+
+/* Deimos-style section pages: tinted ground + B&W multiply blend */
+.sauce-shell,
+.fats-shell,
+.piano-shell,
+.entrees-shell,
+.pasta-shell,
+.plats-shell,
+.fromages-shell,
+.desserts-shell {
+  --sauce-ink: #171614;
+  --sauce-muted: rgba(23, 22, 20, 0.62);
+  background: var(--sauce-blue);
+  color: var(--sauce-ink);
+}
+
+.sauce-shell {
+  --sauce-blue: #a4ced0;
+}
+
+/* Patricia Urquiola — deimos.evilrabbit.com/t/patricia-urquiola */
+.fats-shell {
+  --sauce-blue: #f0b0ae;
+}
+
+/* Renzo Piano — deimos.evilrabbit.com/t/renzo-piano (coupes + techniques) */
+.piano-shell {
+  --sauce-blue: #c1b6df;
+}
+
+/* Entrées — soft near-white grey */
+.entrees-shell {
+  --sauce-blue: #efeeeb;
+}
+
+/* Pâtes et risotti — same family, a touch darker */
+.pasta-shell {
+  --sauce-blue: #e2e0db;
+}
+
+/* Rem Koolhaas — deimos.evilrabbit.com/t/rem-koolhaas (plats) */
+.plats-shell {
+  --sauce-blue: #adc3e4;
+}
+
+/* Saul Bass — deimos.evilrabbit.com/t/saul-bass (fromages) */
+.fromages-shell {
+  --sauce-blue: #e8d194;
+}
+
+/* Massimo Vignelli — deimos.evilrabbit.com/t/massimo-vignelli (desserts) */
+.desserts-shell {
+  --sauce-blue: #f0b0ae;
+}
+
+/* Black-on-white engravings: multiply so paper vanishes into section ground */
+.sauce-blend {
+  filter: grayscale(1) brightness(1.06);
+  mix-blend-mode: multiply;
+}
+
+/* White-on-transparent engravings → black ink, then multiply into ground */
+.sauce-blend.book-drawing-ink {
+  filter: invert(1);
+  mix-blend-mode: multiply;
+}
+
+/* Pure B&W black-ink drawings: multiply only */
+.sauce-blend-bw {
+  mix-blend-mode: multiply;
+}
+
+@media print {
+  .sauce-shell,
+  .fats-shell,
+  .piano-shell,
+  .entrees-shell,
+  .pasta-shell,
+  .plats-shell,
+  .fromages-shell,
+  .desserts-shell {
+    background: #fff;
+    color: #111;
+  }
+
+  .sauce-blend,
+  .sauce-blend.book-drawing-ink {
+    filter: none;
+    mix-blend-mode: normal;
+  }
+
+  .sauce-blend.book-drawing-ink {
+    filter: invert(1);
+  }
+
+  .sauce-blend-bw {
+    mix-blend-mode: normal;
+    filter: none;
+  }
 }
 
 .no-scrollbar {
@@ -26,6 +134,78 @@ body {
 
 .no-scrollbar::-webkit-scrollbar {
   display: none;
+}
+
+.cover-latch {
+  transform-origin: 50% 52%;
+  transition: transform 0.65s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.group:hover .cover-latch {
+  transform: rotate(18deg);
+}
+
+.menu-veil {
+  transform-origin: left center;
+  animation: menu-veil-in 0.62s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+.menu-veil.is-closing {
+  animation: menu-veil-out 0.62s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+.menu-ink {
+  animation: menu-ink-in 0.45s ease 0.16s both;
+}
+
+.menu-ink.is-closing {
+  animation: menu-ink-out 0.22s ease both;
+}
+
+@keyframes menu-veil-in {
+  from {
+    transform: scaleX(0);
+  }
+  to {
+    transform: scaleX(1);
+  }
+}
+
+@keyframes menu-veil-out {
+  from {
+    transform: scaleX(1);
+  }
+  to {
+    transform: scaleX(0);
+  }
+}
+
+@keyframes menu-ink-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes menu-ink-out {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .cover-latch,
+  .menu-veil,
+  .menu-ink {
+    animation: none;
+    transition: none;
+    transform: none;
+  }
 }
 
 @media print {

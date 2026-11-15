@@ -49,13 +49,16 @@ const pastaIds = [
   "ravioli-saint-jacques",
   "cavatelli-pesto",
   "ravioli-pesto-di-liguria",
+  "cannelloni-ricotta-epinards",
+  "linguine-ai-frutti-di-mare",
 ];
 
 const risottoIds = [
   "risotto-safran-magret-canard-orange",
-  "risotto-betterave-fruits-de-mer",
   "risotto-osso-buco",
   "risotto-gambas",
+  "risotto-safran-fruits-de-mer",
+  "risotto-aux-truffes",
 ];
 
 const risottoSet = new Set([

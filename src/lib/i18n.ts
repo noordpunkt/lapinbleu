@@ -36,6 +36,8 @@ export type IngredientContent = {
     description: string;
     steps: string[];
   };
+  figuresTitle?: string;
+  figures?: { caption: string }[];
 };
 
 export function getIngredientContent(
