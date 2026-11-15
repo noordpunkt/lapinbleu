@@ -529,6 +529,19 @@
         "Like white stock, it brings gelatin, but here it comes with darker and more powerful aromas."
       ]
     },
+    "vin-cuisine": {
+      "title": "Wine in cooking",
+      "intro": "Wine is a central cooking and deglazing liquid in French cuisine. It brings acidity, aroma and tension, provided it is reduced correctly.",
+      "steps": [
+        "Use wine to deglaze after searing, to scrape up the fond and integrate it into the sauce.",
+        "Let it reduce before adding cream, stock or butter, otherwise the sauce will remain too acidic and too liquid.",
+        "Choose wine suited to the dish: white for light sauces and fish, red or Madeira for darker preparations."
+      ],
+      "chemistry": [
+        "Reduction concentrates the aromas and evaporates some of the water and alcohol.",
+        "The acidity of wine balances fatty preparations and helps bring more depth to the final taste."
+      ]
+    },
     "roux": {
       "title": "Roux",
       "intro": "A roux is a liaison: equal parts butter and flour, cooked together before the liquid is added. It is the base of the mother sauces — white for [béchamel](sauce-bechamel), blond for [velouté](sauce-veloute), brown for [espagnole](sauce-espagnole). It is not [beurre manié](beurre-manie-roux), which is added raw, at the end of cooking.",
